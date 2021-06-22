@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "Backend and Frontend App for Hosting Crammn App Features",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "nodemon server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Y Ramesh Rao",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
 }
