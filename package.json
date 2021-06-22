@@ -1,0 +1,11 @@
+{
+  "name": "crammn-app",
+  "version": "1.0.0",
+  "description": "Backend and Frontend App for Hosting Crammn App Features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Y Ramesh Rao",
+  "license": "ISC"
+}
