@@ -10,6 +10,8 @@ const __dirname = dirname(__filename);
 const PORT = process.env.port || 3001;
 const app = express();
 
+app.use(express.static(path.join(__dirname, 'public')))
+
 app.listen(PORT, ()=>{
     let bannerPath = path.join(__dirname, '/banner.txt');
     process.stdout.write(fs.readFileSync(bannerPath, {encoding:'utf8', flag:'r'}))
