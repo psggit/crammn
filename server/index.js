@@ -16,6 +16,6 @@ app.listen(PORT, ()=>{
     let bannerPath = path.join(__dirname, '/banner.txt');
     process.stdout.write(fs.readFileSync(bannerPath, {encoding:'utf8', flag:'r'}))
     process.stdout.write('\n************************************************************\n')
-    process.stdout.write('SERVER STARTED\n')
+    process.stdout.write(`SERVER STARTED @ ${PORT}\n`)
     process.stdout.write('************************************************************\n')
 })
