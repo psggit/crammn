@@ -3,7 +3,6 @@ import fs  from "fs"
 
 const buildFolder = `${process.cwd()}/client/build`
 
-execSync("cd ./client && npm run build")
 process.stdout.write("\n************************************************************\n")
 process.stdout.write("\n BUILD GENERATION COMPLETION SUCCESSFULLY \n")
 
