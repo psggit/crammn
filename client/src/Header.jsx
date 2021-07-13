@@ -38,7 +38,7 @@ const Header = (props) => {
                              data-client_id="86586798573-o43mavsuo9aclh25qb2jn9vkcnpo63bt.apps.googleusercontent.com"
                              data-context="use"
                              data-ux_mode="popup"
-                             data-login_uri="http://localhost:3001/auth/google/callback"
+                             data-login_uri="https://crammn.com/auth/google/callback"
                              data-nonce=""
                              data-auto_prompt="false">
                         </div>
