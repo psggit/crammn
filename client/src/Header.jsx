@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react"
 import { Link } from "@reach/router"
-import GoogleSignIn from "./GoogleSignIn"
 
 const safeCheck = (fn) => {
   try {
@@ -49,7 +48,26 @@ const Header = (props) => {
           Start Learning <i className="bi bi-chevron-down"></i>
         </a>
         <ul className="sign-dropdown-container" className={isMobileSignInActive ? "dropdown-active" : ""}>
-          <GoogleSignIn />
+          <div
+            id="g_id_onload"
+            data-client_id="86586798573-o43mavsuo9aclh25qb2jn9vkcnpo63bt.apps.googleusercontent.com"
+            data-context="use"
+            data-ux_mode="popup"
+            data-login_uri="https://crammn.com/auth/google/callback"
+            data-nonce=""
+            data-auto_prompt="false"
+          ></div>
+
+          <div
+            className="g_id_signin center"
+            data-type="standard"
+            data-shape="pill"
+            data-theme="filled_blue"
+            data-text="signin_with"
+            data-size="large"
+            data-logo_alignment="left"
+            data-width="300px"
+          ></div>
         </ul>
       </li>
     )
@@ -85,9 +103,14 @@ const Header = (props) => {
           className={isMobileNav ? "navbar order-last order-lg-0 navbar-mobile" : "navbar order-last order-lg-0"}
           onClick={(e) => {
             if (safeCheck(() => mobileNavRef.current.contains(e.target))) {
+              console.dir(e.target.classList)
               if (isMobileNav && !safeCheck(() => e.target.classList.contains("get-started-btn"))) setMobileNav(false)
+              console.dir(mobileNavRef.current)
+              console.dir(e.target)
+              console.log("INSIDE NAV CLICK")
               return
             }
+            console.log("OUTSIDE NAV CLICK")
             if (isMobileNav) setMobileNav(false)
             if (isMobileSignInActive) setMobileSignInActive(false)
             if (isMobileSignOutActive) setMobileSignOutActive(false)
