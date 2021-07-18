@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "@reach/router";
+import { Link } from "@reach/router"
 
 export default function CourseDetails(props) {
   const [data, setData] = React.useState(null)
@@ -66,17 +66,17 @@ export default function CourseDetails(props) {
   const getCompleteCourse = () => {
     if (data.auth) {
       return (
-          <div>
-              <Link to={data.detailsLink} className="get-started-btn" target="blank">
-                  Go To Full Course
-              </Link>
-          </div>
+        <div>
+          <Link to={data.detailsLink} className="get-started-btn" target="blank">
+            Go To Full Course
+          </Link>
+        </div>
       )
     }
 
     return (
       <div>
-        <a href='/signin' className="get-started-btn">
+        <a href="/signin" className="get-started-btn">
           Get the Full Course
         </a>
       </div>

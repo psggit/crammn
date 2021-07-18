@@ -1,6 +1,6 @@
 import React from "react"
 import { ErrorMessage, Field, Form, Formik } from "formik"
-import {navigate} from "@reach/router";
+import { navigate } from "@reach/router"
 
 const UserSignUp = () => {
   const [formData, setFormData] = React.useState(null)
@@ -9,12 +9,12 @@ const UserSignUp = () => {
     console.log(`/api/user/details/${window.location.search}`)
     fetch(`/api/user/details/`)
       .then((res) => res.json())
-        .then((data)=>{
-            if(data.profileUpdated){
-                return navigate(`/courses`)
-            }
-            return data
-        })
+      .then((data) => {
+        if (data.profileUpdated) {
+          return navigate(`/courses`)
+        }
+        return data
+      })
       .then((data) => setFormData(data))
   }, [])
 

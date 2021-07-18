@@ -986,9 +986,10 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/0XnMBzqVSsQ?rel=0",
-          title: "This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor M.K. Bera, IIT Kharagpur.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "S1 Sedimentary Introduction"
-        }
+          title:
+            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor M.K. Bera, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "S1 Sedimentary Introduction",
+        },
       ],
       sideContent: [
         "Contents of the course",
@@ -1000,59 +1001,59 @@ const newCourses = [
         "S6 Classification of Sedimentary Rocks",
         "S7 Sandstone",
         "S8 Conglomerate",
-        "S9 Limestone"
-      ]
+        "S9 Limestone",
+      ],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/0XnMBzqVSsQ?rel=0",
           title: "",
-          highlights: "S1 Sedimentary Introduction"
+          highlights: "S1 Sedimentary Introduction",
         },
         {
           videoLink: "https://www.youtube.com/embed/cbShBGiufi8?rel=0",
           title: "",
-          highlights: "S2 Physical Weathering"
+          highlights: "S2 Physical Weathering",
         },
         {
           videoLink: "https://www.youtube.com/embed/z8jdkQZWZjQ?rel=0",
           title: "",
-          highlights: "S3 Chemical Weathering"
+          highlights: "S3 Chemical Weathering",
         },
         {
           videoLink: "https://www.youtube.com/embed/YUf59lCraxw?rel=0",
           title: "",
-          highlights: "S4 Shape and Fabric"
+          highlights: "S4 Shape and Fabric",
         },
         {
           videoLink: "https://www.youtube.com/embed/GJ1O2nd3UdE?rel=0",
           title: "",
-          highlights: "S5 Sedimentary Textures"
+          highlights: "S5 Sedimentary Textures",
         },
         {
           videoLink: "https://www.youtube.com/embed/PMyNyjfvn1g?rel=0",
           title: "",
-          highlights: "S6 Classification of Sedimentary Rocks"
+          highlights: "S6 Classification of Sedimentary Rocks",
         },
         {
           videoLink: "https://www.youtube.com/embed/IvbjNZ49-Y8?rel=0",
           title: "",
-          highlights: "S7 Sandstone"
+          highlights: "S7 Sandstone",
         },
         {
           videoLink: "https://www.youtube.com/embed/vsQnzI0yASQ?rel=0",
           title: "",
-          highlights: "S8 Conglomerate"
+          highlights: "S8 Conglomerate",
         },
         {
           videoLink: "https://www.youtube.com/embed/isd3qTTKEig?rel=0",
           title: "",
-          highlights: "S9 Limestone"
-        }
+          highlights: "S9 Limestone",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1067,27 +1068,28 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/JcfkkZ9vM5g?rel=0",
-          title: "This course summary is given by Vinay. Orginally taught by Professor Arun Kumar Samantaray, IIT Kharagpur.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "BEM Topic 5 Friction"
-        }
+          title:
+            'This course summary is given by Vinay. Orginally taught by Professor Arun Kumar Samantaray, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "BEM Topic 5 Friction",
+        },
       ],
-      sideContent: []
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/JcfkkZ9vM5g?rel=0",
           title: "",
-          highlights: "BEM Topic 5 Friction"
+          highlights: "BEM Topic 5 Friction",
         },
         {
           videoLink: "https://www.youtube.com/embed/gaQXrdinZP0?rel=0",
           title: "",
-          highlights: "BEM Topic 6 Stress, Strain and Indeterminate Structures"
-        }
+          highlights: "BEM Topic 6 Stress, Strain and Indeterminate Structures",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1102,41 +1104,37 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/RIKQahtiZcE?rel=0",
-          title: "Orginally taught by Professor N D Pradeep, IIT Kharagpur.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "ORGANIC CHEMISTRY PART 1"
-        }
+          title: 'Orginally taught by Professor N D Pradeep, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "ORGANIC CHEMISTRY PART 1",
+        },
       ],
-      sideContent: [
-        "Contents of the course",
-        "BEM Topic 5 Friction",
-        "BEM Topic 6 Stress, Strain and Indeterminate Structures"
-      ]
+      sideContent: ["Contents of the course", "BEM Topic 5 Friction", "BEM Topic 6 Stress, Strain and Indeterminate Structures"],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/RIKQahtiZcE?rel=0",
           title: "",
-          highlights: "ORGANIC CHEMISTRY PART 1"
+          highlights: "ORGANIC CHEMISTRY PART 1",
         },
         {
           videoLink: "https://www.youtube.com/embed/PGJU8LRJuGk?rel=0",
           title: "",
-          highlights: "ORGANIC CHEMISTRY PART 2"
+          highlights: "ORGANIC CHEMISTRY PART 2",
         },
         {
           videoLink: "https://www.youtube.com/embed/G3HkFui9qRI?rel=0",
           title: "",
-          highlights: "ORGANIC CHEMISTRY PART 3"
+          highlights: "ORGANIC CHEMISTRY PART 3",
         },
         {
           videoLink: "https://www.youtube.com/embed/5aPQqAJ_JfY?rel=0",
           title: "",
-          highlights: "ORGANIC CHEMISTRY PART 4"
-        }
+          highlights: "ORGANIC CHEMISTRY PART 4",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1151,72 +1149,73 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/EtoZMkbQOs8?rel=0",
-          title: "This course summary is given by Agnibha. Orginally taught by Professor Aritra Hazra, IIT Kharagpur.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "PDS Video 1 Introduction"
-        }
+          title:
+            'This course summary is given by Agnibha. Orginally taught by Professor Aritra Hazra, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "PDS Video 1 Introduction",
+        },
       ],
-      sideContent: []
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/EtoZMkbQOs8?rel=0",
           title: "",
-          highlights: "PDS Video 1 Introduction"
+          highlights: "PDS Video 1 Introduction",
         },
         {
           videoLink: "https://www.youtube.com/embed/FrXKb1pStKw?rel=0",
           title: "",
-          highlights: "PDS Video 2 Conditional Statements"
+          highlights: "PDS Video 2 Conditional Statements",
         },
         {
           videoLink: "https://www.youtube.com/embed/vv5iTXCV7kQ?rel=0",
           title: "",
-          highlights: "PDS Video 3 Loops"
+          highlights: "PDS Video 3 Loops",
         },
         {
           videoLink: "https://www.youtube.com/embed/bB1H_gX2SK0?rel=0",
           title: "",
-          highlights: "PDS Video 4 Arrays"
+          highlights: "PDS Video 4 Arrays",
         },
         {
           videoLink: "https://www.youtube.com/embed/HrLxXhYf9aU?rel=0",
           title: "",
-          highlights: "PDS Video 5 Strings and Functions"
+          highlights: "PDS Video 5 Strings and Functions",
         },
         {
           videoLink: "https://www.youtube.com/embed/N2RwjWzMV1A?rel=0",
           title: "",
-          highlights: "PDS Video 6 Recursions"
+          highlights: "PDS Video 6 Recursions",
         },
         {
           videoLink: "https://www.youtube.com/embed/vaNFhWheEIQ?rel=0",
           title: "",
-          highlights: "PDS Video 7 Structures and Pointers"
+          highlights: "PDS Video 7 Structures and Pointers",
         },
         {
           videoLink: "https://www.youtube.com/embed/OUga8u6daoU?rel=0",
           title: "",
-          highlights: "PDS Video 8 Dynamic Memory and 2D Arrays"
+          highlights: "PDS Video 8 Dynamic Memory and 2D Arrays",
         },
         {
           videoLink: "https://www.youtube.com/embed/cYRo6Id66EQ?rel=0",
           title: "",
-          highlights: "PDS Video 9 File Handling"
+          highlights: "PDS Video 9 File Handling",
         },
         {
           videoLink: "https://www.youtube.com/embed/6q2T_ASyMRQ?rel=0",
           title: "",
-          highlights: "PDS Video 10 Stacks, Queues and Link Lists"
+          highlights: "PDS Video 10 Stacks, Queues and Link Lists",
         },
         {
           videoLink: "https://www.youtube.com/embed/FWNVrKskpKc?rel=0",
           title: "",
-          highlights: "PDS Video 11 Miscellaneous Topics"
-        }
+          highlights: "PDS Video 11 Miscellaneous Topics",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1231,88 +1230,83 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/NHWC0-B3MN8?rel=0",
-          title: "This course summary is given by Gourav. Orginally taught by Professor J Kumar, IIT Kharagpur.Toget the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "numerical analysis 1"
-        }
+          title:
+            'This course summary is given by Gourav. Orginally taught by Professor J Kumar, IIT Kharagpur.Toget the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "numerical analysis 1",
+        },
       ],
-      sideContent: [
-        "Contents of the course",
-        "ORGANIC CHEMISTRY PART 1",
-        "ORGANIC CHEMISTRY PART 2",
-        "ORGANIC CHEMISTRY PART 3",
-        "ORGANIC CHEMISTRY PART 4"
-      ]
+      sideContent: ["Contents of the course", "ORGANIC CHEMISTRY PART 1", "ORGANIC CHEMISTRY PART 2", "ORGANIC CHEMISTRY PART 3", "ORGANIC CHEMISTRY PART 4"],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/NHWC0-B3MN8?rel=0",
           title: "",
-          highlights: "numerical analysis 1"
+          highlights: "numerical analysis 1",
         },
         {
           videoLink: "https://www.youtube.com/embed/QmqODEfi8d8?rel=0",
           title: "",
-          highlights: "numerical analysis 2"
+          highlights: "numerical analysis 2",
         },
         {
           videoLink: "https://www.youtube.com/embed/exFHGwZdKxQ?rel=0",
           title: "",
-          highlights: "numerical analysis 3"
+          highlights: "numerical analysis 3",
         },
         {
           videoLink: "https://www.youtube.com/embed/y8d0TWgm96Y?rel=0",
           title: "",
-          highlights: "numerical analysis 4"
+          highlights: "numerical analysis 4",
         },
         {
           videoLink: "https://www.youtube.com/embed/sEZWaEZa6Yk?rel=0",
           title: "",
-          highlights: "numerical analysis 5"
+          highlights: "numerical analysis 5",
         },
         {
           videoLink: "https://www.youtube.com/embed/OQIKygmb1zA?rel=0",
           title: "",
-          highlights: "numerical analysis 6"
+          highlights: "numerical analysis 6",
         },
         {
           videoLink: "https://www.youtube.com/embed/L8V-7vZYe5g?rel=0",
           title: "",
-          highlights: "numerical analysis 7"
+          highlights: "numerical analysis 7",
         },
         {
           videoLink: "https://www.youtube.com/embed/TO7IZ5MLTAE?rel=0",
           title: "",
-          highlights: "complex analysis 1"
+          highlights: "complex analysis 1",
         },
         {
           videoLink: "https://www.youtube.com/embed/5RpQxvtPjoU?rel=0",
           title: "",
-          highlights: "complex analysis 2"
+          highlights: "complex analysis 2",
         },
         {
           videoLink: "https://www.youtube.com/embed/cmVyTJW2_Kc?rel=0",
           title: "",
-          highlights: "complex analysis 3"
+          highlights: "complex analysis 3",
         },
         {
           videoLink: "https://www.youtube.com/embed/Ewg3JsD15Lo?rel=0",
           title: "",
-          highlights: "complex analysis 4"
+          highlights: "complex analysis 4",
         },
         {
           videoLink: "https://www.youtube.com/embed/MGZ_4Iwurt8?rel=0",
           title: "",
-          highlights: "complex analysis 5"
+          highlights: "complex analysis 5",
         },
         {
           videoLink: "https://www.youtube.com/embed/kDD8sqckBkQ?rel=0",
           title: "",
-          highlights: "complex analysis 6"
-        }
+          highlights: "complex analysis 6",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1327,42 +1321,43 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/EU1JpndnEvY?rel=0",
-          title: "This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Priyadarshi Patnaik, IIT Kharagpur.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "1 Introduction"
-        }
+          title:
+            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Priyadarshi Patnaik, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "1 Introduction",
+        },
       ],
-      sideContent: []
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/EU1JpndnEvY?rel=0",
           title: "",
-          highlights: "1 Introduction"
+          highlights: "1 Introduction",
         },
         {
           videoLink: "https://www.youtube.com/embed/euWHjU9PQMI?rel=0",
           title: "",
-          highlights: "2 Listening Skills"
+          highlights: "2 Listening Skills",
         },
         {
           videoLink: "https://www.youtube.com/embed/wJDMpkGk0kI?rel=0",
           title: "",
-          highlights: "3 Non Verbal Communication"
+          highlights: "3 Non Verbal Communication",
         },
         {
           videoLink: "https://www.youtube.com/embed/S69c-W3pXqs?rel=0",
           title: "",
-          highlights: "4 Resume Writing"
+          highlights: "4 Resume Writing",
         },
         {
           videoLink: "https://www.youtube.com/embed/p2Owqkr6S2g?rel=0",
           title: "",
-          highlights: "5 Common Errors"
-        }
+          highlights: "5 Common Errors",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1377,9 +1372,10 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/Bhoh9pKH6S4?rel=0",
-          title: "This course summary is given by Mohit. Orginally taught by Professor Ramakrishna Nanduri, IIT Kharagpur.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "Numerical Analysis"
-        }
+          title:
+            'This course summary is given by Mohit. Orginally taught by Professor Ramakrishna Nanduri, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "Numerical Analysis",
+        },
       ],
       sideContent: [
         "Contents of the course",
@@ -1393,24 +1389,24 @@ const newCourses = [
         "PDS Video 8 Dynamic Memory and 2D Arrays",
         "PDS Video 9 File Handling",
         "PDS Video 10 Stacks, Queues and Link Lists",
-        "PDS Video 11 Miscellaneous Topics"
-      ]
+        "PDS Video 11 Miscellaneous Topics",
+      ],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/Bhoh9pKH6S4?rel=0",
           title: "",
-          highlights: "Numerical Analysis"
+          highlights: "Numerical Analysis",
         },
         {
           videoLink: "https://www.youtube.com/embed/1HRFooTFDdg?rel=0",
           title: "",
-          highlights: "Complex Analysis"
-        }
+          highlights: "Complex Analysis",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1425,27 +1421,28 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/zd1AzwqWhdc?rel=0",
-          title: "This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Jitendra Kumar, IIT Kharagpur.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "PART 1"
-        }
+          title:
+            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Jitendra Kumar, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "PART 1",
+        },
       ],
-      sideContent: []
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/zd1AzwqWhdc?rel=0",
           title: "",
-          highlights: "PART 1"
+          highlights: "PART 1",
         },
         {
           videoLink: "https://www.youtube.com/embed/fgBenXhRuuY?rel=0",
           title: "",
-          highlights: "PART 2"
-        }
+          highlights: "PART 2",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1460,9 +1457,10 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/ntO7-X2sytg?rel=0",
-          title: "This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Chandal Nahak, IIT Kharagpur.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "PART 1"
-        }
+          title:
+            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Chandal Nahak, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "PART 1",
+        },
       ],
       sideContent: [
         "Contents of the course",
@@ -1478,29 +1476,29 @@ const newCourses = [
         "complex analysis 3",
         "complex analysis 4",
         "complex analysis 5",
-        "complex analysis 6"
-      ]
+        "complex analysis 6",
+      ],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/ntO7-X2sytg?rel=0",
           title: "",
-          highlights: "PART 1"
+          highlights: "PART 1",
         },
         {
           videoLink: "https://www.youtube.com/embed/VM5lau6lP9g?rel=0",
           title: "",
-          highlights: "PART 2"
+          highlights: "PART 2",
         },
         {
           videoLink: "https://www.youtube.com/embed/UuGkTuI5FhM?rel=0",
           title: "",
-          highlights: "PART 3"
-        }
+          highlights: "PART 3",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1515,57 +1513,58 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/N1dBq2quvNs?rel=0",
-          title: "This course summary is given by Harsh. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "0 Introduction"
-        }
+          title:
+            'This course summary is given by Harsh. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "0 Introduction",
+        },
       ],
-      sideContent: []
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/N1dBq2quvNs?rel=0",
           title: "Find Harsh's notes here (PDF)",
-          highlights: "0 Introduction"
+          highlights: "0 Introduction",
         },
         {
           videoLink: "https://www.youtube.com/embed/aK2hzTqy_b0?rel=0",
           title: "",
-          highlights: "1 Force System"
+          highlights: "1 Force System",
         },
         {
           videoLink: "https://www.youtube.com/embed/eKpLkexDY3s?rel=0",
           title: "",
-          highlights: "2 Equilibrium"
+          highlights: "2 Equilibrium",
         },
         {
           videoLink: "https://www.youtube.com/embed/LoLK79f2sgk?rel=0",
           title: "",
-          highlights: "3 Friction"
+          highlights: "3 Friction",
         },
         {
           videoLink: "https://www.youtube.com/embed/GLFc0xINtp4?rel=0",
           title: "",
-          highlights: "4 Concepts of Stress and Strain"
+          highlights: "4 Concepts of Stress and Strain",
         },
         {
           videoLink: "https://www.youtube.com/embed/AXQSN0EtV9A?rel=0",
           title: "",
-          highlights: "5 Torsion"
+          highlights: "5 Torsion",
         },
         {
           videoLink: "https://www.youtube.com/embed/8hox-uZends?rel=0",
           title: "",
-          highlights: "6 Flexural Loading"
+          highlights: "6 Flexural Loading",
         },
         {
           videoLink: "https://www.youtube.com/embed/IpUySELQBPY?rel=0",
           title: "",
-          highlights: "7 Transformation of Stress and Strain"
-        }
+          highlights: "7 Transformation of Stress and Strain",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1580,59 +1579,53 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/9JroxlI3qhY?rel=0",
-          title: "This course summary is given by Mishel. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "1 Introduction to Stress and Strain"
-        }
+          title:
+            'This course summary is given by Mishel. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "1 Introduction to Stress and Strain",
+        },
       ],
-      sideContent: [
-        "Contents of the course",
-        "1 Introduction",
-        "2 Listening Skills",
-        "3 Non Verbal Communication",
-        "4 Resume Writing",
-        "5 Common Errors"
-      ]
+      sideContent: ["Contents of the course", "1 Introduction", "2 Listening Skills", "3 Non Verbal Communication", "4 Resume Writing", "5 Common Errors"],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/9JroxlI3qhY?rel=0",
           title: "",
-          highlights: "1 Introduction to Stress and Strain"
+          highlights: "1 Introduction to Stress and Strain",
         },
         {
           videoLink: "https://www.youtube.com/embed/8SOdm3adrlQ?rel=0",
           title: "",
-          highlights: "2 Properties of Areas"
+          highlights: "2 Properties of Areas",
         },
         {
           videoLink: "https://www.youtube.com/embed/UXLLA_Q2t5o?rel=0",
           title: "",
-          highlights: "3 Torsion"
+          highlights: "3 Torsion",
         },
         {
           videoLink: "https://www.youtube.com/embed/eqmkvyaYTnc?rel=0",
           title: "",
-          highlights: "4 Pure Bending"
+          highlights: "4 Pure Bending",
         },
         {
           videoLink: "https://www.youtube.com/embed/wlmX3z-nWGM?rel=0",
           title: "",
-          highlights: "5 Transformation of Stress"
+          highlights: "5 Transformation of Stress",
         },
         {
           videoLink: "https://www.youtube.com/embed/wUzjwyUHKIA?rel=0",
           title: "",
-          highlights: "6 Deflection of Beams"
+          highlights: "6 Deflection of Beams",
         },
         {
           videoLink: "https://www.youtube.com/embed/dmE98-cXZZ0?rel=0",
           title: "",
-          highlights: "7 Bending of Beam"
-        }
+          highlights: "7 Bending of Beam",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1647,42 +1640,43 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/2bvlhdP_EdY?rel=0",
-          title: "This course summary is given by Nishant. Orginally taught by Professor Arivazhagan M, NIT Trichy.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "L1"
-        }
+          title:
+            'This course summary is given by Nishant. Orginally taught by Professor Arivazhagan M, NIT Trichy.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "L1",
+        },
       ],
-      sideContent: []
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/2bvlhdP_EdY?rel=0",
           title: "Find Nishant's notes here (PDF)",
-          highlights: "L1"
+          highlights: "L1",
         },
         {
           videoLink: "https://www.youtube.com/embed/3BkzWaYWwV0?rel=0",
           title: "",
-          highlights: "L2"
+          highlights: "L2",
         },
         {
           videoLink: "https://www.youtube.com/embed/mdgFpLLRQ90?rel=0",
           title: "",
-          highlights: "L3"
+          highlights: "L3",
         },
         {
           videoLink: "https://www.youtube.com/embed/jKcKZLJbIYg?rel=0",
           title: "",
-          highlights: "L4"
+          highlights: "L4",
         },
         {
           videoLink: "https://www.youtube.com/embed/VtA0re39AXg?rel=0",
           title: "",
-          highlights: "L5"
-        }
+          highlights: "L5",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1697,46 +1691,43 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/3it6qXsWrgg?rel=0",
-          title: "This course summary is given by Nishant. Orginally taught by Professor Chandra Bose, NIT Trichy.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "part1"
-        }
+          title:
+            'This course summary is given by Nishant. Orginally taught by Professor Chandra Bose, NIT Trichy.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "part1",
+        },
       ],
-      sideContent: [
-        "Contents of the course",
-        "Numerical Analysis",
-        "Complex Analysis"
-      ]
+      sideContent: ["Contents of the course", "Numerical Analysis", "Complex Analysis"],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/3it6qXsWrgg?rel=0",
           title: "",
-          highlights: "part1"
+          highlights: "part1",
         },
         {
           videoLink: "https://www.youtube.com/embed/ofx2glS-iqo?rel=0",
           title: "",
-          highlights: "part2"
+          highlights: "part2",
         },
         {
           videoLink: "https://www.youtube.com/embed/5umDQci2lf8?rel=0",
           title: "",
-          highlights: "part3"
+          highlights: "part3",
         },
         {
           videoLink: "https://www.youtube.com/embed/x2NjwronQ3U?rel=0",
           title: "",
-          highlights: "part4"
+          highlights: "part4",
         },
         {
           videoLink: "https://www.youtube.com/embed/4mSAi1oWv_w?rel=0",
           title: "",
-          highlights: "part5"
-        }
+          highlights: "part5",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1751,42 +1742,43 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/x4w3yBmFg3I?rel=0",
-          title: "This course summary is given by a Sastra University Student. Orginally taught by Professors R. Sumathi, V. Sudha, A. Parvathi, M. Easwaran, Sastra .To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "1 Open Loop and Closed Loop Operational Amplifiers"
-        }
+          title:
+            'This course summary is given by a Sastra University Student. Orginally taught by Professors R. Sumathi, V. Sudha, A. Parvathi, M. Easwaran, Sastra .To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "1 Open Loop and Closed Loop Operational Amplifiers",
+        },
       ],
-      sideContent: []
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/x4w3yBmFg3I?rel=0",
           title: "",
-          highlights: "1 Open Loop and Closed Loop Operational Amplifiers"
+          highlights: "1 Open Loop and Closed Loop Operational Amplifiers",
         },
         {
           videoLink: "https://www.youtube.com/embed/_nkyB11IdsA?rel=0",
           title: "",
-          highlights: "2 Applications of Op Amp"
+          highlights: "2 Applications of Op Amp",
         },
         {
           videoLink: "https://www.youtube.com/embed/WYuEaCCESvI?rel=0",
           title: "",
-          highlights: "3 Integrator"
+          highlights: "3 Integrator",
         },
         {
           videoLink: "https://www.youtube.com/embed/t4pHb0yqtHA?rel=0",
           title: "",
-          highlights: "4 Differentiator"
+          highlights: "4 Differentiator",
         },
         {
           videoLink: "https://www.youtube.com/embed/FMwpuA12oXQ?rel=0",
           title: "",
-          highlights: "5 Differential Amplifier"
-        }
+          highlights: "5 Differential Amplifier",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1801,51 +1793,48 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/HI9eJwFmMVA?rel=0",
-          title: "This course summary is given by Salem. Orginally taught by Professors Mangala Sunder K and Ranga Rao G, IIT Madras.To get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "4 Nuclear Magnetic Resonance Spectroscopy"
-        }
+          title:
+            'This course summary is given by Salem. Orginally taught by Professors Mangala Sunder K and Ranga Rao G, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "4 Nuclear Magnetic Resonance Spectroscopy",
+        },
       ],
-      sideContent: [
-        "Contents of the course",
-        "PART 1",
-        "PART 2"
-      ]
+      sideContent: ["Contents of the course", "PART 1", "PART 2"],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/HK8lIQGKiU0?rel=0",
           title: "Find Salem's notes here (PDF)\n\n",
-          highlights: "1 Vibration"
+          highlights: "1 Vibration",
         },
         {
           videoLink: "https://www.youtube.com/embed/ZH6kAwnAwPw?rel=0",
           title: "Find Salem's notes here (PDF)\n\n",
-          highlights: "2 Rotation"
+          highlights: "2 Rotation",
         },
         {
           videoLink: "https://www.youtube.com/embed/bM3l2Y2ExO4?rel=0",
           title: "Find Salem's notes here (PDF)\n\n",
-          highlights: "3 Raman"
+          highlights: "3 Raman",
         },
         {
           videoLink: "https://www.youtube.com/embed/HI9eJwFmMVA?rel=0",
           title: "Find Salem's notes here (PDF)\n\n",
-          highlights: "4 Nuclear Magnetic Resonance Spectroscopy"
+          highlights: "4 Nuclear Magnetic Resonance Spectroscopy",
         },
         {
           videoLink: "https://www.youtube.com/embed/vJYrTRUB9es?rel=0",
           title: "",
-          highlights: "5 Electronic Spectroscopy"
+          highlights: "5 Electronic Spectroscopy",
         },
         {
           videoLink: "https://www.youtube.com/embed/4noSPWD87kc?rel=0",
           title: "",
-          highlights: "6 Photoelectron Spectroscopy"
-        }
+          highlights: "6 Photoelectron Spectroscopy",
+        },
       ],
-      sideContent: []
-    }
+      sideContent: [],
+    },
   },
   {
     detailsLink: "{id_placeholder}",
@@ -1860,44 +1849,39 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/yqWqypEAIfo?rel=0",
-          title: "This course summary is given by Nishant. Orginally taught by Professor Anantharaman Narayanan, NIT Trichy.\n\nTo get the full course, fill the form by clicking on \"Get the Full Course.\" It's Free.",
-          highlights: "enir vid 1"
-        }
+          title:
+            'This course summary is given by Nishant. Orginally taught by Professor Anantharaman Narayanan, NIT Trichy.\n\nTo get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "enir vid 1",
+        },
       ],
-      sideContent: [
-        "Contents of the course",
-        "enir vid 1",
-        "enir vid 2",
-        "enir vid 3",
-        "enir vid 4"
-      ]
+      sideContent: ["Contents of the course", "enir vid 1", "enir vid 2", "enir vid 3", "enir vid 4"],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/yqWqypEAIfo?rel=0",
           title: "Find Nishant's notes here (PDF)",
-          highlights: "enir vid 1"
+          highlights: "enir vid 1",
         },
         {
           videoLink: "https://www.youtube.com/embed/o_zQtXStMIY?rel=0",
           title: "",
-          highlights: "enir vid 2"
+          highlights: "enir vid 2",
         },
         {
           videoLink: "https://www.youtube.com/embed/k-reaxLb2Wo?rel=0",
           title: "",
-          highlights: "enir vid 3"
+          highlights: "enir vid 3",
         },
         {
           videoLink: "https://www.youtube.com/embed/ZoFrxmGiWDA?rel=0",
           title: "",
-          highlights: "enir vid 4"
-        }
+          highlights: "enir vid 4",
+        },
       ],
-      sideContent: []
-    }
-  }
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
