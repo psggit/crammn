@@ -65,14 +65,20 @@ export default function CourseDetails(props) {
 
   const getCompleteCourse = () => {
     if (data.auth) {
-      return null
+      return (
+        <div>
+          <Link to={data.detailsLink} className="get-started-btn" target="blank">
+            Go To Full Course
+          </Link>
+        </div>
+      )
     }
 
     return (
       <div>
-        <Link to="/signin" className="get-started-btn">
+        <a href="/signin" className="get-started-btn">
           Get the Full Course
-        </Link>
+        </a>
       </div>
     )
   }
