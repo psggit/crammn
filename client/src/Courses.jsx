@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "@reach/router";
+import { Link } from "@reach/router"
 
 export default function Courses() {
   const [data, setData] = React.useState(null)
@@ -74,7 +74,7 @@ export default function Courses() {
       title: "JEE Concepts",
       category: "IIT JEE",
       id: "iitJeeConcepts",
-    }
+    },
   ]
 
   const coursesSections = () => {

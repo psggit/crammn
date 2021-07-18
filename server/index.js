@@ -54,7 +54,6 @@ async function isUserProfileUpdated(req) {
   return userInfo.profile_updated
 }
 
-
 app.get("/signout", (req, res) => {
   req.session.destroy()
 
@@ -94,7 +93,7 @@ app.get("/api/course/details", (req, res) => {
 app.get("/api/user/details", async (req, res) => {
   if (await isUserNotInSession(req)) {
     // #TODO Error Handling Unauthorized API Access
-    return res.json( {authorized: false })
+    return res.json({ authorized: false })
   }
 
   const { name, email, profile_updated } = await db.fetchUserById(req.session.user.id)
@@ -103,7 +102,7 @@ app.get("/api/user/details", async (req, res) => {
     authorized: true,
     name,
     email,
-    profileUpdated: profile_updated
+    profileUpdated: profile_updated,
   })
 })
 
@@ -134,7 +133,7 @@ app.post("/auth/google/callback", async (req, res) => {
   return res.redirect("/courses")
 })
 
-app.use("*", function(req, res) {
+app.use("*", function (req, res) {
   res.render("index.html")
 })
 
