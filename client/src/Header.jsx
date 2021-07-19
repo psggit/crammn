@@ -85,14 +85,9 @@ const Header = (props) => {
           className={isMobileNav ? "navbar order-last order-lg-0 navbar-mobile" : "navbar order-last order-lg-0"}
           onClick={(e) => {
             if (safeCheck(() => mobileNavRef.current.contains(e.target))) {
-              console.dir(e.target.classList)
               if (isMobileNav && !safeCheck(() => e.target.classList.contains("get-started-btn"))) setMobileNav(false)
-              console.dir(mobileNavRef.current)
-              console.dir(e.target)
-              console.log("INSIDE NAV CLICK")
               return
             }
-            console.log("OUTSIDE NAV CLICK")
             if (isMobileNav) setMobileNav(false)
             if (isMobileSignInActive) setMobileSignInActive(false)
             if (isMobileSignOutActive) setMobileSignOutActive(false)
