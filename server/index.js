@@ -48,7 +48,7 @@ function isUserNotInSession(req) {
 
 async function isUserProfileUpdated(req) {
   if (isUserNotInSession(req)) {
-    return true
+    return false
   }
   const userInfo = await db.fetchUserById(req.session.user.id)
   return userInfo.profile_updated
@@ -76,7 +76,7 @@ app.get("/api/course/details", (req, res) => {
   const courseAtId = JSON.parse(JSON.stringify(allCourses[req.query.id]))
   if (!courseAtId) return res.render("error.html")
 
-  courseAtId.detailsLink = courseAtId.detailsLink.replace("{id_placeholder}", `/course/details?id=${req.query.id}`)
+  courseAtId.detailsLink = courseAtId.detailsLink.replace("{id_placeholder}", `/course/details/${req.query.id}`)
   courseAtId.details = courseAtId.unsubscribedContent
 
   if (!isUserNotInSession(req) && isUserProfileUpdated(req)) {
