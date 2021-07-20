@@ -70,9 +70,9 @@ export default function CourseDetails(props) {
 
     return (
       <div>
-        <Link to="/signin" className="get-started-btn">
+        <a href="/signin" className="get-started-btn">
           Get the Full Course
-        </Link>
+        </a>
       </div>
     )
   }
