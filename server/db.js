@@ -4,10 +4,10 @@ import lodash from "lodash"
 const { Pool } = pg
 
 export const pool = new Pool({
-  user: "dbmasteruser",
-  host: "ls-571f439c3e265a8ce517086d9e931a5fc3a9a518.c8isgvlubvrj.ap-south-1.rds.amazonaws.com",
+  user: "postgres",
+  host: "cramm-dev.ckkkxicgnwqj.ap-south-1.rds.amazonaws.com",
   database: "postgres",
-  password: "(E>}Fr&Ovb~kVBUsM7fIs*^s9.tV|=Ev",
+  password: "dGZcJwssVhzEU8dygtvA",
   port: 5432,
 })
 

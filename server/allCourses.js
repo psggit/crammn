@@ -1882,6 +1882,118 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    category: "IIT Kharagpur",
+    detailThumbnail: "/assets/img/iitkgp-efm-sarwesh.png",
+    information: "Interested in knowing about the stock market?",
+    mentorName: "Sarwesh",
+    mentorProfilePic: "/assets/img/trainers/iitkgp-sarwesh.jpg",
+    price: "Free",
+    title: "Entering Financial Markets",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/oSzgoyyh7UY?rel=0",
+          title:
+            'This course summary is given by Sarwesh. Join the Finance Club, IIT Kharagpur.\n\nTo get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "1 why to Invest",
+        },
+      ],
+      sideContent: [
+        "Contents of the course",
+        "1 why to Invest",
+        "2 where can you invest",
+        "3 Regulatory Bodies and Intermediaries",
+        "4 Listing of companies in stock market",
+        "5 Functioning of stock market",
+        "6 Market capitalisation and sectors",
+        "7 Market indexes - Nifty & Sensex",
+        "8 Basic terms and Settlement process",
+        "9 Corporate actions and Impacts on share price",
+        "10 Types of Trading time period",
+        "11 Technical Vs Fundamental Analysis",
+        "12 Derivatives",
+        "13 Magic of Compounding",
+        "14 Conclusion and Resources to learn",
+      ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/oSzgoyyh7UY?rel=0",
+          title: "1 why to Invest",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/in5lATvnT0k?rel=0",
+          title: "2 where can you invest",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/-nbaUDUxkBw?rel=0",
+          title: "3 Regulatory Bodies and Intermediaries",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/JaI8AlfRMUM?rel=0",
+          title: "4 Listing of companies in stock market",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/jYQe7MVSmXk?rel=0",
+          title: "5 Functioning of stock market",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/su8JZSJQ1kg?rel=0",
+          title: "6 Market capitalisation and sectors",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/4JsNXyezFmQ?rel=0",
+          title: "7 Market indexes - Nifty & Sensex",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/c0R4_sqsQWA?rel=0",
+          title: "8 Basic terms and Settlement process",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/3-rtmVEf58g?rel=0",
+          title: "9 Corporate actions and Impacts on share price",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/abSSv_Ey-G4?rel=0",
+          title: "10 Types of Trading time period",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Okui3_77Qxs?rel=0",
+          title: "11 Technical Vs Fundamental Analysis",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/UwgxthXmGzM?rel=0",
+          title: "12 Derivatives",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/dRCypVkR3Fg?rel=0",
+          title: "13 Magic of Compounding",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/gyc9_opS5hE?rel=0",
+          title: "14 Conclusion and Resources to learn",
+          highlights: "",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
