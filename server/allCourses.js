@@ -176,28 +176,44 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
-          title: "Physical Biology",
+          videoLink: "https://www.youtube.com/embed/VcIjCM2iFcI?rel=0",
+          title: "Introduction",
         },
         {
-          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
-          title: "Bio Medical 1: Overview of the Human Nervous System",
+          videoLink: "https://www.youtube.com/embed/k_PNGc-q8Tg?rel=0",
+          title: "1 National Income Accounting",
         },
         {
-          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
-          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
+          videoLink: "https://www.youtube.com/embed/9kpV-hCo5y0?rel=0",
+          title: "2 Measuring the Cost of Living",
         },
         {
-          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
-          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
+          videoLink: "https://www.youtube.com/embed/2ihC4xbUyt0?rel=0",
+          title: "3 Production and Growth",
         },
         {
-          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
-          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
+          videoLink: "https://www.youtube.com/embed/YX0-m24CliA?rel=0",
+          title: "4 Savings, Investment and Financial Systems",
         },
         {
-          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
-          title: "Bio Medical 5: Neural (Neuro) Plasticity",
+          videoLink: "https://www.youtube.com/embed/sTpzDbFOINo?rel=0",
+          title: "5 Unemployment",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/TWoGxGKWQy4?rel=0",
+          title: "6 Monetary System",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/rB09GRyjg6o?rel=0",
+          title: "7 Money Growth And Inflation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/i60DS8YPIP8?rel=0",
+          title: "8 Aggregate Demand And Supply",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/2KfHM9AXNnw?rel=0",
+          title: "9 Factors affecting Aggregate Demand",
         },
       ],
       sideContent: [],
@@ -238,28 +254,44 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
-          title: "Physical Biology",
+          videoLink: "https://www.youtube.com/embed/_hZoVUyBAHo?rel=0",
+          title: "1) Introduction",
         },
         {
-          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
-          title: "Bio Medical 1: Overview of the Human Nervous System",
+          videoLink: "https://www.youtube.com/embed/1MvkaYeobOM?rel=0",
+          title: "2) Linear ODEs",
         },
         {
-          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
-          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
+          videoLink: "https://www.youtube.com/embed/GbbStnbDSyU?rel=0",
+          title: "3) Linear ODEs (Continued)",
         },
         {
-          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
-          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
+          videoLink: "https://www.youtube.com/embed/7Ygz7KIZlOg?rel=0",
+          title: "4) Picard's Iteration Method",
         },
         {
-          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
-          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
+          videoLink: "https://www.youtube.com/embed/xyPF7O-56Bc?rel=0",
+          title: "5) Introduction to 2nd Order ODEs",
         },
         {
-          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
-          title: "Bio Medical 5: Neural (Neuro) Plasticity",
+          videoLink: "https://www.youtube.com/embed/vrSQVb_D9u0?rel=0",
+          title: "6) Solving 2nd Order ODEs",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/mgb1suswDZ0?rel=0",
+          title: "7) Introduction to nth order ODEs",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/a5hyOwCBDe8?rel=0",
+          title: "8) Solving nth Order ODEs",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/dE2VKySHkaQ?rel=0",
+          title: "9) Introduction to Laplace Transforms",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/4v_GE9edczs?rel=0",
+          title: "10) Properties of Laplace Transforms",
         },
       ],
       sideContent: [],
@@ -296,28 +328,28 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
-          title: "Physical Biology",
+          videoLink: "https://www.youtube.com/embed/fcH0klMXUJI?rel=0",
+          title: "1) Single Phase AC Circuits",
         },
         {
-          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
-          title: "Bio Medical 1: Overview of the Human Nervous System",
+          videoLink: "https://www.youtube.com/embed/wMnOvYXJDrU?rel=0",
+          title: "2) Power Analysis",
         },
         {
-          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
-          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
+          videoLink: "https://www.youtube.com/embed/NunykC3SsO4?rel=0",
+          title: "3) Three Phase Circuits",
         },
         {
-          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
-          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
+          videoLink: "https://www.youtube.com/embed/3S7clSrNbo8?rel=0",
+          title: "4) Magnetic Circuits",
         },
         {
-          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
-          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
+          videoLink: "https://www.youtube.com/embed/y_ETOB38nck?rel=0",
+          title: "5) Transformers",
         },
         {
-          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
-          title: "Bio Medical 5: Neural (Neuro) Plasticity",
+          videoLink: "https://www.youtube.com/embed/84KYdsaCS-4?rel=0",
+          title: "6) Rotating Machine Basics",
         },
       ],
       sideContent: [],
@@ -336,7 +368,7 @@ let allCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/G7rgwc7aoxo?rel=0",
-          title: "Overview",
+          title: "0) Guide to the Videos",
           highlights:
             'This course summary is given by Om Mihani. Orginally taught by Professor Sanjay Mahajani, IIT Bombay. This is the course guide video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
         },
@@ -358,28 +390,44 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
-          title: "Physical Biology",
+          videoLink: "https://www.youtube.com/embed/G7rgwc7aoxo?rel=0",
+          title: "0) Guide to the Videos",
         },
         {
-          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
-          title: "Bio Medical 1: Overview of the Human Nervous System",
+          videoLink: "https://www.youtube.com/embed/o3J4vBLyr5M?rel=0",
+          title: "1) General Intro of Terms",
         },
         {
-          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
-          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
+          videoLink: "https://www.youtube.com/embed/uUrwuPxVpCg?rel=0",
+          title: "2) DOF and Balancing",
         },
         {
-          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
-          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
+          videoLink: "https://www.youtube.com/embed/0D53yWUGRQA?rel=0",
+          title: "3) Purge",
         },
         {
-          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
-          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
+          videoLink: "https://www.youtube.com/embed/NOjexyRyWR8?rel=0",
+          title: "4) Separations",
         },
         {
-          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
-          title: "Bio Medical 5: Neural (Neuro) Plasticity",
+          videoLink: "https://www.youtube.com/embed/r7ila1qjj6U?rel=0",
+          title: "5) Separations Continued",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/6T0uYsomcFs?rel=0",
+          title: "6) Colligative Properties",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/rFoxK4JMbKI?rel=0",
+          title: "7) Energy Balances",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Hr5Hsz8JLrA?rel=0",
+          title: "8) P Charts",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/ldbooDNOCqE?rel=0",
+          title: "9) Enthalpy of Mixing and Reaction",
         },
       ],
       sideContent: [],
@@ -612,6 +660,18 @@ let allCourses = [
         {
           videoLink: "https://www.youtube.com/embed/HXXZIjTk3OQ?rel=0",
           title: "Part 2",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/e5ai2JgOHL8?rel=0",
+          title: "Part 3",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/he5FAPcg7iA?rel=0",
+          title: "Part 4",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/0bVciY7pTs0?rel=0",
+          title: "Part 5",
         },
       ],
       sideContent: [],
@@ -1896,7 +1956,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/oSzgoyyh7UY?rel=0",
           title:
-            'This course summary is given by Sarwesh. Join the Finance Club, IIT Kharagpur.\n\nTo get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Sarwesh. Join the Kharagpur Investment Club, IIT Kharagpur.\n\nTo get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "1 why to Invest",
         },
       ],

@@ -41,22 +41,22 @@ export default function Courses() {
 
   const sectionsList = [
     {
-      title: "IIT Kharagpur Concepts",
+      title: "IIT Kharagpur Courses",
       category: "IIT Kharagpur",
       id: "iitkharagpur",
     },
     {
-      title: "IIT Bhubaneswar Concepts",
+      title: "IIT Bhubaneswar Courses",
       category: "IIT Bhubaneswar",
       id: "iitbhubaneswar",
     },
     {
-      title: "NIT Trichy Concepts",
+      title: "NIT Trichy Courses",
       category: "NIT Trichy",
       id: "nittrichy",
     },
     {
-      title: "Sastra University Concepts",
+      title: "Sastra University Courses",
       category: "Sastra University",
       id: "sastrauniversity",
     },
