@@ -176,44 +176,28 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/VcIjCM2iFcI?rel=0",
-          title: "Introduction",
+          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
+          title: "Physical Biology",
         },
         {
-          videoLink: "https://www.youtube.com/embed/k_PNGc-q8Tg?rel=0",
-          title: "1 National Income Accounting",
+          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
+          title: "Bio Medical 1: Overview of the Human Nervous System",
         },
         {
-          videoLink: "https://www.youtube.com/embed/9kpV-hCo5y0?rel=0",
-          title: "2 Measuring the Cost of Living",
+          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
+          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
         },
         {
-          videoLink: "https://www.youtube.com/embed/2ihC4xbUyt0?rel=0",
-          title: "3 Production and Growth",
+          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
+          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
         },
         {
-          videoLink: "https://www.youtube.com/embed/YX0-m24CliA?rel=0",
-          title: "4 Savings, Investment and Financial Systems",
+          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
+          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
         },
         {
-          videoLink: "https://www.youtube.com/embed/sTpzDbFOINo?rel=0",
-          title: "5 Unemployment",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/TWoGxGKWQy4?rel=0",
-          title: "6 Monetary System",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/rB09GRyjg6o?rel=0",
-          title: "7 Money Growth And Inflation",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/i60DS8YPIP8?rel=0",
-          title: "8 Aggregate Demand And Supply",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/2KfHM9AXNnw?rel=0",
-          title: "9 Factors affecting Aggregate Demand",
+          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
+          title: "Bio Medical 5: Neural (Neuro) Plasticity",
         },
       ],
       sideContent: [],
@@ -254,44 +238,28 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/_hZoVUyBAHo?rel=0",
-          title: "1) Introduction",
+          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
+          title: "Physical Biology",
         },
         {
-          videoLink: "https://www.youtube.com/embed/1MvkaYeobOM?rel=0",
-          title: "2) Linear ODEs",
+          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
+          title: "Bio Medical 1: Overview of the Human Nervous System",
         },
         {
-          videoLink: "https://www.youtube.com/embed/GbbStnbDSyU?rel=0",
-          title: "3) Linear ODEs (Continued)",
+          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
+          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
         },
         {
-          videoLink: "https://www.youtube.com/embed/7Ygz7KIZlOg?rel=0",
-          title: "4) Picard's Iteration Method",
+          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
+          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
         },
         {
-          videoLink: "https://www.youtube.com/embed/xyPF7O-56Bc?rel=0",
-          title: "5) Introduction to 2nd Order ODEs",
+          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
+          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
         },
         {
-          videoLink: "https://www.youtube.com/embed/vrSQVb_D9u0?rel=0",
-          title: "6) Solving 2nd Order ODEs",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/mgb1suswDZ0?rel=0",
-          title: "7) Introduction to nth order ODEs",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/a5hyOwCBDe8?rel=0",
-          title: "8) Solving nth Order ODEs",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/dE2VKySHkaQ?rel=0",
-          title: "9) Introduction to Laplace Transforms",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/4v_GE9edczs?rel=0",
-          title: "10) Properties of Laplace Transforms",
+          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
+          title: "Bio Medical 5: Neural (Neuro) Plasticity",
         },
       ],
       sideContent: [],
@@ -328,28 +296,28 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/fcH0klMXUJI?rel=0",
-          title: "1) Single Phase AC Circuits",
+          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
+          title: "Physical Biology",
         },
         {
-          videoLink: "https://www.youtube.com/embed/wMnOvYXJDrU?rel=0",
-          title: "2) Power Analysis",
+          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
+          title: "Bio Medical 1: Overview of the Human Nervous System",
         },
         {
-          videoLink: "https://www.youtube.com/embed/NunykC3SsO4?rel=0",
-          title: "3) Three Phase Circuits",
+          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
+          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
         },
         {
-          videoLink: "https://www.youtube.com/embed/3S7clSrNbo8?rel=0",
-          title: "4) Magnetic Circuits",
+          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
+          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
         },
         {
-          videoLink: "https://www.youtube.com/embed/y_ETOB38nck?rel=0",
-          title: "5) Transformers",
+          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
+          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
         },
         {
-          videoLink: "https://www.youtube.com/embed/84KYdsaCS-4?rel=0",
-          title: "6) Rotating Machine Basics",
+          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
+          title: "Bio Medical 5: Neural (Neuro) Plasticity",
         },
       ],
       sideContent: [],
@@ -368,7 +336,7 @@ let allCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/G7rgwc7aoxo?rel=0",
-          title: "0) Guide to the Videos",
+          title: "Overview",
           highlights:
             'This course summary is given by Om Mihani. Orginally taught by Professor Sanjay Mahajani, IIT Bombay. This is the course guide video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
         },
@@ -390,44 +358,28 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/G7rgwc7aoxo?rel=0",
-          title: "0) Guide to the Videos",
+          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
+          title: "Physical Biology",
         },
         {
-          videoLink: "https://www.youtube.com/embed/o3J4vBLyr5M?rel=0",
-          title: "1) General Intro of Terms",
+          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
+          title: "Bio Medical 1: Overview of the Human Nervous System",
         },
         {
-          videoLink: "https://www.youtube.com/embed/uUrwuPxVpCg?rel=0",
-          title: "2) DOF and Balancing",
+          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
+          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
         },
         {
-          videoLink: "https://www.youtube.com/embed/0D53yWUGRQA?rel=0",
-          title: "3) Purge",
+          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
+          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
         },
         {
-          videoLink: "https://www.youtube.com/embed/NOjexyRyWR8?rel=0",
-          title: "4) Separations",
+          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
+          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
         },
         {
-          videoLink: "https://www.youtube.com/embed/r7ila1qjj6U?rel=0",
-          title: "5) Separations Continued",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/6T0uYsomcFs?rel=0",
-          title: "6) Colligative Properties",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/rFoxK4JMbKI?rel=0",
-          title: "7) Energy Balances",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/Hr5Hsz8JLrA?rel=0",
-          title: "8) P Charts",
-        },
-        {
-          videoLink: "https://www.youtube.com/embed/ldbooDNOCqE?rel=0",
-          title: "9) Enthalpy of Mixing and Reaction",
+          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
+          title: "Bio Medical 5: Neural (Neuro) Plasticity",
         },
       ],
       sideContent: [],
@@ -644,7 +596,7 @@ let allCourses = [
             'This course summary is given by Harish. Orginally taught by Professors Gaurav Raina, Shanti Bhattacharya, Umesh, Venkatesh Ramaiyan, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
         },
       ],
-      sideContent: ["Contents of the course", "Intro", "Part 1", "Part 2"],
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
@@ -1168,7 +1120,7 @@ const newCourses = [
           highlights: "ORGANIC CHEMISTRY PART 1",
         },
       ],
-      sideContent: ["Contents of the course", "BEM Topic 5 Friction", "BEM Topic 6 Stress, Strain and Indeterminate Structures"],
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
@@ -1290,79 +1242,80 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/NHWC0-B3MN8?rel=0",
-          title:
+          title: "numerical analysis 1",
+          highlights:
             'This course summary is given by Gourav. Orginally taught by Professor J Kumar, IIT Kharagpur.Toget the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "numerical analysis 1",
         },
       ],
-      sideContent: ["Contents of the course", "ORGANIC CHEMISTRY PART 1", "ORGANIC CHEMISTRY PART 2", "ORGANIC CHEMISTRY PART 3", "ORGANIC CHEMISTRY PART 4"],
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/NHWC0-B3MN8?rel=0",
-          title: "",
-          highlights: "numerical analysis 1",
+          title: "numerical analysis 1",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/QmqODEfi8d8?rel=0",
-          title: "",
-          highlights: "numerical analysis 2",
+          title: "numerical analysis 2",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/exFHGwZdKxQ?rel=0",
-          title: "",
-          highlights: "numerical analysis 3",
+          title: "numerical analysis 3",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/y8d0TWgm96Y?rel=0",
-          title: "",
-          highlights: "numerical analysis 4",
+          title: "numerical analysis 4",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/sEZWaEZa6Yk?rel=0",
-          title: "",
-          highlights: "numerical analysis 5",
+          title: "numerical analysis 5",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/OQIKygmb1zA?rel=0",
-          title: "",
-          highlights: "numerical analysis 6",
+          title: "numerical analysis 6",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/L8V-7vZYe5g?rel=0",
-          title: "",
-          highlights: "numerical analysis 7",
+          title: "numerical analysis 7",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/TO7IZ5MLTAE?rel=0",
-          title: "",
-          highlights: "complex analysis 1",
+          title: "complex analysis 1",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/5RpQxvtPjoU?rel=0",
-          title: "",
-          highlights: "complex analysis 2",
+          title: "complex analysis 2",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/cmVyTJW2_Kc?rel=0",
-          title: "",
-          highlights: "complex analysis 3",
+          title: "complex analysis 3",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/Ewg3JsD15Lo?rel=0",
-          title: "",
-          highlights: "complex analysis 4",
+          title: "complex analysis 4",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/MGZ_4Iwurt8?rel=0",
-          title: "",
-          highlights: "complex analysis 5",
+          title: "complex analysis 5",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/kDD8sqckBkQ?rel=0",
-          title: "",
-          highlights: "complex analysis 6",
+          title: "complex analysis 6",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1381,7 +1334,8 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/EU1JpndnEvY?rel=0",
-          title:
+          title: "1 Introduction",
+          highlights:
             'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Priyadarshi Patnaik, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "1 Introduction",
         },
@@ -1392,28 +1346,28 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/EU1JpndnEvY?rel=0",
-          title: "",
-          highlights: "1 Introduction",
+          title: "1 Introduction",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/euWHjU9PQMI?rel=0",
-          title: "",
-          highlights: "2 Listening Skills",
+          title: "2 Listening Skills",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/wJDMpkGk0kI?rel=0",
-          title: "",
-          highlights: "3 Non Verbal Communication",
+          title: "3 Non Verbal Communication",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/S69c-W3pXqs?rel=0",
-          title: "",
-          highlights: "4 Resume Writing",
+          title: "4 Resume Writing",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/p2Owqkr6S2g?rel=0",
-          title: "",
-          highlights: "5 Common Errors",
+          title: "5 Common Errors",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1432,37 +1386,25 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/Bhoh9pKH6S4?rel=0",
-          title:
+          title: "Numerical Analysis",
+          highlights:
             'This course summary is given by Mohit. Orginally taught by Professor Ramakrishna Nanduri, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "Numerical Analysis",
         },
       ],
-      sideContent: [
-        "Contents of the course",
-        "PDS Video 1 Introduction",
-        "PDS Video 2 Conditional Statements",
-        "PDS Video 3 Loops",
-        "PDS Video 4 Arrays",
-        "PDS Video 5 Strings and Functions",
-        "PDS Video 6 Recursions",
-        "PDS Video 7 Structures and Pointers",
-        "PDS Video 8 Dynamic Memory and 2D Arrays",
-        "PDS Video 9 File Handling",
-        "PDS Video 10 Stacks, Queues and Link Lists",
-        "PDS Video 11 Miscellaneous Topics",
-      ],
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/Bhoh9pKH6S4?rel=0",
-          title: "",
-          highlights: "Numerical Analysis",
+          title: "Numerical Analysis",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/1HRFooTFDdg?rel=0",
-          title: "",
-          highlights: "Complex Analysis",
+          title: "Complex Analysis",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1481,7 +1423,8 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/zd1AzwqWhdc?rel=0",
-          title:
+          title: "PART 1",
+          highlights:
             'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Jitendra Kumar, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "PART 1",
         },
@@ -1492,13 +1435,13 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/zd1AzwqWhdc?rel=0",
-          title: "",
-          highlights: "PART 1",
+          title: "PART 1",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/fgBenXhRuuY?rel=0",
-          title: "",
-          highlights: "PART 2",
+          title: "PART 2",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1517,44 +1460,30 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/ntO7-X2sytg?rel=0",
-          title:
+          title: "PART 1",
+          highlights:
             'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Chandal Nahak, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "PART 1",
         },
       ],
-      sideContent: [
-        "Contents of the course",
-        "numerical analysis 1",
-        "numerical analysis 2",
-        "numerical analysis 3",
-        "numerical analysis 4",
-        "numerical analysis 5",
-        "numerical analysis 6",
-        "numerical analysis 7",
-        "complex analysis 1",
-        "complex analysis 2",
-        "complex analysis 3",
-        "complex analysis 4",
-        "complex analysis 5",
-        "complex analysis 6",
-      ],
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/ntO7-X2sytg?rel=0",
-          title: "",
-          highlights: "PART 1",
+          title: "PART 1",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/VM5lau6lP9g?rel=0",
-          title: "",
-          highlights: "PART 2",
+          title: "PART 2",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/UuGkTuI5FhM?rel=0",
-          title: "",
-          highlights: "PART 3",
+          title: "PART 3",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1573,7 +1502,8 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/N1dBq2quvNs?rel=0",
-          title:
+          title: "0 Introduction",
+          highlights:
             'This course summary is given by Harsh. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "0 Introduction",
         },
@@ -1584,43 +1514,43 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/N1dBq2quvNs?rel=0",
-          title: "Find Harsh's notes here (PDF)",
-          highlights: "0 Introduction",
+          title: "0 Introduction",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/aK2hzTqy_b0?rel=0",
-          title: "",
-          highlights: "1 Force System",
+          title: "1 Force System",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/eKpLkexDY3s?rel=0",
-          title: "",
-          highlights: "2 Equilibrium",
+          title: "2 Equilibrium",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/LoLK79f2sgk?rel=0",
-          title: "",
-          highlights: "3 Friction",
+          title: "3 Friction",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/GLFc0xINtp4?rel=0",
-          title: "",
-          highlights: "4 Concepts of Stress and Strain",
+          title: "4 Concepts of Stress and Strain",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/AXQSN0EtV9A?rel=0",
-          title: "",
-          highlights: "5 Torsion",
+          title: "5 Torsion",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/8hox-uZends?rel=0",
-          title: "",
-          highlights: "6 Flexural Loading",
+          title: "6 Flexural Loading",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/IpUySELQBPY?rel=0",
-          title: "",
-          highlights: "7 Transformation of Stress and Strain",
+          title: "7 Transformation of Stress and Strain",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1639,49 +1569,50 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/9JroxlI3qhY?rel=0",
-          title:
+          title: "1 Introduction to Stress and Strain",
+          highlights:
             'This course summary is given by Mishel. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "1 Introduction to Stress and Strain",
         },
       ],
-      sideContent: ["Contents of the course", "1 Introduction", "2 Listening Skills", "3 Non Verbal Communication", "4 Resume Writing", "5 Common Errors"],
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/9JroxlI3qhY?rel=0",
-          title: "",
-          highlights: "1 Introduction to Stress and Strain",
+          title: "1 Introduction to Stress and Strain",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/8SOdm3adrlQ?rel=0",
-          title: "",
-          highlights: "2 Properties of Areas",
+          title: "2 Properties of Areas",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/UXLLA_Q2t5o?rel=0",
-          title: "",
-          highlights: "3 Torsion",
+          title: "3 Torsion",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/eqmkvyaYTnc?rel=0",
-          title: "",
-          highlights: "4 Pure Bending",
+          title: "4 Pure Bending",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/wlmX3z-nWGM?rel=0",
-          title: "",
-          highlights: "5 Transformation of Stress",
+          title: "5 Transformation of Stress",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/wUzjwyUHKIA?rel=0",
-          title: "",
-          highlights: "6 Deflection of Beams",
+          title: "6 Deflection of Beams",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/dmE98-cXZZ0?rel=0",
-          title: "",
-          highlights: "7 Bending of Beam",
+          title: "7 Bending of Beam",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1700,7 +1631,8 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/2bvlhdP_EdY?rel=0",
-          title:
+          title: "L1",
+          highlights:
             'This course summary is given by Nishant. Orginally taught by Professor Arivazhagan M, NIT Trichy.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "L1",
         },
@@ -1711,28 +1643,28 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/2bvlhdP_EdY?rel=0",
-          title: "Find Nishant's notes here (PDF)",
-          highlights: "L1",
+          title: "L1",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/3BkzWaYWwV0?rel=0",
-          title: "",
-          highlights: "L2",
+          title: "L2",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/mdgFpLLRQ90?rel=0",
-          title: "",
-          highlights: "L3",
+          title: "L3",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/jKcKZLJbIYg?rel=0",
-          title: "",
-          highlights: "L4",
+          title: "L4",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/VtA0re39AXg?rel=0",
-          title: "",
-          highlights: "L5",
+          title: "L5",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1751,39 +1683,40 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/3it6qXsWrgg?rel=0",
-          title:
+          title: "part1",
+          highlights:
             'This course summary is given by Nishant. Orginally taught by Professor Chandra Bose, NIT Trichy.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "part1",
         },
       ],
-      sideContent: ["Contents of the course", "Numerical Analysis", "Complex Analysis"],
+      sideContent: [],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/3it6qXsWrgg?rel=0",
-          title: "",
-          highlights: "part1",
+          title: "part1",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/ofx2glS-iqo?rel=0",
-          title: "",
-          highlights: "part2",
+          title: "part2",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/5umDQci2lf8?rel=0",
-          title: "",
-          highlights: "part3",
+          title: "part3",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/x2NjwronQ3U?rel=0",
-          title: "",
-          highlights: "part4",
+          title: "part4",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/4mSAi1oWv_w?rel=0",
-          title: "",
-          highlights: "part5",
+          title: "part5",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1802,7 +1735,8 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/x4w3yBmFg3I?rel=0",
-          title:
+          title: "1 Open Loop and Closed Loop Operational Amplifiers",
+          highlights:
             'This course summary is given by a Sastra University Student. Orginally taught by Professors R. Sumathi, V. Sudha, A. Parvathi, M. Easwaran, Sastra .To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "1 Open Loop and Closed Loop Operational Amplifiers",
         },
@@ -1853,7 +1787,8 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/HI9eJwFmMVA?rel=0",
-          title:
+          title: "4 Nuclear Magnetic Resonance Spectroscopy",
+          highlights:
             'This course summary is given by Salem. Orginally taught by Professors Mangala Sunder K and Ranga Rao G, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
           highlights: "4 Nuclear Magnetic Resonance Spectroscopy",
         },
@@ -1864,33 +1799,33 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/HK8lIQGKiU0?rel=0",
-          title: "Find Salem's notes here (PDF)\n\n",
-          highlights: "1 Vibration",
+          title: "1 Vibration",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/ZH6kAwnAwPw?rel=0",
-          title: "Find Salem's notes here (PDF)\n\n",
-          highlights: "2 Rotation",
+          title: "2 Rotation",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/bM3l2Y2ExO4?rel=0",
-          title: "Find Salem's notes here (PDF)\n\n",
-          highlights: "3 Raman",
+          title: "3 Raman",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/HI9eJwFmMVA?rel=0",
-          title: "Find Salem's notes here (PDF)\n\n",
-          highlights: "4 Nuclear Magnetic Resonance Spectroscopy",
+          title: "4 Nuclear Magnetic Resonance Spectroscopy",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/vJYrTRUB9es?rel=0",
-          title: "",
-          highlights: "5 Electronic Spectroscopy",
+          title: "5 Electronic Spectroscopy",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/4noSPWD87kc?rel=0",
-          title: "",
-          highlights: "6 Photoelectron Spectroscopy",
+          title: "6 Photoelectron Spectroscopy",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1920,23 +1855,23 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/yqWqypEAIfo?rel=0",
-          title: "Find Nishant's notes here (PDF)",
-          highlights: "enir vid 1",
+          title: "enir vid 1",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/o_zQtXStMIY?rel=0",
-          title: "",
-          highlights: "enir vid 2",
+          title: "enir vid 2",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/k-reaxLb2Wo?rel=0",
-          title: "",
-          highlights: "enir vid 3",
+          title: "enir vid 3",
+          highlights: "",
         },
         {
           videoLink: "https://www.youtube.com/embed/ZoFrxmGiWDA?rel=0",
-          title: "",
-          highlights: "enir vid 4",
+          title: "enir vid 4",
+          highlights: "",
         },
       ],
       sideContent: [],
@@ -1955,9 +1890,9 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/oSzgoyyh7UY?rel=0",
-          title:
+          title: "1 why to Invest",
+          highlights:
             'This course summary is given by Sarwesh. Join the Kharagpur Investment Club, IIT Kharagpur.\n\nTo get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
-          highlights: "1 why to Invest",
         },
       ],
       sideContent: [
