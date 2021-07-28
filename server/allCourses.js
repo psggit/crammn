@@ -2054,6 +2054,153 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    category: "IIT Kharagpur",
+    detailThumbnail: "/assets/img/iitkgp-ce13003-er.png",
+    information: "Learn all the important concepts of this course",
+    mentorName: "IIT Kharagpur Student",
+    mentorProfilePic: "/assets/img/trainers/girl.jpg",
+    price: "Free",
+    title: "CE13003 - Engineering Drawing and Computer Graphics",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/VFQxkcZ9KdQ?rel=0",
+          title: "Introduction to Engineering Drawing",
+          highlights: 'This course summary is given by an IIT Kharagpur Student. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: ["Contents of the course", "Introduction to Engineering Drawing", "Projection Of Lines", "Projection Of Planes", "Projection Of Solids", "Section Of Solids"],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/VFQxkcZ9KdQ?rel=0",
+          title: "Introduction to Engineering Drawing",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/MFEu7ufzS1Q?rel=0",
+          title: "Projection Of Lines",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/8gPkiPhtIOQ?rel=0",
+          title: "Projection Of Planes",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/aqs0LGCg80g?rel=0",
+          title: "Projection Of Solids",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/gvvPKM8feSs?rel=0",
+          title: "Section Of Solids",
+          highlights: "",
+        },
+      ],
+      sideContent: [],
+    },
+  },
+  {
+    detailsLink: "{id_placeholder}",
+    category: "IIT Kharagpur",
+    detailThumbnail: "/assets/img/iitkgp-hs13003-nidam.png",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Nidam",
+    mentorProfilePic: "/assets/img/trainers/iitkgp-nidam.jpg",
+    price: "Free",
+    title: "HS13003 - English for Communication",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/NkKGspliLuw?rel=0",
+          title: "Balthazar's Marvelous Afternoon and The Railway Clerk",
+          highlights: 'This course summary is given by Nidam, IIT Kharagpur. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: ["Contents of the course", "Balthazar's Marvelous Afternoon and The Railway Clerk", "The Negro Speaks of the River", "Prompts"],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/NkKGspliLuw?rel=0",
+          title: "Balthazar's Marvelous Afternoon and The Railway Clerk",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/WtmTnt8KoFc?rel=0",
+          title: "The Negro Speaks of the River",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/t5CBjifcyfE?rel=0",
+          title: "Prompts",
+          highlights: "",
+        },
+      ],
+      sideContent: [],
+    },
+  },
+  {
+    detailsLink: "{id_placeholder}",
+    category: "IIT Kharagpur",
+    detailThumbnail: "/assets/img/iitkgp-ev10003-er.png",
+    information: "Learn all the important concepts of this course",
+    mentorName: "IIT Kharagpur Student",
+    mentorProfilePic: "/assets/img/trainers/girl.jpg",
+    price: "Free",
+    title: "EV10003 - Environmental Science",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/i7Lu1bw3haw?rel=0",
+          title: "Introduction to Environmental Science",
+          highlights: 'This course summary is given by an IIT Kharagpur Student. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: [
+        "Contents of the course",
+        "Introduction to Environmental Science",
+        "Causes and Sustainability",
+        "Air Pollution",
+        "Waste Management Part 1",
+        "Waste Management Part 2",
+      ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/i7Lu1bw3haw?rel=0",
+          title: "Introduction to Environmental Science",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/B9aBvuD6K4s?rel=0",
+          title: "Causes and Sustainability",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/6r1degqMPQg?rel=0",
+          title: "Air Pollution",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/rITNLtxsnNY?rel=0",
+          title: "Waste Management Part 1",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/YgmCqjDl5-4?rel=0",
+          title: "Waste Management Part 2",
+          highlights: "",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
