@@ -176,28 +176,44 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
-          title: "Physical Biology",
+          videoLink: "https://www.youtube.com/embed/VcIjCM2iFcI?rel=0",
+          title: "Introduction",
         },
         {
-          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
-          title: "Bio Medical 1: Overview of the Human Nervous System",
+          videoLink: "https://www.youtube.com/embed/k_PNGc-q8Tg?rel=0",
+          title: "1 National Income Accounting",
         },
         {
-          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
-          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
+          videoLink: "https://www.youtube.com/embed/9kpV-hCo5y0?rel=0",
+          title: "2 Measuring the Cost of Living",
         },
         {
-          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
-          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
+          videoLink: "https://www.youtube.com/embed/2ihC4xbUyt0?rel=0",
+          title: "3 Production and Growth",
         },
         {
-          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
-          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
+          videoLink: "https://www.youtube.com/embed/YX0-m24CliA?rel=0",
+          title: "4 Savings, Investment and Financial Systems",
         },
         {
-          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
-          title: "Bio Medical 5: Neural (Neuro) Plasticity",
+          videoLink: "https://www.youtube.com/embed/sTpzDbFOINo?rel=0",
+          title: "5 Unemployment",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/TWoGxGKWQy4?rel=0",
+          title: "6 Monetary System",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/rB09GRyjg6o?rel=0",
+          title: "7 Money Growth And Inflation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/i60DS8YPIP8?rel=0",
+          title: "8 Aggregate Demand And Supply",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/2KfHM9AXNnw?rel=0",
+          title: "9 Factors affecting Aggregate Demand",
         },
       ],
       sideContent: [],
