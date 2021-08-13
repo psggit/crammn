@@ -766,11 +766,17 @@ let allCourses = [
         {
           videoLink: "https://www.youtube.com/embed/_iGsQaOLusQ?rel=0",
           title: "Thermodynamics",
-          highlights:
-            'This course summary is given by Allu Ramoji. Orginally taught by Professors Arti Dua &amp; M Ranganathan(Thermodynamics) Hema Chandra K &amp; R Damodaran(Chemical Kinetics) and Chaitanya Y &amp; Sanjay K(Quantum Chemistry), IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: "This course summary is given by Allu Ramoji.",
         },
       ],
-      sideContent: ["Contents of the course", "Thermodynamics", "Chemical Kinetics", "Quantum Chemistry"],
+      sideContent: [
+        "Contents of the course",
+        "Thermodynamics",
+        "Chemical Kinetics",
+        "Quantum Chemistry",
+        "Coordinate Chemistry, Organic & Inorganic Chemistry Part 1",
+        "Coordinate Chemistry, Organic & Inorganic Chemistry Part 2",
+      ],
     },
     subscribedContent: {
       mainContent: [
@@ -785,6 +791,14 @@ let allCourses = [
         {
           videoLink: "https://www.youtube.com/embed/IdYMndDROZs?rel=0",
           title: "Quantum Chemistry",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/cj954eUhPOk?rel=0",
+          title: "Coordinate Chemistry, Organic & Inorganic Chemistry Part 1",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/obs3mFXiIEQ?rel=0",
+          title: "Coordinate Chemistry, Organic & Inorganic Chemistry Part 2",
         },
       ],
       sideContent: [],
