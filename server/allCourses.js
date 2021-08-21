@@ -1904,6 +1904,57 @@ const newCourses = [
   },
   {
     detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-ee1101-salem.png",
+    category: "IIT Madras",
+    price: "Free",
+    title: "EE1101 - Signals and Systems",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Salem",
+    mentorProfilePic: "/assets/img/trainers/boy.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/Vdrcf1OvOWU?rel=0",
+          title: "1 Introduction",
+          highlights:
+            'This course summary is given by Salem.',
+        },
+      ],
+      sideContent: [],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/Vdrcf1OvOWU?rel=0",
+          title: "1 Introduction",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/RDk5PL71Qec?rel=0",
+          title: "2 Signals and Systems",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/127J7GdsOn4?rel=0",
+          title: "3 Convolution",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/HJsqC02Qtgo?rel=0",
+          title: "4 Fourier Series",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/a5NsCJwqdLY?rel=0",
+          title: "5 Fourier Transform",
+          highlights: "",
+        },
+      ],
+      sideContent: [],
+    },
+  },
+  {
+    detailsLink: "{id_placeholder}",
     category: "NIT Trichy",
     detailThumbnail: "/assets/img/nitt-enir11-nishant.png",
     information: "Learn all the important concepts of this course",
