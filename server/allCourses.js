@@ -238,28 +238,44 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
-          title: "Physical Biology",
+          videoLink: "https://www.youtube.com/embed/_hZoVUyBAHo?rel=0",
+          title: "1) Introduction",
         },
         {
-          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
-          title: "Bio Medical 1: Overview of the Human Nervous System",
+          videoLink: "https://www.youtube.com/embed/1MvkaYeobOM?rel=0",
+          title: "2) Linear ODEs",
         },
         {
-          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
-          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
+          videoLink: "https://www.youtube.com/embed/GbbStnbDSyU?rel=0",
+          title: "3) Linear ODEs (Continued)",
         },
         {
-          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
-          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
+          videoLink: "https://www.youtube.com/embed/7Ygz7KIZlOg?rel=0",
+          title: "4) Picard's Iteration Method",
         },
         {
-          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
-          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
+          videoLink: "https://www.youtube.com/embed/xyPF7O-56Bc?rel=0",
+          title: "5) Introduction to 2nd Order ODEs",
         },
         {
-          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
-          title: "Bio Medical 5: Neural (Neuro) Plasticity",
+          videoLink: "https://www.youtube.com/embed/vrSQVb_D9u0?rel=0",
+          title: "6) Solving 2nd Order ODEs",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/mgb1suswDZ0?rel=0",
+          title: "7) Introduction to nth order ODEs",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/a5hyOwCBDe8?rel=0",
+          title: "8) Solving nth Order ODEs",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/dE2VKySHkaQ?rel=0",
+          title: "9) Introduction to Laplace Transforms",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/4v_GE9edczs?rel=0",
+          title: "10) Properties of Laplace Transforms",
         },
       ],
       sideContent: [],
