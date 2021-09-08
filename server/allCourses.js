@@ -1,6 +1,49 @@
 let allCourses = [
   {
     detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-ae227-ammar.png",
+    category: "IIT Bombay",
+    price: "Free",
+    title: "AE 227 - Solid Mechanics",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Ammar",
+    mentorProfilePic: "/assets/img/trainers/iitb-ammar.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/qp2CDZP27vE?rel=0",
+          title: "Video 1 Introduction and Mathematical Preliminaries",
+          highlights:
+            'This course summary is given by Ammar, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: ["Contents of the course", "Video 1 Introduction and Mathematical Preliminaries", "Video 2 Tensors and Their Operations", "Video 3 Deformations and Strain Tensor", "Video 4 Maximum and Minimum Strain and Strain Compatibility"],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/qp2CDZP27vE?rel=0",
+          title: "Video 1 Introduction and Mathematical Preliminaries",
+          highlights: "For the notes copy paste the link in a new tab: https://s3.ap-south-1.amazonaws.com/crammn.com/assets/pdf/AE227-Solid+Mechanics+-Ammar+Notes.pdf",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/AbHwYcCvigw?rel=0",
+          title: "Video 2 Tensors and Their Operations",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/tvhUFHAdi94?rel=0",
+          title: "Video 3 Deformations and Strain Tensor",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/DeLYoI-cgUU?rel=0",
+          title: "Video 4 Maximum and Minimum Strain and Strain Compatibility",
+        },
+      ],
+      sideContent: [],
+    },
+  },         
+  {
+    detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-cs152-jaswanth.png",
     category: "IIT Bombay",
     price: "Free",
