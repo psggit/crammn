@@ -2312,6 +2312,108 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-hss223-mayank.png",
+    category: "IIT Bombay",
+    price: "Free",
+    title: "HS 223 - Intermediate Macroeconomics 1",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Mayank",
+    mentorProfilePic: "/assets/img/trainers/iitb-mayank.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/TM04tIpxixM?rel=0",
+          title: "Lecture 1",
+          highlights:
+            'This course summary is given by Mayank, IIT Bombay.To get the full course, sign up or click on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: ["Contents of the course", "Lecture 1", "Lecture 2", "Lecture 3   Part 1", "Lecture 3   Part 2", "Lecture 4", "Lecture 5", "Lecture 7", "Lecture 8", "Lecture 10",],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/TM04tIpxixM?rel=0",
+          title: "Lecture 1",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/K2hPZU2G7DA?rel=0",
+          title: "Lecture 2",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/b42fw30G-3E?rel=0",
+          title: "Lecture 3   Part 1",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/pumJ_fJpZs0?rel=0",
+          title: "Lecture 3   Part 2",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Zjad4M6t4rk?rel=0",
+          title: "Lecture 4",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/3Zvj95cS608?rel=0",
+          title: "Lecture 5",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/wsIeTnek03I?rel=0",
+          title: "Lecture 7",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/jdarGwCtt78?rel=0",
+          title: "Lecture 8",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/eqIVeOkIY7Q?rel=0",
+          title: "Lecture 10",
+        },
+      ],
+      sideContent: [],
+    },
+  },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-es200-mayank.png",
+    category: "IIT Bombay",
+    price: "Free",
+    title: "ES 200 - Environmental Studies",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Mayank",
+    mentorProfilePic: "/assets/img/trainers/iitb-mayank.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/TtN3UwEK6B0?rel=0",
+          title: "Lecture 1",
+          highlights:
+            'This course summary is given by Mayank, IIT Bombay.To get the full course, sign up or click on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: ["Contents of the course", "Lecture 1", "Lecture 2", "Lecture 3",],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/TtN3UwEK6B0?rel=0",
+          title: "Lecture 1",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/BEWiKNAb97I?rel=0",
+          title: "Lecture 2",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Wk4dCvX1osM?rel=0",
+          title: "Lecture 3",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
