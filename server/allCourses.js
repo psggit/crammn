@@ -2414,6 +2414,54 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-cs224-hanan.png",
+    category: "IIT Bombay",
+    price: "Free",
+    title: "CS 224 - Computer Networks",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Hanan",
+    mentorProfilePic: "/assets/img/trainers/iitb-hanan.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/pZOgaYM1Jf8?rel=0",
+          title: "1  Brief overview and Finite Sequence Numbers",
+          highlights:
+            'This course summary is given by Hanan, IIT Bombay. To get the full course, sign up or click on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: [
+        "Contents of the course",
+        "1  Brief overview and Finite Sequence Numbers",
+        "2  Ethernet",
+        "3  Internetworking",
+        "4  Wireless Network",
+      ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/pZOgaYM1Jf8?rel=0",
+          title: "1  Brief overview and Finite Sequence Numbers",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/J26AtXqHBaM?rel=0",
+          title: "2  Ethernet",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/C23r_vpjMdEY?rel=0",
+          title: "3  Internetworking",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/_PcRSDz8bgs?rel=0",
+          title: "4  Wireless Network",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
