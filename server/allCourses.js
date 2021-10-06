@@ -2462,6 +2462,64 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-me1480-sudip.png",
+    category: "IIT Madras",
+    price: "Free",
+    title: "ME 1480 - Engineering Drawing",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Sudip",
+    mentorProfilePic: "/assets/img/trainers/iitm-sudip.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/qxj9kZcELGQ?rel=0",
+          title: "1  Projection of points",
+          highlights:
+            'This course summary is given by Sudip, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1  Projection of points", 
+                    "2  Projection of lines", 
+                    "3  Line Traces", 
+                    "4  Projection of planes", 
+                    "5  Projection of solids", 
+                    "6  Section of solids",
+        ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/qxj9kZcELGQ?rel=0",
+          title: "1  Projection of points",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/VpgFqgAu1ig?rel=0",
+          title: "2  Projection of lines",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/bxiXUq5thJI?rel=0",
+          title: "3  Line Traces",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/fymVrqjkeV0?rel=0",
+          title: "4  Projection of planes",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/MiMZWKdEhMY?rel=0",
+          title: "5  Projection of solids",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/hZptZsOIQhc?rel=0",
+          title: "6  Section of solids",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
