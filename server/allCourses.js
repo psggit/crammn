@@ -2520,6 +2520,59 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-ee204-nithish.png",
+    category: "IIT Bombay",
+    price: "Free",
+    title: "EE 204 - Analog Circuits",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Nithish",
+    mentorProfilePic: "/assets/img/trainers/iitb-nithish.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/idQ_JpbGnf8?rel=0",
+          title: "1 Circuit Fundamentals",
+          highlights:
+            'This course summary is given by Nithish, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1 Circuit Fundamentals", 
+                    "2 OPAMP", 
+                    "3 Diodes", 
+                    "4 BJT"
+                    "5 MOSFET"
+                    ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/idQ_JpbGnf8?rel=0",
+          title: "1 Circuit Fundamentals",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/mpVXpAVjC2U?rel=0",
+          title: "2 OPAMP",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/qX9p5NIuot0?rel=0",
+          title: "3 Diodes",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/_Wiz8O_Flac?rel=0",
+          title: "4 BJT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/V3WY8Q84XuI?rel=0",
+          title: "5 MOSFET",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
