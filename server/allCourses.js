@@ -2542,8 +2542,8 @@ const newCourses = [
                     "1 Circuit Fundamentals", 
                     "2 OPAMP", 
                     "3 Diodes", 
-                    "4 BJT"
-                    "5 MOSFET"
+                    "4 BJT",
+                    "5 MOSFET",
                     ],
     },
     subscribedContent: {
