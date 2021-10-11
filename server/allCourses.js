@@ -2635,6 +2635,59 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-ee325-nithish.png",
+    category: "IIT Bombay",
+    price: "Free",
+    title: "EE 325 - Probability and Random Processes",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Nithish",
+    mentorProfilePic: "/assets/img/trainers/iitb-nithish.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/J7Y7RUSLJBc?rel=0",
+          title: "1 Set Theory Basics, Countability, Probability Measure",
+          highlights:
+            'This course summary is given by Nithish, IIT Bombay. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: [
+        "Contents of the course",
+        "1 Set Theory Basics, Countability, Probability Measure",
+        "2 Independence, Conditional Independence, Borel Cantelli",
+        "3 Sigma Fields, Discrete and Continuous Random Variables",
+        "4 Multiple and Joint Random Variables",
+        "5 Expectation, Variance and Moments",
+      ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/J7Y7RUSLJBc?rel=0",
+          title: "1 Set Theory Basics, Countability, Probability Measure",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/4AqYsd2aQHM?rel=0",
+          title: "2 Independence, Conditional Independence, Borel Cantelli",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/XfTd1XEmgXE?rel=0",
+          title: "3 Sigma Fields, Discrete and Continuous Random Variables",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/VbamGVyfulc?rel=0",
+          title: "4 Multiple and Joint Random Variables",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/iMPx0H28Ys4?rel=0",
+          title: "5 Expectation, Variance and Moments",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
