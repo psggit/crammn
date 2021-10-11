@@ -906,7 +906,9 @@ let allCourses = [
         },
       ],
       sideContent: [
-          "Contents of the course", 
+          "Contents of the course",
+          "Module 1",
+          "Module 2",
           "Quiz 3 Introduction", 
           "Quiz 3 Ideal Gas", 
           "Quiz 3 Second Law of Thermodynamics", 
@@ -916,8 +918,19 @@ let allCourses = [
     subscribedContent: {
       mainContent: [
         {
+          videoLink: "https://www.youtube.com/embed/X3VHtr6uGDA?rel=0",
+          title: "Module 1",
+          highlights: "Copy paste the links on a new tab to download notes: Module 1 - https://drive.google.com/file/d/1YS8mx1droya9t_dRrKZW5NiBskyXT4ok/view?usp=sharing",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/17IONhUtUc8?rel=0",
+          title: "Module 2",
+          highlights: "Copy paste the links on a new tab to download notes: Module 2 - https://drive.google.com/file/d/1ZPVmVjCM7TQVaU8gIwzC_cQ7oBSCbHnd/view?usp=sharing",
+        },
+        {
           videoLink: "https://www.youtube.com/embed/4SwNnptiFiM?rel=0",
           title: "Quiz 3 Introduction",
+          highlights: "Copy paste the links on a new tab to download notes: Quiz 3 (Complete) - https://drive.google.com/file/d/1JklPMdNYvR0YP4hqRfPPGRROlDBg3gGK/view?usp=sharing",
         },
         {
           videoLink: "https://www.youtube.com/embed/k60K4P-_Pbk?rel=0",
@@ -930,6 +943,7 @@ let allCourses = [
         {
           videoLink: "https://www.youtube.com/embed/KuPab3tLNPg?rel=0",
           title: "Quiz 4 Entropy & Thermodynamic Cycles",
+          highlights: "Copy paste the links on a new tab to download notes: Quiz 4 - https://drive.google.com/file/d/1JfHeOM9SBCGPbuGkAWSZPk3P76VLYWEq/view?usp=sharing",
         },
       ],
       sideContent: [],
