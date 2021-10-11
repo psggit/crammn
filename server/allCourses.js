@@ -2587,6 +2587,54 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-ma207-nithish.png",
+    category: "IIT Bombay",
+    price: "Free",
+    title: "MA207 - Differential Equations 2",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Nithish",
+    mentorProfilePic: "/assets/img/trainers/iitb-nithish.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/Qp8eIVVZYy4?rel=0",
+          title: "1 Power Series 01",
+          highlights:
+            'This course summary is given by Nithish, IIT Bombay. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+        },
+      ],
+      sideContent: [
+        "Contents of the course",
+        "1 Power Series 01",
+        "2 Power Series 02",
+        "3 Legendre Equations",
+        "4 Frobenius Solution",
+      ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/Qp8eIVVZYy4?rel=0",
+          title: "1 Power Series 01",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/q4dJITDAVBk?rel=0",
+          title: "2 Power Series 02",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/2s_9BY_Pc5Y?rel=0",
+          title: "3 Legendre Equations",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/jmKUeZ-XTkk?rel=0",
+          title: "4 Frobenius Solution",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
