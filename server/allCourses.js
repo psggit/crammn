@@ -2688,6 +2688,85 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-cl249-akhil.png",
+    category: "IIT Bombay",
+    price: "Rs 49",
+    title: "CL 249 - Computational Methods",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Akhil",
+    mentorProfilePic: "/assets/img/trainers/iitb-akhil.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/jqfTLSj76Fc?rel=0",
+          title: "1 Intro to CL249",
+          highlights:
+            'This course summary is given by Akhil, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ just Rs 49',
+        },
+      ],
+      sideContent: [
+          "Contents of the course", 
+          "1 Intro to CL249", 
+          "2 Solution of a Non-Linear Equation", 
+          "3 Solution to Linear System of Equations", 
+          "4 LU Decomposition", 
+          "5 Iterative Methods", 
+          "6 Interpolation", 
+          "7 Numerical Integration", 
+          "8 Solution To ODEs", 
+          "9 Solution to ODE BVPs", 
+          "10 Solution to PDEs",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/jqfTLSj76Fc?rel=0",
+          title: "1 Intro to CL249",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/y5m5b4HqrcI?rel=0",
+          title: "2 Solution of a Non-Linear Equation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/bJV2klEGrRE?rel=0",
+          title: "3 Solution to Linear System of Equations",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/HoC6ICXkQUU?rel=0",
+          title: "4 LU Decomposition",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/AQeUbys-hLY?rel=0",
+          title: "5 Iterative Methods",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/57kCCy2SnyE?rel=0",
+          title: "6 Interpolation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/b2isnCZyiG4?rel=0",
+          title: "7 Numerical Integration",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/1MWWFej97cs?rel=0",
+          title: "8 Solution To ODEs",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/m17A_Qel6sg?rel=0",
+          title: "9 Solution to ODE BVPs",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/e1Dga31ItF4?rel=0",
+          title: "10 Solution to PDEs",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
