@@ -2767,6 +2767,115 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-me311-aditya.png",
+    category: "IIT Bombay",
+    price: "Rs 49",
+    title: "ME 311 - Microprocessors and Automatic Control",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Aditya",
+    mentorProfilePic: "/assets/img/trainers/iitb-aditya.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/CZXKAV2EqzQ?rel=0",
+          title: "1 Block Diagrams",
+          highlights:
+            'This course summary is given by Aditya, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-',
+        },
+      ],
+      sideContent: [
+          "Contents of the course", 
+          "1 Block Diagrams", 
+          "2 Block Diagram Algebra", 
+          "3 Fourier Series", 
+          "4 Fourier Analysis Important results", 
+          "5 Properties Of Blocks", 
+          "6 Laplace Transform", 
+          "7 1st Order LCC ODE", 
+          "8 2nd Order LCC ODE", 
+          "9 2nd Order LCC ODE Continued", 
+          "10 BIBO Stability",
+          "11 Linear Control Design",
+          "12 Linear Control Design Nominal Stability and Performance",
+          "13 Linear Control Design Robust Stability and Performance",
+          "14 Controller Design First Order Plant",
+          "15 Controller Design Second Order Plant Part1",
+          "15 Controller Design Second Order Plant Part2",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/CZXKAV2EqzQ?rel=0",
+          title: "1 Block Diagrams",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/5M2tEM7Bl9I?rel=0",
+          title: "2 Block Diagram Algebra",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/5PJRSMqE7-4?rel=0",
+          title: "3 Fourier Series",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Tczd6UnpysU?rel=0",
+          title: "4 Fourier Analysis Important results",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/nn-66jKzUBA?rel=0",
+          title: "5 Properties Of Blocks",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Uc-J2ZV2uyE?rel=0",
+          title: "6 Laplace Transform",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/ei1sMYiphNU?rel=0",
+          title: "7 1st Order LCC ODE",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Sbeh7apsvdo?rel=0",
+          title: "8 2nd Order LCC ODE",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/1wg7Y29-TD4?rel=0",
+          title: "9 2nd Order LCC ODE Continued",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/mxoqfresLQU?rel=0",
+          title: "10 BIBO Stability",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/jXzuxP1AzVI?rel=0",
+          title: "11 Linear Control Design",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/8LGAZQoY464?rel=0",
+          title: "12 Linear Control Design Nominal Stability and Performance",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/-h9Qi6-iMpg?rel=0",
+          title: "13 Linear Control Design Robust Stability and Performance",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/2SbrRehS8YE?rel=0",
+          title: "14 Controller Design First Order Plant",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/aJUt9aiikWE?rel=0",
+          title: "15 Controller Design Second Order Plant Part1",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/SQqed6UgtVs?rel=0",
+          title: "15 Controller Design Second Order Plant Part2",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
