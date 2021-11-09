@@ -2660,6 +2660,12 @@ const newCourses = [
         "3 Sigma Fields, Discrete and Continuous Random Variables",
         "4 Multiple and Joint Random Variables",
         "5 Expectation, Variance and Moments",
+        "6 Conditional probability, Covariance",
+        "7 Generating functions",
+        "8 Inequalities",
+        "9 Random processes",
+        "10 Counting processes",
+        "11 ergodicity, KL expansion",
       ],
     },
     subscribedContent: {
@@ -2683,6 +2689,30 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/iMPx0H28Ys4?rel=0",
           title: "5 Expectation, Variance and Moments",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/5G_CqUbAYx0?rel=0",
+          title: "6 Conditional probability, Covariance",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/LfwU6BOl3IE?rel=0",
+          title: "7 Generating functions",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/MFoh3hsTXUo?rel=0",
+          title: "8 Inequalities",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/FQL3JCKG48M?rel=0",
+          title: "9 Random processes",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/wEmBPrGfWAg?rel=0",
+          title: "10 Counting processes",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/cWNHiizIcvk?rel=0",
+          title: "11 ergodicity, KL expansion",
         },
       ],
       sideContent: [],
