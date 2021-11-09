@@ -2876,6 +2876,74 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-ee224-nithish.png",
+    category: "IIT Bombay",
+    price: "Rs 49",
+    title: "EE 224 - Digital Systems",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Nithish",
+    mentorProfilePic: "/assets/img/trainers/iitb-nithish.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/umc4SaUT-0o?rel=0",
+          title: "1 Number system",
+          highlights:
+            'This course summary is given by Nithish, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."@ Rs 49/-',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1 Number system", 
+                    "2 Boolean algebra", 
+                    "3 Canonical forms 01", 
+                    "4 Canonical forms 02",
+                    "5 Satisfiability problem, CMOS",
+                    "6 Kmap",
+                    "7 QM method",
+                    "8 Adders",
+                    ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/umc4SaUT-0o?rel=0",
+          title: "1 Number system",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/m_puwMacgDk?rel=0",
+          title: "2 Boolean algebra",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/BnTWt1ZF8Wc?rel=0",
+          title: "3 Canonical forms 01",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/t94E4zet3nk?rel=0",
+          title: "4 Canonical forms 02",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/ovR-3PsXd5g?rel=0",
+          title: "5 Satisfiability problem, CMOS",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/G9LVO7QlSGU?rel=0",
+          title: "6 Kmap",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/GB5CFTIQsy8?rel=0",
+          title: "7 QM method",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/AR5g058NoaQ?rel=0",
+          title: "8 Adders",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
