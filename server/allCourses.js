@@ -2974,6 +2974,74 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-ee101-vishruth.png",
+    category: "IIT Bombay",
+    price: "Free",
+    title: "EE 101 - Introduction to Electrical and Electronic Circuits",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Vishruth",
+    mentorProfilePic: "/assets/img/trainers/iitb-vishruth.jfif",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/kaIEjpKvvSY?rel=0",
+          title: "1 Basic principles and functions",
+          highlights:
+            'This course summary is given by Vishruth, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."for free',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1 Basic principles and functions", 
+                    "2 Basic Principles and Waveforms   continued", 
+                    "3 DC Circuit analysis and components", 
+                    "4 AC Circuit analysis",
+                    "5 Kirchhoff's laws and circuit theorems",
+                    "6 Non Linear components Semiconductors",
+                    "7 Application of diodes",
+                    "8 Transistors, Amplifiers and AC Circuits",
+                    ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/kaIEjpKvvSY?rel=0",
+          title: "1 Basic principles and functions",
+          highlights: "",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/IO_tXMs2_so?rel=0",
+          title: "2 Basic Principles and Waveforms   continued",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/GAHp-HcAxmo?rel=0",
+          title: "3 DC Circuit analysis and components",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/m67WK5M2_Ts?rel=0",
+          title: "4 AC Circuit analysis",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Vs6qJe8Ap0w?rel=0",
+          title: "5 Kirchhoff's laws and circuit theorems",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/bRmFwlghnMQ?rel=0",
+          title: "6 Non Linear components Semiconductors",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/PsjwUoJnQMo?rel=0",
+          title: "7 Application of diodes",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/2Z7gpoKIC7g?rel=0",
+          title: "8 Transistors, Amplifiers and AC Circuits",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
