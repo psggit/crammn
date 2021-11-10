@@ -2558,6 +2558,11 @@ const newCourses = [
                     "3 Diodes", 
                     "4 BJT",
                     "5 MOSFET",
+                    "6 Amplifiers",
+                    "7 Current mirrors",
+                    "8 Df pair amplifier",
+                    "9 Frequency Response",
+                    "10 Feedback",
                     ],
     },
     subscribedContent: {
@@ -2582,6 +2587,26 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/V3WY8Q84XuI?rel=0",
           title: "5 MOSFET",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/U8JSKknNQv8?rel=0",
+          title: "6 Amplifiers",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/smxaYXF1HgM?rel=0",
+          title: "7 Current mirrors",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/V-zomxaTMfg?rel=0",
+          title: "8 Df pair amplifier",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/UqiLfsjVPmQ?rel=0",
+          title: "9 Frequency Response",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/biPXDyoWTLU?rel=0",
+          title: "10 Feedback",
         },
       ],
       sideContent: [],
