@@ -36,7 +36,7 @@ const Contact = () => (
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>WhataApp Message @:</h4>
+                <h4>WhatsApp Message @:</h4>
                 <p>+91 9524227932</p>
               </div>
             </div>
