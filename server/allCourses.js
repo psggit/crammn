@@ -2488,8 +2488,8 @@ const newCourses = [
     unsubscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/qxj9kZcELGQ?rel=0",
-          title: "1  Projection of points",
+          videoLink: "https://www.youtube.com/embed/zWat5uU20ik?rel=0",
+          title: "7  Development of Surfaces",
           highlights:
             'This course summary is given by Sudip, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
         },
@@ -2501,6 +2501,9 @@ const newCourses = [
                     "4  Projection of planes", 
                     "5  Projection of solids", 
                     "6  Section of solids",
+                    "7  Development of Surfaces",
+                    "8  Orthographic Projections",
+                    "9  Isometric projection",
         ],
     },
     subscribedContent: {
@@ -2529,6 +2532,18 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/hZptZsOIQhc?rel=0",
           title: "6  Section of solids",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/zWat5uU20ik?rel=0",
+          title: "7  Development of Surfaces",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/JX7QCXLTcns?rel=0",
+          title: "8  Orthographic Projections",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/ZmRSUMt0O-4?rel=0",
+          title: "9  Isometric projection",
         },
       ],
       sideContent: [],
