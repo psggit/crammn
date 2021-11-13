@@ -2651,6 +2651,12 @@ const newCourses = [
         "2 Power Series 02",
         "3 Legendre Equations",
         "4 Frobenius Solution",
+        "5 Bessel Equation",
+        "6 Fourier Series",
+        "7 Heat Equation",
+        "8 Wave Equation",
+        "9 Laplace Equation 01",
+        "10 Laplace Equation 02",
       ],
     },
     subscribedContent: {
@@ -2670,6 +2676,30 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/jmKUeZ-XTkk?rel=0",
           title: "4 Frobenius Solution",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Zu6VpnE_Zj4?rel=0",
+          title: "5 Bessel Equation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/reVvrzwuRhk?rel=0",
+          title: "6 Fourier Series",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/7kHSkYPrD90?rel=0",
+          title: "7 Heat Equation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/h9HzXh8evDg?rel=0",
+          title: "8 Wave Equation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/FZDHvKs8aas?rel=0",
+          title: "9 Laplace Equation 01",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/lq_XYdpwDs8?rel=0",
+          title: "10 Laplace Equation 02",
         },
       ],
       sideContent: [],
