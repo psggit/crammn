@@ -17,14 +17,28 @@ let allCourses = [
             'This course summary is given by Ammar, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
         },
       ],
-      sideContent: ["Contents of the course", "Video 1 Introduction and Mathematical Preliminaries", "Video 2 Tensors and Their Operations", "Video 3 Deformations and Strain Tensor", "Video 4 Maximum and Minimum Strain and Strain Compatibility"],
+      sideContent: [
+          "Contents of the course", 
+          "Video 1 Introduction and Mathematical Preliminaries", 
+          "Video 2 Tensors and Their Operations", 
+          "Video 3 Deformations and Strain Tensor", 
+          "Video 4 Maximum and Minimum Strain and Strain Compatibility",
+          "Video 5 Force and Moment balance", 
+          "Video 6 Stress in Arbitrary direction and Mohr's Circle", 
+          "Video 7 Mass Conservation and Energy due to Deformation", 
+          "Video 8 Stress-Strain Relations and Hooke's Law", 
+          "Video 9 Boundary Conditions", 
+          "Video 10 Plane Stress-Strain and Compatibility Equations", 
+          "Video 11 Airy Stress Function in Polar", 
+          "Video 12 Beam Theory", 
+          ],
     },
     subscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/qp2CDZP27vE?rel=0",
           title: "Video 1 Introduction and Mathematical Preliminaries",
-          highlights: "For the notes copy paste the link in a new tab: https://s3.ap-south-1.amazonaws.com/crammn.com/assets/pdf/AE227-Solid+Mechanics+-Ammar+Notes.pdf",
+          highlights: "For the notes copy paste the link in a new tab: https://drive.google.com/file/d/1CUk1vZZ5C7DRmsoKIGqBHo0W8ifHjhyP/view?usp=sharing",
         },
         {
           videoLink: "https://www.youtube.com/embed/AbHwYcCvigw?rel=0",
@@ -37,6 +51,38 @@ let allCourses = [
         {
           videoLink: "https://www.youtube.com/embed/DeLYoI-cgUU?rel=0",
           title: "Video 4 Maximum and Minimum Strain and Strain Compatibility",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/ww52RCS5CJY?rel=0",
+          title: "Video 5 Force and Moment balance",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/SEjtVsohmWc?rel=0",
+          title: "Video 6 Stress in Arbitrary direction and Mohr's Circle",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/bvvF8QciwQE?rel=0",
+          title: "Video 7 Mass Conservation and Energy due to Deformation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/sd1R7gMfqg0?rel=0",
+          title: "Video 8 Stress-Strain Relations and Hooke's Law",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/hzco7f9Mebw?rel=0",
+          title: "Video 9 Boundary Conditions",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/jnIxr5Kr-Mc?rel=0",
+          title: "Video 10 Plane Stress-Strain and Compatibility Equations",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/ao2uRXDhrlc?rel=0",
+          title: "Video 11 Airy Stress Function in Polar",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/5fiaL_fHZ0k?rel=0",
+          title: "Video 12 Beam Theory",
         },
       ],
       sideContent: [],
