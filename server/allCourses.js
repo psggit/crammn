@@ -3243,6 +3243,105 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-oe2044-rishabh.png",
+    category: "IIT Madras",
+    price: "Rs 49",
+    title: "OE2044 - Ship Hydrodynamics",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Rishabh",
+    mentorProfilePic: "/assets/img/trainers/iitm-rishabh.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/52yobO3WKXk?rel=0",
+          title: "L1  Introduction, Types of Flow",
+          highlights:
+            'This course is by Rishabh, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "L1  Introduction, Types of Flow", 
+                    "L2  Mass and Momentum Conservation", 
+                    "L3  Kinematic Transport Theorem, Continuity", 
+                    "L4 2nd KTT, Euler's Equation",
+                    "L5 Newtonian Fluids, Navier Stokes Theorem",
+                    "L6 Boundary Conditions, Body Forces",
+                    "L7 Dimensional Analysis",
+                    "L8 Similarity Parameters",
+                    "L9 Ideal Fluid Flow",
+                    "L10  Circulation, Vorticity",
+                    "L11 Vortex Structures, Bernoulli's Equation",
+                    "L12 Vorticity Equation, Potential Flow",
+                    "L13 Stream Function",
+                    "L14 Summary of Potential Flows",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/52yobO3WKXk?rel=0",
+          title: "L1  Introduction, Types of Flow",
+          highlights:
+            'Additional References: https://drive.google.com/file/d/1dpAZXpKDyJ_O2AZ086Wsksm8sBQ5vVVO/view?usp=sharing',
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/fc5ltTAqD_4?rel=0",
+          title: "L2  Mass and Momentum Conservation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/EmbQ9HDDHaY?rel=0",
+          title: "L3  Kinematic Transport Theorem, Continuity",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/GBeWSVH5WjE?rel=0",
+          title: "L4 2nd KTT, Euler's Equation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/qmN3af2wDvQ?rel=0",
+          title: "L5 Newtonian Fluids, Navier Stokes Theorem",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/iz04ZeffzqY?rel=0",
+          title: "L6 Boundary Conditions, Body Forces",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/whZBW18-sRA?rel=0",
+          title: "L7 Dimensional Analysis",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/YIaRAuGwtoo?rel=0",
+          title: "L8 Similarity Parameters",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/ZT0U6Kyq2o0?rel=0",
+          title: "L9 Ideal Fluid Flow",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/CNq1YVh2hh8?rel=0",
+          title: "L10  Circulation, Vorticity",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/bIj6Q1wKiYo?rel=0",
+          title: "L11 Vortex Structures, Bernoulli's Equation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/SDkZwUFGkU0?rel=0",
+          title: "L12 Vorticity Equation, Potential Flow",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/6FKr7R0UK0g?rel=0",
+          title: "L13 Stream Function",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/df5CGQjlmks?rel=0",
+          title: "L14 Summary of Potential Flows",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
