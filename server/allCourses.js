@@ -3155,6 +3155,91 @@ const newCourses = [
           title: "8 Transistors, Amplifiers and AC Circuits",
         },
       ],
+      sideContent: [
+          ],
+    },
+  },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-ed2130-kamesh.png",
+    category: "IIT Madras",
+    price: "Rs 49",
+    title: "ED2130 - Analog and Digital Electronics",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Kamesh",
+    mentorProfilePic: "/assets/img/trainers/iitm-kamesh.png",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/7kPKZkbH05U?rel=0",
+          title: "1 Zener Diode (Analog)",
+          highlights:
+            'To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1 Zener Diode (Analog)", 
+                    "2 Transistor 1 (Analog)", 
+                    "3 Transistor 2 (Analog)", 
+                    "4 Load Line Analysis (Analog)",
+                    "5 Operational Amplifier (Analog)",
+                    "6 Multivibrators (Analog)",
+                    "1 Flip Flops 1 (Digital)",
+                    "2 Flip Flops 2 (Digital)",
+                    "3 Registers (Digital)",
+                    "4 Counters (Digital)",
+                    "5 DAC & ADC (Digital)",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/7kPKZkbH05U?rel=0",
+          title: "1 Zener Diode (Analog)",
+          highlights:
+            'This course summary is given by Kamesh. Special thanks to Dr. Tuhin Subhra Santra sir (ED2130 Professor), IIT Madras.',
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/cbV0cE3U254?rel=0",
+          title: "2 Transistor 1 (Analog)",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/URYSWYDp9do?rel=0",
+          title: "3 Transistor 2 (Analog)",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/7Q1eK-KK4ec?rel=0",
+          title: "4 Load Line Analysis (Analog)",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/eatYXq3JXds?rel=0",
+          title: "5 Operational Amplifier (Analog)",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/7Ka3VhMa4V0?rel=0",
+          title: "6 Multivibrators (Analog)",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/e-onhKZ79eM?rel=0",
+          title: "1 Flip Flops 1 (Digital)",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/qIrNwENXFso?rel=0",
+          title: "2 Flip Flops 2 (Digital)",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/lYgPV9CRHQw?rel=0",
+          title: "3 Registers (Digital)",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/X0skFeMp_qs?rel=0",
+          title: "4 Counters (Digital)",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/h96emYfn_Ys?rel=0",
+          title: "5 DAC & ADC (Digital)",
+        },
+      ],
       sideContent: [],
     },
   },
