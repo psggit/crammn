@@ -3558,6 +3558,93 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-cs2700-aditya.png",
+    category: "IIT Madras",
+    price: "Rs 49",
+    title: "CS2700 - Programming and Data Structures",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Aditya",
+    mentorProfilePic: "/assets/img/trainers/iitm-aditya.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/Fza8j6Z-hsA?rel=0",
+          title: "1  Program Correctness",
+          highlights:
+            'This course is by Aditya, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1  Program Correctness", 
+                    "2  Program Complexity", 
+                    "3  List ADT", 
+                    "4  Stack ADT",
+                    "5  Queue ADT",
+                    "6  Binary Trees",
+                    "7  Binary Search Tree ADT",
+                    "8  Balanced BST AVL Trees",
+                    "9  Priority Queue ADT",
+                    "10  Sorting Algorithms",
+                    "11  Hash ADT",
+                    "12  Graphs",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/Fza8j6Z-hsA?rel=0",
+          title: "1  Program Correctness",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/bglIJs-eubk?rel=0",
+          title: "2  Program Complexity",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/VuSLXTuKn0k?rel=0",
+          title: "3  List ADT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/A-XTGCM-uVA?rel=0",
+          title: "4  Stack ADT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/9gYO4_u2pSE?rel=0",
+          title: "5  Queue ADT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/vQfznRmuejs?rel=0",
+          title: "6  Binary Trees",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/a0RjqdZdGQM?rel=0",
+          title: "7  Binary Search Tree ADT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/OIy8fsORMsE?rel=0",
+          title: "8  Balanced BST AVL Trees",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/s3dWrQxWdxE?rel=0",
+          title: "9  Priority Queue ADT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/eap0HQafoHY?rel=0",
+          title: "10  Sorting Algorithms",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/8mVysyud1Ho?rel=0",
+          title: "11  Hash ADT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/kYlaNyV7f58?rel=0",
+          title: "12  Graphs",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
