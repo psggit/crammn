@@ -3382,7 +3382,7 @@ const newCourses = [
     subscribedContent: {
       mainContent: [
         {
-          videoLink: "https://www.youtube.com/embed/52yobO3WKXk?rel=0",
+          videoLink: "https://www.youtube.com/embed/tzxsKxhqPKo?rel=0",
           title: "Lecture 1  Introduction",
           highlights:
             'Notes: https://drive.google.com/drive/folders/1E7qkdrALAdwgqOvndaLOpaY868_jqHmK?usp=sharing',
