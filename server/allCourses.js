@@ -3596,6 +3596,8 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/Fza8j6Z-hsA?rel=0",
           title: "1  Program Correctness",
+          highlights:
+            'Slides: https://drive.google.com/drive/folders/1QymbWX5jGLxQXOx0-zvthDskuByUychD?usp=sharing',
         },
         {
           videoLink: "https://www.youtube.com/embed/bglIJs-eubk?rel=0",
