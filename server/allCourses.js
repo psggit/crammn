@@ -3451,6 +3451,113 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-ee2015-ayush.png",
+    category: "IIT Madras",
+    price: "Rs 49",
+    title: "EE2015 - Electric Circuits and Networks",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Ayush",
+    mentorProfilePic: "/assets/img/trainers/iitm-ayush.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/wxxyN58grgo?rel=0",
+          title: "0  Overview",
+          highlights:
+            'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "0  Overview", 
+                    "1  Circuit elements", 
+                    "2  Nodal analysis", 
+                    "3  Loop analysis",
+                    "4  Circuit theorems   1",
+                    "5  Circuit theorems   2",
+                    "6  Two port networks   1",
+                    "7  Reciprocity in Two Ports",
+                    "8  Star   Delta networks",
+                    "9  First Order Systems",
+                    "10  Time varying I P to First Order Systems",
+                    "11  Second Order Systems",
+                    "12  Second Order systems   2",
+                    "13  Power Analysis",
+                    "14  Transformers",
+                    "15  Three Phase Systems",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/wxxyN58grgo?rel=0",
+          title: "0  Overview",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Dg2GlvRHZ5U?rel=0",
+          title: "1  Circuit elements",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/SUywGIgN9_4?rel=0",
+          title: "2  Nodal analysis",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/M4Y3v3lJmjc?rel=0",
+          title: "3  Loop analysis",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/T8MKDsan3D4?rel=0",
+          title: "4  Circuit theorems   1",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/oGxqoAzHlO4?rel=0",
+          title: "5  Circuit theorems   2",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/er2WRTRu4lk?rel=0",
+          title: "6  Two port networks   1",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/TLgyU5SxdRM?rel=0",
+          title: "7  Reciprocity in Two Ports",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/MSnJ-BVLm8o?rel=0",
+          title: "8  Star   Delta networks",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/TZk7yqDc-JI?rel=0",
+          title: "9  First Order Systems",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/HMOHGJ3o5ws?rel=0",
+          title: "10  Time varying I P to First Order Systems",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/vZLl3AxAM3c?rel=0",
+          title: "11  Second Order Systems",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/foWALtviB74?rel=0",
+          title: "12  Second Order systems   2",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/21PiqjIW4fo?rel=0",
+          title: "13  Power Analysis",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/PHY97caghNA?rel=0",
+          title: "14  Transformers",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/pBS0myMxuiw?rel=0",
+          title: "15  Three Phase Systems",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
