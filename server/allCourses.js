@@ -3342,6 +3342,115 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-ee2015-abhiram.png",
+    category: "IIT Madras",
+    price: "Rs 49",
+    title: "EE2015 - Electric Circuits and Networks",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Abhiram",
+    mentorProfilePic: "/assets/img/trainers/iitm-abhiram.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/tzxsKxhqPKo?rel=0",
+          title: "Lecture 1  Introduction",
+          highlights:
+            'This course is by Abhiram, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "Lecture 1  Introduction", 
+                    "Lecture 2  Linearity, KVL and KCL", 
+                    "Lecture 3  Nodal Analysis", 
+                    "Lecture 4  Mesh Analysis and MNA",
+                    "Lecture 4 1 optional  MNA Example",
+                    "Lecture 5  Circuit Theorems",
+                    "Lecture 6  Two-Port Networks 1",
+                    "Lecture 7  Two-Port Networks 2",
+                    "Lecture 8  Circuits with Memory Elements",
+                    "Lecture 9  Response to exponential, sinusoidal inputs",
+                    "Lecture 10  Phasors, Log Plots",
+                    "Lecture 11  Second-Order Systems",
+                    "Lecture 12  Different cases of damping in RLC",
+                    "Lecture 13  AC Circuit Power Analysis",
+                    "Lecture 14  Magnetically Coupled Circuits",
+                    "Lecture 15  Three Phase Systems, Bode Plots",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/52yobO3WKXk?rel=0",
+          title: "Lecture 1  Introduction",
+          highlights:
+            'Notes: https://drive.google.com/drive/folders/1E7qkdrALAdwgqOvndaLOpaY868_jqHmK?usp=sharing',
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/LM1TfM8_fIg?rel=0",
+          title: "Lecture 2  Linearity, KVL and KCL",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/QVGQhKD4oOE?rel=0",
+          title: "Lecture 3  Nodal Analysis",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/tKpOXx0BDiA?rel=0",
+          title: "Lecture 4  Mesh Analysis and MNA",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/-XShlPnLTJg?rel=0",
+          title: "Lecture 4 1 optional  MNA Example",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/lWNerpmBNtI?rel=0",
+          title: "Lecture 5  Circuit Theorems",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Nq373oQeQ2Q?rel=0",
+          title: "Lecture 6  Two-Port Networks 1",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/f8gdwjMebOM?rel=0",
+          title: "Lecture 7  Two-Port Networks 2",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/O2vn_ARB9uE?rel=0",
+          title: "Lecture 8  Circuits with Memory Elements",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/C6FfGtFttOI?rel=0",
+          title: "Lecture 9  Response to exponential, sinusoidal inputs",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/61j-X-sx6_A?rel=0",
+          title: "Lecture 10  Phasors, Log Plots",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/3Mi_r45RCsU?rel=0",
+          title: "Lecture 11  Second-Order Systems",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/TT460oOWZdI?rel=0",
+          title: "Lecture 12  Different cases of damping in RLC",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/vhasAU4THkc?rel=0",
+          title: "Lecture 13  AC Circuit Power Analysis",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/dJHIJGfrLRA?rel=0",
+          title: "Lecture 14  Magnetically Coupled Circuits",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/wmE2oIY9Ijg?rel=0",
+          title: "Lecture 15  Three Phase Systems, Bode Plots",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
