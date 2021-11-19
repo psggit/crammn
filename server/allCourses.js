@@ -3647,6 +3647,123 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-as3270-saandeep.png",
+    category: "IIT Madras",
+    price: "Rs 49",
+    title: "AS3270 - Propulsion",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Saandeep",
+    mentorProfilePic: "/assets/img/trainers/iitm-saandeep.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/B5W58YAhImw?rel=0",
+          title: "1 Intro Adiabatic Flame Temp",
+          highlights:
+            'This course is by Saandeep, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1 Intro Adiabatic Flame Temp", 
+                    "2 Equilibrium", 
+                    "3 Intro BLT", 
+                    "4 BL Eqns",
+                    "5 Momentum Integral Method",
+                    "6 Laminar BL",
+                    "7 Turbulent BL",
+                    "8 BL Heat Transfers",
+                    "9 Thrust Eqn",
+                    "10 Engine Performance Efficiencies",
+                    "11 Takeoff Thrust",
+                    "12 Aircraft Range",
+                    "13 Ideal Ramjet", 
+                    "14-1 Real Ramjet", 
+                    "14-2 Turbojet Intro", 
+                    "15 Turbojet Engine Analysis",
+                    "16 Turbofan",
+                    "17 Turboprop Turboshaft",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/B5W58YAhImw?rel=0",
+          title: "1 Intro Adiabatic Flame Temp",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/-qv-MOf9rRU?rel=0",
+          title: "2 Equilibrium",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/7KmMQn5y6Mo?rel=0",
+          title: "3 Intro BLT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/GtKwTJd90ao?rel=0",
+          title: "4 BL Eqns",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/3WBrz_Dr84w?rel=0",
+          title: "5 Momentum Integral Method",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/ton6MOorvEM?rel=0",
+          title: "6 Laminar BL",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Om_GyM1pdks?rel=0",
+          title: "7 Turbulent BL",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/AGnFa_IykO0?rel=0",
+          title: "8 BL Heat Transfer",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/qoldCwrPmEk?rel=0",
+          title: "9 Thrust Eqn",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/te_UJNWyvQs?rel=0",
+          title: "10 Engine Performance Efficiencies",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/2VNb-eYEj7Y?rel=0",
+          title: "11 Takeoff Thrust",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/skJxltOwm70?rel=0",
+          title: "12 Aircraft Range",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/OxyOoBzD8IM?rel=0",
+          title: "13 Ideal Ramjet",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/tPyBi5vZAZc?rel=0",
+          title: "14-1 Real Ramjet",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/xRNRCDoKIHA?rel=0",
+          title: "14-2 Turbojet Intro",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/orgfALGyhfs?rel=0",
+          title: "15 Turbojet Engine Analysis",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/s9c7PTtUILE?rel=0",
+          title: "16 Turbofan",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/W40dJfxLlSM?rel=0",
+          title: "17 Turboprop Turboshaft",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
