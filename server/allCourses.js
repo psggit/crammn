@@ -3764,6 +3764,109 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-ch2012-lakshyaprasad.png",
+    category: "IIT Madras",
+    price: "Rs 25",
+    title: "CH2012 - Continuum Mechanics and Transport Phenomena",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Lakshyaprasad",
+    mentorProfilePic: "/assets/img/trainers/iitm-lakshyaprasad.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/eGNrdwEqc1Y?rel=0",
+          title: "1 Continuum Hypothesis, Flow Descriptions, Substantial Derivative",
+          highlights:
+            'This course is by Lakshyaprasad, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 25/-.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1 Continuum Hypothesis, Flow Descriptions, Substantial Derivative", 
+                    "2 Visualization of Flow Patterns", 
+                    "3 System & CV, RTT", 
+                    "4 Mass Balance",
+                    "5 Momentum Balance, Stress Vector, Tensor",
+                    "6 Total Stress TensorL",
+                    "7 Convective momentum flux, Material viewpoint, DOF, Strain",
+                    "8 Newton's Law of Viscosity",
+                    "9 Navier stokes, Bernoulli equations, Flow regimes",
+                    "10 Couette, Poiseuille flows, MomT",
+                    "11 Energy Balance",
+                    "12 Fourier's Law of heat conduction",
+                    "13 Fick's Law of diffusion", 
+                    "14 Integral Species mass balance", 
+                    "14-2 Turbojet Intro", 
+                    "15 Differential species mass balance",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/eGNrdwEqc1Y?rel=0",
+          title: "1 Continuum Hypothesis, Flow Descriptions, Substantial Derivative",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/E5QPvXyUQqA?rel=0",
+          title: "2 Visualization of Flow Patterns",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/dLiodPWWkW8?rel=0",
+          title: "3 System & CV, RTT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/Y4DF4GjteUs?rel=0",
+          title: "4 Mass Balance",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/XQWwzQDydVA?rel=0",
+          title: "5 Momentum Balance, Stress Vector, Tensor",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/aNq09rYWScs?rel=0",
+          title: "6 Total Stress Tensor",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/kfm8jFIEIFQ?rel=0",
+          title: "7 Convective momentum flux, Material viewpoint, DOF, Strain",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/FFlNVYKiZtg?rel=0",
+          title: "8 Newton's Law of Viscosity",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/GPGxd1voaHQ?rel=0",
+          title: "9 Navier stokes, Bernoulli equations, Flow regimes",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/9Dpwq-bpk3M?rel=0",
+          title: "10 Couette, Poiseuille flows, MomT",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/0sEpm7QuAQs?rel=0",
+          title: "11 Energy Balance",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/PBRUCmzVM3A?rel=0",
+          title: "12 Fourier's Law of heat conduction",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/G2W-ialMdPQ?rel=0",
+          title: "13 Fick's Law of diffusion",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/qVBR5ixVYCE?rel=0",
+          title: "14 Integral Species mass balance",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/m2L3ACbko-g?rel=0",
+          title: "15 Differential species mass balance",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
