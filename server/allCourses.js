@@ -3867,6 +3867,88 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-ce2310-ayush.png",
+    category: "IIT Madras",
+    price: "Rs 25",
+    title: "CE2310 - Mechanics of Materials",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Ayush",
+    mentorProfilePic: "/assets/img/trainers/iitm-ayushkumar.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/LNUhDDT6HS4?rel=0",
+          title: "1 Stress and Strain Mechanical Properties of Materials",
+          highlights:
+            'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 25/-.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1 Stress and Strain Mechanical Properties of Materials", 
+                    "2 Axial Deformation", 
+                    "3 Bending Deformation", 
+                    "4 Bending Part2 and Shear Deformation",
+                    "5 Torsional Deformation",
+                    "6 Estimation of Deflection",
+                    "7 Buckling",
+                    "8 Stress Transformation",
+                    "9 Strain Transformation",
+                    "10 Pressure Vessels and Yield and Failure Theories",
+                    "11 Acknowledgment",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/LNUhDDT6HS4?rel=0",
+          title: "1 Stress and Strain Mechanical Properties of Materials",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/t7dD9QsWqRs?rel=0",
+          title: "2 Axial Deformation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/m3sNinjHv2w?rel=0",
+          title: "3 Bending Deformation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/xmlHWOq5q4g?rel=0",
+          title: "4 Bending Part2 and Shear Deformation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/pMlMRJslNOo?rel=0",
+          title: "5 Torsional Deformation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/i8nHB6PSZP8?rel=0",
+          title: "6 Estimation of Deflection",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/NEsdsp1Q0HY?rel=0",
+          title: "7 Buckling",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/0YrpF0Bo5rk?rel=0",
+          title: "8 Stress Transformation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/YXILcmpM9hM?rel=0",
+          title: "9 Strain Transformation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/fG1E9nfpEVY?rel=0",
+          title: "10 Pressure Vessels and Yield and Failure Theories",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/_2RRxWbZwoM?rel=0",
+          title: "11 Acknowledgment",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
