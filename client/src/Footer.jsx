@@ -9,6 +9,9 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 footer-contact">
               <h3>Crammn</h3>
               <p>
+                CollectiveBloom Technologies Pvt Ltd <br />
+                IndiQube Orion <br />
+                24th Main Road <br />
                 HSR Layout <br />
                 Bangalore, Karnataka - 560102
                 <br />
@@ -16,7 +19,7 @@ const Footer = () => {
                 <br />
                 <strong>WhatsApp:</strong> +91 9524227932
                 <br />
-                <strong>Email:</strong> cyano.prem@gmail.com
+                <strong>Email:</strong> office@crammn.com
                 <br />
               </p>
             </div>
@@ -80,19 +83,16 @@ const Footer = () => {
                 </div>
               </div>
               <div className="social-links text-center text-md-right pt-3 pt-md-0">
-                <a href="#" className="twitter">
+                <a href="https://twitter.com/crammn_learning" className="twitter">
                   <i className="bx bxl-twitter"></i>
                 </a>
-                <a href="#" className="facebook">
+                <a href="https://www.facebook.com/Crammn/" className="facebook">
                   <i className="bx bxl-facebook"></i>
                 </a>
-                <a href="#" className="instagram">
+                <a href="https://www.instagram.com/crammn_learning/" className="instagram">
                   <i className="bx bxl-instagram"></i>
                 </a>
-                <a href="#" className="google-plus">
-                  <i className="bx bxl-skype"></i>
-                </a>
-                <a href="#" className="linkedin">
+                <a href="https://www.linkedin.com/company/crammn" className="linkedin">
                   <i className="bx bxl-linkedin"></i>
                 </a>
               </div>
