@@ -3973,6 +3973,103 @@ const newCourses = [
       sideContent: [],
     },
   },
+  {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitm-hs3002c-lakshitha.png",
+    category: "IIT Madras",
+    price: "Rs 25",
+    title: "HS3002C - Principles of Economics",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Lakshitha",
+    mentorProfilePic: "/assets/img/trainers/iitm-lakshitha.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/4MMjP8z6g-M?rel=0",
+          title: "1 Ten Principles of Economics",
+          highlights:
+            'This course is by Lakshitha, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 25/-.',
+        },
+      ],
+      sideContent: ["Contents of the course", 
+                    "1 Ten Principles of Economics", 
+                    "2 Interdependence and gains from trade", 
+                    "3 The market forces of Supply and Demand", 
+                    "4 Elasticity and Its applications",
+                    "5 Supply, Demand and Government policies",
+                    "6 Consumers, Producers and the efficiency of markets",
+                    "7 Costs of Taxation",
+                    "8 Costs of Production",
+                    "9 Firms in Competitive Market",
+                    "10 Monopoly",
+                    "11 Monopolistic Competition",
+                    "12 Oligopoly",
+                    "13 Measuring a Nation's Income",
+                    "14 Measuring CPI and The Monetary System",
+          ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/4MMjP8z6g-M?rel=0",
+          title: "1 Ten Principles of Economics",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/-l4Rq1yePzY?rel=0",
+          title: "2 Interdependence and gains from trade",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/tdJRq05pJ8A?rel=0",
+          title: "3 The market forces of Supply and Demand",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/gtnjFvJj0DA?rel=0",
+          title: "4 Elasticity and Its applications",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/vqyEGi_QTwQ?rel=0",
+          title: "5 Supply, Demand and Government policies",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/PxjLUU0WmKU?rel=0",
+          title: "6 Consumers, Producers and the efficiency of markets",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/7KGNGkD_MsA?rel=0",
+          title: "7 Costs of Taxation",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/QjBoOHpodl8?rel=0",
+          title: "8 Costs of Production",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/k8lpxYfTHOE?rel=0",
+          title: "9 Firms in Competitive Market",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/5sKToGM6joM?rel=0",
+          title: "10 Monopoly",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/4bla4L65G50?rel=0",
+          title: "11 Monopolistic Competition",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/b6tqYBHkJR0?rel=0",
+          title: "12 Oligopoly",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/6qS-auiRtrM?rel=0",
+          title: "13 Measuring a Nation's Income",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/hYedPtOe464?rel=0",
+          title: "14 Measuring CPI and The Monetary System",
+        },
+      ],
+      sideContent: [],
+    },
+  },
 ]
 
 export default [...allCourses, ...newCourses]
