@@ -13,11 +13,16 @@ let allCourses = [
         {
           videoLink: "https://www.youtube.com/embed/qp2CDZP27vE?rel=0",
           title: "Video 1 Introduction and Mathematical Preliminaries",
-          highlights:
-            'This course summary is given by Ammar, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Ammar, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
         },
       ],
-      sideContent: ["Contents of the course", "Video 1 Introduction and Mathematical Preliminaries", "Video 2 Tensors and Their Operations", "Video 3 Deformations and Strain Tensor", "Video 4 Maximum and Minimum Strain and Strain Compatibility"],
+      sideContent: [
+        "Contents of the course",
+        "Video 1 Introduction and Mathematical Preliminaries",
+        "Video 2 Tensors and Their Operations",
+        "Video 3 Deformations and Strain Tensor",
+        "Video 4 Maximum and Minimum Strain and Strain Compatibility",
+      ],
     },
     subscribedContent: {
       mainContent: [

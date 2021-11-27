@@ -23,7 +23,7 @@ const SignIn = () => {
     <main data-testid="main">
       <div className="breadcrumbs" data-aos="fade-in">
         <div className="container">
-          <h2>Sign in</h2>
+          <h2>Sign in Crammn!</h2>
           <p>Use supported social logins</p>
         </div>
       </div>
