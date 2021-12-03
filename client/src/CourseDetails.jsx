@@ -5,7 +5,6 @@ export default function CourseDetails(props) {
   const [data, setData] = React.useState(null)
 
   React.useEffect(() => {
-    console.log(`/api/course/details?id=${props.courseId}`)
     fetch(`/api/course/details?id=${props.courseId}`)
       .then((res) => res.json())
       .then((data) => setData(data))
@@ -63,10 +62,16 @@ export default function CourseDetails(props) {
     </div>
   )
 
+  const saveSelectedCourseId = (id) => {
+    localStorage.setItem("selectedCourseId", id)
+  }
+
   const getCompleteCourse = () => {
     if (data.auth) {
       return null
     }
+
+    saveSelectedCourseId(props.courseId)
 
     return (
       <div>
