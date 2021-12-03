@@ -3,11 +3,21 @@ import lodash from "lodash"
 
 const { Pool } = pg
 
+// export const pool = new Pool({
+//   user: "dbmasteruser",
+//   host: "ls-571f439c3e265a8ce517086d9e931a5fc3a9a518.c8isgvlubvrj.ap-south-1.rds.amazonaws.com",
+//   database: "postgres",
+//   password: "(E>}Fr&Ovb~kVBUsM7fIs*^s9.tV|=Ev",
+//   port: 5432,
+// })
+
+const NODE_ENV = process.env.NODE_ENV || "dev"
+
 export const pool = new Pool({
-  user: "dbmasteruser",
-  host: "ls-571f439c3e265a8ce517086d9e931a5fc3a9a518.c8isgvlubvrj.ap-south-1.rds.amazonaws.com",
+  user: NODE_ENV === "dev" ? "postgres" : "dbmasteruser",
+  host: NODE_ENV === "dev" ? "cramm-dev.ckkkxicgnwqj.ap-south-1.rds.amazonaws.com" : "ls-571f439c3e265a8ce517086d9e931a5fc3a9a518.c8isgvlubvrj.ap-south-1.rds.amazonaws.com",
   database: "postgres",
-  password: "(E>}Fr&Ovb~kVBUsM7fIs*^s9.tV|=Ev",
+  password: NODE_ENV === "dev" ? "dGZcJwssVhzEU8dygtvA" : "(E>}Fr&Ovb~kVBUsM7fIs*^s9.tV|=Ev",
   port: 5432,
 })
 
