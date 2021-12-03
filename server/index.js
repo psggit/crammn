@@ -16,6 +16,7 @@ import * as db from "./db.js"
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
+const { NODE_ENV } = process.env
 const PORT = process.env.port || 3001
 const app = express()
 const pgSessionConfigured = pgSession(expressSession)
@@ -134,7 +135,7 @@ app.post("/auth/google/callback", async (req, res) => {
 })
 
 app.use("*", function (req, res) {
-  res.render("index.html")
+  res.render("index.html", { NODE_ENV })
 })
 
 app.listen(PORT, async () => {

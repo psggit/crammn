@@ -2,6 +2,10 @@ import React from "react"
 import { ErrorMessage, Field, Form, Formik } from "formik"
 import { navigate } from "@reach/router"
 
+const getSavedItem = (key) => {
+  return localStorage.getItem(key)
+}
+
 const UserSignUp = () => {
   const [formData, setFormData] = React.useState(null)
   React.useEffect(() => {
@@ -11,7 +15,11 @@ const UserSignUp = () => {
       .then((res) => res.json())
       .then((data) => {
         if (data.profileUpdated) {
-          return navigate(`/courses`)
+          if (getSavedItem("selectedCourseId")) {
+            return navigate(`/courses/details/${getSavedItem("selectedCourseId")}`)
+          } else {
+            return navigate("/courses")
+          }
         }
         return data
       })
