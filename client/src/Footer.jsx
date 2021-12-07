@@ -28,19 +28,17 @@ const Footer = () => {
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
+                  <i className="bx bx-chevron-right"></i> <a href="https://crammn.com/">Home</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">About us</a>
+                  <i className="bx bx-chevron-right"></i> <a href="https://crammn.com/courses">Courses</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">Services</a>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="https://crammn.notion.site/Frequenlty-Asked-Questions_Mentor-Internship-304a173344214931856f4ad569d9c263">FAQs - For Mentors</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">Privacy policy</a>
+                  <i className="bx bx-chevron-right"></i> <a href="https://forms.gle/7uHkqid9KGBJK1N19">Become a Mentor!</a>
                 </li>
               </ul>
             </div>
@@ -49,16 +47,13 @@ const Footer = () => {
               <h4>Colleges</h4>
               <ul>
                 <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">IIT-Bombay</a>
+                  <i className="bx bx-chevron-right"></i> <a href="https://crammn.com/courses">IIT-Bombay</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">IIT-Madras</a>
+                  <i className="bx bx-chevron-right"></i> <a href="https://crammn.com/courses">IIT-Madras</a>
                 </li>
                 <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">IIT-Kharagpur</a>
-                </li>
-                <li>
-                  <i className="bx bx-chevron-right"></i> <a href="#">More coming soon</a>
+                  <i className="bx bx-chevron-right"></i> <a href="https://crammn.com/courses">IIT-Kharagpur</a>
                 </li>
               </ul>
             </div>
@@ -66,11 +61,10 @@ const Footer = () => {
             <div className="container d-md-flex py-4">
               <div className="me-md-auto text-center text-md-start">
                 <div className="copyright">
-                  &copy; Copyright{" "}
+                  &copy;{" "}
                   <strong>
-                    <span>Crammn</span>
+                    <span>CollectiveBloom Technologies Pvt Ltd</span>
                   </strong>
-                  . All Rights Reserved
                 </div>
                 <div className="credits">
                   {/**
