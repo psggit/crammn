@@ -1138,7 +1138,7 @@ let allCourses = [
     title: "Rolling Motion in Hindi",
     information: "Rolling Motion is a Combination of Translational and Rotational Motion.",
     mentorName: "Shruti",
-    mentorProfilePic: "/img/trainers/Shruti.jpg",
+    mentorProfilePic: "/assets/img/trainers/Shruti.jpg",
     unsubscribedContent: {
       mainContent: [
         {
@@ -3986,9 +3986,9 @@ const newCourses = [
   {
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/zhcet-ppe-hamza.png",
-    category: "Zakir Husain College Of Engineering & Technology",
+    category: "Z.H.C.E.T",
     price: "Rs 199",
-    title: "Thermal Power Plant Engineering",
+    title: "Power Plant Engineering",
     information: "To get the full course, WhatsApp us @ 9524227932.",
     mentorName: "Hamza",
     mentorProfilePic: "/assets/img/trainers/zhcet-hamza.JPG",
