@@ -71,12 +71,19 @@ export default function Courses() {
       id: "sastrauniversity",
     },
     {
-      title: "Z.H.C.E.T Courses",
-      category: "Zakir Husain College Of Engineering & Technology",
+      title: "IIT Bombay Courses",
+      category: "IIT Bombay",
+      id: "iitBombay",
+      category: "Z.H.C.E.T",
       id: "zahirHusain",
     },
     {
-      title: "JEE Main & Advanced",
+      title: "IIT Madras Courses",
+      category: "IIT Madras",
+      id: "iitMadras",
+    },
+    {
+      title: "JEE Concept",
       category: "IIT JEE",
       id: "iitJeeConcepts",
     },
