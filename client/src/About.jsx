@@ -28,10 +28,10 @@ const About = () => (
                 <i className="bi bi-check-circle"></i>Get to know about the course details and mentor.
               </li>
               <li>
-                <i className="bi bi-check-circle"></i>Enroll the course for free.
+                <i className="bi bi-check-circle"></i>Enroll the course for Rs 499/-.
               </li>
             </ul>
-            <p>It is that simple and completely free.</p>
+            <p>It is that simple.</p>
           </div>
         </div>
       </div>
