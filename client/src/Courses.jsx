@@ -41,16 +41,6 @@ export default function Courses() {
 
   const sectionsList = [
     {
-      title: "IIT Madras Courses",
-      category: "IIT Madras",
-      id: "iitMadras",
-    },
-    {
-      title: "IIT Bombay Courses",
-      category: "IIT Bombay",
-      id: "iitBombay",
-    },
-    {
       title: "IIT Kharagpur Courses",
       category: "IIT Kharagpur",
       id: "iitkharagpur",
@@ -71,12 +61,17 @@ export default function Courses() {
       id: "sastrauniversity",
     },
     {
-      title: "Z.H.C.E.T Courses",
-      category: "Zakir Husain College Of Engineering & Technology",
-      id: "zahirHusain",
+      title: "IIT Bombay Courses",
+      category: "IIT Bombay",
+      id: "iitBombay",
     },
     {
-      title: "JEE Main & Advanced",
+      title: "IIT Madras Courses",
+      category: "IIT Madras",
+      id: "iitMadras",
+    },
+    {
+      title: "JEE Concept",
       category: "IIT JEE",
       id: "iitJeeConcepts",
     },

@@ -20,10 +20,10 @@ const Home = () => (
                 <i className="bi bi-check-circle"></i> Get to know about the course details and mentor.
               </li>
               <li>
-                <i className="bi bi-check-circle"></i> Enroll the course for Rs 499/-.
+                <i className="bi bi-check-circle"></i> Enroll the course for free.
               </li>
             </ul>
-            <p>It is as simple as that.</p>
+            <p>It is as simple as that and completely free.</p>
           </div>
         </div>
       </div>
