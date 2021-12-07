@@ -71,7 +71,7 @@ export default function Courses() {
       id: "iitMadras",
     },
     {
-      title: "JEE Concepts",
+      title: "JEE Concept",
       category: "IIT JEE",
       id: "iitJeeConcepts",
     },
