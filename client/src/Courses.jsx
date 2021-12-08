@@ -66,12 +66,17 @@ export default function Courses() {
       id: "iitBombay",
     },
     {
+      title: "Z.H.C.E.T Courses",
+      category: "Z.H.C.E.T",
+      id: "zahirHusain",
+    },
+    {
       title: "IIT Madras Courses",
       category: "IIT Madras",
       id: "iitMadras",
     },
     {
-      title: "JEE Mains & Advanced",
+      title: "JEE Concept",
       category: "IIT JEE",
       id: "iitJeeConcepts",
     },
