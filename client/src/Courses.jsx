@@ -80,7 +80,7 @@ export default function Courses() {
       id: "zahirHusain",
     },
     {
-      title: "JEE Main & Advanced",
+      title: "JEE Mains & Advanced",
       category: "IIT JEE",
       id: "iitJeeConcepts",
     },
