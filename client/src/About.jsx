@@ -12,31 +12,6 @@ const About = () => (
       </div>
     </div>
 
-    <section id="about" className="about">
-      <div className="container" data-aos="fade-up">
-        <div className="row">
-          <div className="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="/assets/img/about.png" className="img-fluid" alt="" />
-          </div>
-          <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Learn faster and explore the world out there.</h3>
-            <ul>
-              <li>
-                <i className="bi bi-check-circle"></i>Find the course.
-              </li>
-              <li>
-                <i className="bi bi-check-circle"></i>Get to know about the course details and mentor.
-              </li>
-              <li>
-                <i className="bi bi-check-circle"></i>Enroll the course for ₹ 499/-.
-              </li>
-            </ul>
-            <p>Accelerate your learning!</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section id="trainers" className="trainers">
       <div className="container" data-aos="fade-up">
         <h2>Team</h2>
