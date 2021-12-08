@@ -3,7 +3,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ae227-ammar.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "AE 227 - Solid Mechanics",
     information: "Learn all the important concepts of this course",
     mentorName: "Ammar",
@@ -13,7 +13,7 @@ let allCourses = [
         {
           videoLink: "https://www.youtube.com/embed/qp2CDZP27vE?rel=0",
           title: "Video 1 Introduction and Mathematical Preliminaries",
-          highlights: 'This course summary is given by Ammar, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Ammar, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -83,7 +83,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-cs152-jaswanth.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "CS 152 - Inorganic Chemistry",
     information: "Learn all the important concepts of this course",
     mentorName: "Jaswanth",
@@ -94,7 +94,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/Zl65UIQv7co?rel=0",
           title: "Introduction",
           highlights:
-            'This course summary is given by Jaswanth. Orginally taught by Professor Rushikesh Joshi, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Jaswanth. Orginally taught by Professor Rushikesh Joshi, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: ["Contents of the course", "Introduction", "Complete CS 152 Course Summary"],
@@ -117,7 +117,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ch104-hanan.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "CH 104 - Inorganic Chemistry",
     information: "Learn all the important concepts of this course",
     mentorName: "Hanan",
@@ -128,7 +128,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/s1ncjGcgUbc?rel=0",
           title: "Lecture 3",
           highlights:
-            'This course summary is given by Hanan. Orginally taught by Professor M.S. Balakrishna, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Hanan. Orginally taught by Professor M.S. Balakrishna, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: ["Contents of the course", "Lecture 3", "Lecture 4", "Lecture 5", "Lecture 6", "Lecture 7, 8, 9", "Lecture 10, 11"],
@@ -167,7 +167,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-bb101-hanan.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "BB 101 - Basic Biology for Engineers",
     information: "Learn all the important concepts of this course",
     mentorName: "Hanan",
@@ -178,7 +178,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
           title: "Physical Biology",
           highlights:
-            'This course summary is given by Hanan. Orginally taught by Professors Ambarish Kunwar & Neeta Kanekar, IIT Bombay. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Hanan. Orginally taught by Professors Ambarish Kunwar & Neeta Kanekar, IIT Bombay. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -225,7 +225,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-hs101-keerthana.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "HS 101 - Economics",
     information: "Learn all the important concepts of this course",
     mentorName: "Keerthana",
@@ -236,7 +236,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/k_PNGc-q8Tg?rel=0",
           title: "1 National Income Accounting",
           highlights:
-            'This course summary is given by Keerthana. Orginally taught by Professors Souvik Banerjee &amp; Subrato Banerjee, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Keerthana. Orginally taught by Professors Souvik Banerjee &amp; Subrato Banerjee, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -303,7 +303,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ma108-preethi.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "MA 108 - Differential Equations",
     information: "Learn all the important concepts of this course",
     mentorName: "Preethi",
@@ -314,7 +314,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/_hZoVUyBAHo?rel=0",
           title: "1) Introduction",
           highlights:
-            'This course summary is given by Preethi. Orginally taught by Professor U. K. Anandavardhan, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Preethi. Orginally taught by Professor U. K. Anandavardhan, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -381,7 +381,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ee114-mayank-jain.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "EE114 - Power Engineering",
     information: "Learn all the important concepts of this course",
     mentorName: "Mayank",
@@ -392,7 +392,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/fcH0klMXUJI?rel=0",
           title: "1) Single Phase AC circuits",
           highlights:
-            'This course summary is given by Mayank Jain. Orginally taught by Professors Himanshu Bahirat and Shreevardhan A. Soman, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."It\'s Free.',
+            'This course summary is given by Mayank Jain. Orginally taught by Professors Himanshu Bahirat and Shreevardhan A. Soman, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -439,7 +439,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-cl152-om.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "CL152 - Introduction to Chemical Engineering",
     information: "Learn all the important concepts of this course",
     mentorName: "Om Mihani",
@@ -450,7 +450,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/G7rgwc7aoxo?rel=0",
           title: "Overview",
           highlights:
-            'This course summary is given by Om Mihani. Orginally taught by Professor Sanjay Mahajani, IIT Bombay. This is the course guide video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Om Mihani. Orginally taught by Professor Sanjay Mahajani, IIT Bombay. This is the course guide video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -501,7 +501,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-me119-hanan.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "ME 119 - Engineering Graphics & Drawing",
     information: "Learn all the important concepts of this course within an hour",
     mentorName: "Hanan",
@@ -512,7 +512,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/ZfNZeAJpSmc?rel=0",
           title: "1) Projection of Points &amp; Lines",
           highlights:
-            'Course summary is given by Hanan. This course was jointly taught by Professors Dhanesh N. Manik, Amol A. Gokhale, Sridhar Balasubramanian, Atul Sharma of IIT Bombay.  This is the first course video. To get thefull course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'Course summary is given by Hanan. This course was jointly taught by Professors Dhanesh N. Manik, Amol A. Gokhale, Sridhar Balasubramanian, Atul Sharma of IIT Bombay.  This is the first course video. To get thefull course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -569,7 +569,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-me119-mayank.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "ME 119 - Engineering Graphics & Drawing",
     information: "Learn all the important concepts of this course within an hour",
     mentorName: "Mayank",
@@ -580,7 +580,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/dhJGRZgKEkQ?rel=0",
           title: "1) Projection of Solids - Part 1",
           highlights:
-            'Course summary is given by Mayank. This course was jointly taught by Professors Dhanesh N. Manik, Amol A. Gokhale, Sridhar Balasubramanian, Atul Sharma of IIT Bombay.  This is the first course video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'Course summary is given by Mayank. This course was jointly taught by Professors Dhanesh N. Manik, Amol A. Gokhale, Sridhar Balasubramanian, Atul Sharma of IIT Bombay.  This is the first course video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -617,7 +617,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ph108-jacob.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "PH 108 - Basics of Electricity and Magnetism",
     information: "Learn all the important concepts of this course within an hour",
     mentorName: "Jacob Thomas Sony",
@@ -628,7 +628,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/o442qkksHjM?rel=0",
           title: "Overview",
           highlights:
-            'This course summary is given by Jacob. Orginally taught by Professor Raghunath Chelakkot, IIT Bombay.  This is the course overview video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Jacob. Orginally taught by Professor Raghunath Chelakkot, IIT Bombay.  This is the course overview video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -694,7 +694,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-ee1101-harish.png",
     category: "IIT Madras",
-    price: "Free",
+    price: "₹199 /-",
     title: "EE 1101 - Signals and Systems",
     information: "Learn all the important concepts of this course",
     mentorName: "Harish",
@@ -705,7 +705,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/MxniD9zL4SE?rel=0",
           title: "Intro",
           highlights:
-            'This course summary is given by Harish. Orginally taught by Professors Gaurav Raina, Shanti Bhattacharya, Umesh, Venkatesh Ramaiyan, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Harish. Orginally taught by Professors Gaurav Raina, Shanti Bhattacharya, Umesh, Venkatesh Ramaiyan, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [],
@@ -745,7 +745,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-ee2001-harish.png",
     category: "IIT Madras",
-    price: "Free",
+    price: "₹199 /-",
     title: "EE 2001 - Digital Systems",
     information: "Learn all the important concepts of this course",
     mentorName: "Harish",
@@ -756,7 +756,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/TRgT19eJGDM?rel=0",
           title: "0 Overview",
           highlights:
-            'This course summary is given by Harish. Orginally taught by Professors Ananth Krishnan and T.G. Venkatesh, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Harish. Orginally taught by Professors Ananth Krishnan and T.G. Venkatesh, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -813,7 +813,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-cs1111-viraj.png",
     category: "IIT Madras",
-    price: "Free",
+    price: "₹199 /-",
     title: "CS 1111 - Problem Solving using Computers",
     information: "Learn all the important concepts of this course",
     mentorName: "Viraj",
@@ -824,7 +824,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/X1h3ON3Liz4?rel=0",
           title: "Block, Scope and Global Variables &amp; Functions",
           highlights:
-            'This course summary is given by Viraj. Orginally taught by Professor Jayalal Sarma, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Viraj. Orginally taught by Professor Jayalal Sarma, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: ["Contents of the course", "Block, Scope and Global Variables &amp; Functions", "Pointers &amp; Dynamic Memory Allocation", "Structures"],
@@ -852,7 +852,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-cy1001-allu.png",
     category: "IIT Madras",
-    price: "Free",
+    price: "₹199 /-",
     title: "CY 1001 - Chemistry: Structure, Bonding & Reactivity",
     information: "Learn all the important concepts of this course",
     mentorName: "Allu Ramoji",
@@ -904,7 +904,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-me1100-tarun.png",
     category: "IIT Madras",
-    price: "Free",
+    price: "₹199 /-",
     title: "ME 1100 - Thermodynamics",
     information: "Learn all the important concepts of this course",
     mentorName: "Tarun",
@@ -915,7 +915,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/4SwNnptiFiM?rel=0",
           title: "Quiz 3 Introduction",
           highlights:
-            'This course summary is given by Tarun. Orginally taught by Professor K Srinivasan, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Tarun. Orginally taught by Professor K Srinivasan, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: ["Contents of the course", "Quiz 3 Introduction", "Quiz 3 Ideal Gas", "Quiz 3 Second Law of Thermodynamics", "Quiz 4 Entropy &amp; Thermodynamic Cycles"],
@@ -958,7 +958,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-cs1100-arvind.png",
     category: "IIT Madras",
-    price: "Free",
+    price: "₹199 /-",
     title: "CS 1100 - Introduction to Programming",
     information: "Learn all the important concepts of this course",
     mentorName: "Arvind",
@@ -969,7 +969,7 @@ let allCourses = [
           videoLink: "https://www.youtube.com/embed/bZwrGaYTr_Q?rel=0",
           title: "1 Static Variable",
           highlights:
-            'This course summary is given by Arvind. Orginally taught by Professor Meghana Nasre, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Arvind. Orginally taught by Professor Meghana Nasre, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: ["Contents of the course", "1 Static Variable", "2 Recursion", "3 Pointers", "4 Structures", "5 File Handling"],
@@ -1004,7 +1004,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/thumbnail.png",
     category: "IIT Madras",
-    price: "Free",
+    price: "₹199 /-",
     title: "Placement Fundaes",
     information: "What Freshies should know about Placements?",
     mentorName: "Shruti",
@@ -1014,7 +1014,7 @@ let allCourses = [
         {
           videoLink: "https://www.youtube.com/embed/JZnOY_wN4Wc?rel=0",
           title:
-            'Not being on campus does not mean you miss out on the placement fundaes.\n\nThis it the course overview video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'Not being on campus does not mean you miss out on the placement fundaes.\n\nThis it the course overview video. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "1) Introduction & Course Structure",
         },
       ],
@@ -1104,7 +1104,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/Rolling Motion.jpg",
     category: "IIT JEE",
-    price: "Free",
+    price: "₹199 /-",
     title: "Rolling Motion",
     information: "Rolling Motion is a Combination of Translational and Rotational Motion.",
     mentorName: "Cyano",
@@ -1134,7 +1134,7 @@ let allCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/Rolling Motion-Hindi.jpg",
     category: "IIT JEE",
-    price: "Free",
+    price: "₹199 /-",
     title: "Rolling Motion in Hindi",
     information: "Rolling Motion is a Combination of Translational and Rotational Motion.",
     mentorName: "Shruti",
@@ -1167,7 +1167,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-gg31004-as.png",
     category: "IIT Kharagpur",
-    price: "Free",
+    price: "₹199 /-",
     title: "GG31004 - Sedimentology",
     information: "Learn all the important concepts of this course",
     mentorName: "IIT Kharagpur Student",
@@ -1177,7 +1177,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/0XnMBzqVSsQ?rel=0",
           title:
-            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor M.K. Bera, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor M.K. Bera, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "S1 Sedimentary Introduction",
         },
       ],
@@ -1249,7 +1249,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-me11003-vinay.png",
     category: "IIT Kharagpur",
-    price: "Free",
+    price: "₹199 /-",
     title: "ME 11003 - Basic Engineering Mechanics",
     information: "Learn all the important concepts of this course",
     mentorName: "Vinay",
@@ -1259,7 +1259,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/JcfkkZ9vM5g?rel=0",
           title:
-            'This course summary is given by Vinay. Orginally taught by Professor Arun Kumar Samantaray, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Vinay. Orginally taught by Professor Arun Kumar Samantaray, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "BEM Topic 5 Friction",
         },
       ],
@@ -1285,7 +1285,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-cy11003-r.png",
     category: "IIT Kharagpur",
-    price: "Free",
+    price: "₹199 /-",
     title: "CY 11003 - Organic Chemistry",
     information: "Learn all the important concepts of this course",
     mentorName: "IIT Kharagpur Student",
@@ -1294,7 +1294,7 @@ const newCourses = [
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/RIKQahtiZcE?rel=0",
-          title: 'Orginally taught by Professor N D Pradeep, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          title: 'Orginally taught by Professor N D Pradeep, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "ORGANIC CHEMISTRY PART 1",
         },
       ],
@@ -1330,7 +1330,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-cs10003-agnibha.png",
     category: "IIT Kharagpur",
-    price: "Free",
+    price: "₹199 /-",
     title: "CS 10003 - Programming and Data Structures",
     information: "Learn all the important concepts of this course",
     mentorName: "Agnibha",
@@ -1340,7 +1340,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/EtoZMkbQOs8?rel=0",
           title:
-            'This course summary is given by Agnibha. Orginally taught by Professor Aritra Hazra, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Agnibha. Orginally taught by Professor Aritra Hazra, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "PDS Video 1 Introduction",
         },
       ],
@@ -1411,7 +1411,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-ma11004-gourav.png",
     category: "IIT Kharagpur",
-    price: "Free",
+    price: "₹199 /-",
     title: "MA 11004 - Linear Algebra, Numerical and Complex Analysis",
     information: "Learn all the important concepts of this course",
     mentorName: "Gourav",
@@ -1422,10 +1422,10 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/NHWC0-B3MN8?rel=0",
           title: "numerical analysis 1",
           highlights:
-            'This course summary is given by Gourav. Orginally taught by Professor J Kumar, IIT Kharagpur.Toget the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Gourav. Orginally taught by Professor J Kumar, IIT Kharagpur.Toget the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "numerical analysis 1",
           highlights:
-            'This course summary is given by Gourav. Orginally taught by Professor J Kumar, IIT Kharagpur.Toget the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Gourav. Orginally taught by Professor J Kumar, IIT Kharagpur.Toget the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [],
@@ -1505,7 +1505,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-hs13003-er.png",
     category: "IIT Kharagpur",
-    price: "Free",
+    price: "₹199 /-",
     title: "HS13003 - English for Communication",
     information: "Learn all the important concepts of this course",
     mentorName: "IIT Kharagpur Student",
@@ -1516,7 +1516,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/EU1JpndnEvY?rel=0",
           title: "1 Introduction",
           highlights:
-            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Priyadarshi Patnaik, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Priyadarshi Patnaik, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "1 Introduction",
         },
       ],
@@ -1557,7 +1557,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-ma11004-mohit.png",
     category: "IIT Kharagpur",
-    price: "Free",
+    price: "₹199 /-",
     title: "MA 11004 - Linear Algebra, Numerical and Complex Analysis",
     information: "Learn all the important concepts of this course",
     mentorName: "Mohit",
@@ -1568,7 +1568,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/Bhoh9pKH6S4?rel=0",
           title: "Numerical Analysis",
           highlights:
-            'This course summary is given by Mohit. Orginally taught by Professor Ramakrishna Nanduri, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Mohit. Orginally taught by Professor Ramakrishna Nanduri, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "Numerical Analysis",
         },
       ],
@@ -1594,7 +1594,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-ma11004-er.png",
     category: "IIT Kharagpur",
-    price: "Free",
+    price: "₹199 /-",
     title: "MA 11004 - Linear Algebra, Numerical and Complex Analysis",
     information: "Learn all the important concepts of this course",
     mentorName: "IIT Kharagpur Student",
@@ -1605,7 +1605,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/zd1AzwqWhdc?rel=0",
           title: "PART 1",
           highlights:
-            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Jitendra Kumar, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Jitendra Kumar, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "PART 1",
         },
       ],
@@ -1631,7 +1631,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-ma11003-er.png",
     category: "IIT Kharagpur",
-    price: "Free",
+    price: "₹199 /-",
     title: "MA 11003 - Advanced Calculus",
     information: "Learn all the important concepts of this course",
     mentorName: "IIT Kharagpur Student",
@@ -1642,7 +1642,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/ntO7-X2sytg?rel=0",
           title: "PART 1",
           highlights:
-            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Chandal Nahak, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by an IIT Kharagpur Student. Orginally taught by Professor Chandal Nahak, IIT Kharagpur.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "PART 1",
         },
       ],
@@ -1673,7 +1673,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitbbs-me1l001-harsh.png",
     category: "IIT Bhubaneswar",
-    price: "Free",
+    price: "₹199 /-",
     title: "ME1L001 - Mechanics",
     information: "Learn all the important concepts of this course",
     mentorName: "Harsh",
@@ -1684,7 +1684,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/N1dBq2quvNs?rel=0",
           title: "0 Introduction",
           highlights:
-            'This course summary is given by Harsh. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Harsh. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "0 Introduction",
         },
       ],
@@ -1740,7 +1740,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitbbs-me1l001-mishel.png",
     category: "IIT Bhubaneswar",
-    price: "Free",
+    price: "₹199 /-",
     title: "ME1L001 - Mechanics",
     information: "Learn all the important concepts of this course",
     mentorName: "Mishel",
@@ -1751,7 +1751,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/9JroxlI3qhY?rel=0",
           title: "1 Introduction to Stress and Strain",
           highlights:
-            'This course summary is given by Mishel. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Mishel. Orginally taught by Professor Mihir Kumar Pandit, IIT Bhubaneswar.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "1 Introduction to Stress and Strain",
         },
       ],
@@ -1802,7 +1802,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/nitt-clpc11-nishant.png",
     category: "NIT Trichy",
-    price: "Free",
+    price: "₹199 /-",
     title: "CLPC11 - Process Calculations",
     information: "Learn all the important concepts of this course",
     mentorName: "Nishant",
@@ -1813,7 +1813,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/2bvlhdP_EdY?rel=0",
           title: "L1",
           highlights:
-            'This course summary is given by Nishant. Orginally taught by Professor Arivazhagan M, NIT Trichy.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Nishant. Orginally taught by Professor Arivazhagan M, NIT Trichy.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "L1",
         },
       ],
@@ -1854,7 +1854,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/nitt-phir11-nishant.png",
     category: "NIT Trichy",
-    price: "Free",
+    price: "₹199 /-",
     title: "PHIR11 - Physics",
     information: "Learn all the important concepts of this course",
     mentorName: "Nishant",
@@ -1865,7 +1865,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/3it6qXsWrgg?rel=0",
           title: "part1",
           highlights:
-            'This course summary is given by Nishant. Orginally taught by Professor Chandra Bose, NIT Trichy.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Nishant. Orginally taught by Professor Chandra Bose, NIT Trichy.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "part1",
         },
       ],
@@ -1906,7 +1906,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/sastra-eie301.png",
     category: "Sastra University",
-    price: "Free",
+    price: "₹199 /-",
     title: "EIE 301 - Linear Integrated Circuits",
     information: "Learn all the important concepts of this course",
     mentorName: "Sastra Student",
@@ -1917,7 +1917,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/x4w3yBmFg3I?rel=0",
           title: "1 Open Loop and Closed Loop Operational Amplifiers",
           highlights:
-            'This course summary is given by a Sastra University Student. Orginally taught by Professors R. Sumathi, V. Sudha, A. Parvathi, M. Easwaran, Sastra .To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by a Sastra University Student. Orginally taught by Professors R. Sumathi, V. Sudha, A. Parvathi, M. Easwaran, Sastra .To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "1 Open Loop and Closed Loop Operational Amplifiers",
         },
       ],
@@ -1958,7 +1958,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-cy1051-salem.png",
     category: "IIT Madras",
-    price: "Free",
+    price: "₹199 /-",
     title: "CY1051 - Chemistry II",
     information: "Learn all the important concepts of this course",
     mentorName: "Salem",
@@ -1969,7 +1969,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/HI9eJwFmMVA?rel=0",
           title: "4 Nuclear Magnetic Resonance Spectroscopy",
           highlights:
-            'This course summary is given by Salem. Orginally taught by Professors Mangala Sunder K and Ranga Rao G, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Salem. Orginally taught by Professors Mangala Sunder K and Ranga Rao G, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "4 Nuclear Magnetic Resonance Spectroscopy",
         },
       ],
@@ -2018,14 +2018,14 @@ const newCourses = [
     information: "Learn all the important concepts of this course",
     mentorName: "Nishant",
     mentorProfilePic: "/assets/img/trainers/nitt-nishant.jpg",
-    price: "Free",
+    price: "₹199 /-",
     title: "ENIR11 - Basics of Enviromental Engineering",
     unsubscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/yqWqypEAIfo?rel=0",
           title:
-            'This course summary is given by Nishant. Orginally taught by Professor Anantharaman Narayanan, NIT Trichy.\n\nTo get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Nishant. Orginally taught by Professor Anantharaman Narayanan, NIT Trichy.\n\nTo get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
           highlights: "enir vid 1",
         },
       ],
@@ -2064,7 +2064,7 @@ const newCourses = [
     information: "Interested in knowing about the stock market?",
     mentorName: "Sarwesh",
     mentorProfilePic: "/assets/img/trainers/iitkgp-sarwesh.jpg",
-    price: "Free",
+    price: "₹199 /-",
     title: "Entering Financial Markets",
     unsubscribedContent: {
       mainContent: [
@@ -2072,7 +2072,7 @@ const newCourses = [
           videoLink: "https://www.youtube.com/embed/oSzgoyyh7UY?rel=0",
           title: "1 why to Invest",
           highlights:
-            'This course summary is given by Sarwesh. Join the Kharagpur Investment Club, IIT Kharagpur.\n\nTo get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+            'This course summary is given by Sarwesh. Join the Kharagpur Investment Club, IIT Kharagpur.\n\nTo get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -2176,14 +2176,14 @@ const newCourses = [
     information: "Learn all the important concepts of this course",
     mentorName: "IIT Kharagpur Student",
     mentorProfilePic: "/assets/img/trainers/girl.jpg",
-    price: "Free",
+    price: "₹199 /-",
     title: "CE13003 - Engineering Drawing and Computer Graphics",
     unsubscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/VFQxkcZ9KdQ?rel=0",
           title: "Introduction to Engineering Drawing",
-          highlights: 'This course summary is given by an IIT Kharagpur Student. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by an IIT Kharagpur Student. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: ["Contents of the course", "Introduction to Engineering Drawing", "Projection Of Lines", "Projection Of Planes", "Projection Of Solids", "Section Of Solids"],
@@ -2226,14 +2226,14 @@ const newCourses = [
     information: "Learn all the important concepts of this course",
     mentorName: "Nidam",
     mentorProfilePic: "/assets/img/trainers/iitkgp-nidam.jpg",
-    price: "Free",
+    price: "₹199 /-",
     title: "HS13003 - English for Communication",
     unsubscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/NkKGspliLuw?rel=0",
           title: "Balthazar's Marvelous Afternoon and The Railway Clerk",
-          highlights: 'This course summary is given by Nidam, IIT Kharagpur. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Nidam, IIT Kharagpur. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: ["Contents of the course", "Balthazar's Marvelous Afternoon and The Railway Clerk", "The Negro Speaks of the River", "Prompts"],
@@ -2266,14 +2266,14 @@ const newCourses = [
     information: "Learn all the important concepts of this course",
     mentorName: "IIT Kharagpur Student",
     mentorProfilePic: "/assets/img/trainers/girl.jpg",
-    price: "Free",
+    price: "₹199 /-",
     title: "EV10003 - Environmental Science",
     unsubscribedContent: {
       mainContent: [
         {
           videoLink: "https://www.youtube.com/embed/i7Lu1bw3haw?rel=0",
           title: "Introduction to Environmental Science",
-          highlights: 'This course summary is given by an IIT Kharagpur Student. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by an IIT Kharagpur Student. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -2320,7 +2320,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-hss223-mayank.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "HS 223 - Intermediate Macroeconomics 1",
     information: "Learn all the important concepts of this course",
     mentorName: "Mayank",
@@ -2330,7 +2330,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/TM04tIpxixM?rel=0",
           title: "Lecture 1",
-          highlights: 'This course summary is given by Mayank, IIT Bombay.To get the full course, sign up or click on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Mayank, IIT Bombay.To get the full course, sign up or click on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: [
@@ -2393,7 +2393,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-es200-mayank.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "ES 200 - Environmental Studies",
     information: "Learn all the important concepts of this course",
     mentorName: "Mayank",
@@ -2403,7 +2403,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/TtN3UwEK6B0?rel=0",
           title: "Lecture 1",
-          highlights: 'This course summary is given by Mayank, IIT Bombay.To get the full course, sign up or click on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Mayank, IIT Bombay.To get the full course, sign up or click on "Get the Full Course." It\'s ₹199 /-.',
         },
       ],
       sideContent: ["Contents of the course", "Lecture 1", "Lecture 2", "Lecture 3"],
@@ -2431,7 +2431,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-cs224-hanan.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "CS 224 - Computer Networks",
     information: "Learn all the important concepts of this course",
     mentorName: "Hanan",
@@ -2441,7 +2441,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/pZOgaYM1Jf8?rel=0",
           title: "1  Brief overview and Finite Sequence Numbers",
-          highlights: 'This course summary is given by Hanan, IIT Bombay. To get the full course, sign up or click on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Hanan, IIT Bombay. To get the full course, sign up or click on "Get the Full Course." @ ₹199 /-.',
         },
       ],
       sideContent: ["Contents of the course", "1  Brief overview and Finite Sequence Numbers", "2  Ethernet", "3  Internetworking", "4  Wireless Network"],
@@ -2472,7 +2472,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-me1480-sudip.png",
     category: "IIT Madras",
-    price: "Free",
+    price: "₹199 /-",
     title: "ME 1480 - Engineering Drawing",
     information: "Learn all the important concepts of this course",
     mentorName: "Sudip",
@@ -2482,7 +2482,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/zWat5uU20ik?rel=0",
           title: "7  Development of Surfaces",
-          highlights: 'This course summary is given by Sudip, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Sudip, IIT Madras.To get the full course, fill the form by clicking on "Get the Full Course." @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -2545,7 +2545,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ee204-nithish.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "EE 204 - Analog Circuits",
     information: "Learn all the important concepts of this course",
     mentorName: "Nithish",
@@ -2555,7 +2555,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/idQ_JpbGnf8?rel=0",
           title: "1 Circuit Fundamentals",
-          highlights: 'This course summary is given by Nithish, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Nithish, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course." @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -2623,7 +2623,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ma207-nithish.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "MA207 - Differential Equations 2",
     information: "Learn all the important concepts of this course",
     mentorName: "Nithish",
@@ -2633,7 +2633,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/Qp8eIVVZYy4?rel=0",
           title: "1 Power Series 01",
-          highlights: 'This course summary is given by Nithish, IIT Bombay. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Nithish, IIT Bombay. To get the full course, fill the form by clicking on "Get the Full Course." @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -2700,7 +2700,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ee325-nithish.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "EE 325 - Probability and Random Processes",
     information: "Learn all the important concepts of this course",
     mentorName: "Nithish",
@@ -2710,7 +2710,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/J7Y7RUSLJBc?rel=0",
           title: "1 Set Theory Basics, Countability, Probability Measure",
-          highlights: 'This course summary is given by Nithish, IIT Bombay. To get the full course, fill the form by clicking on "Get the Full Course." It\'s Free.',
+          highlights: 'This course summary is given by Nithish, IIT Bombay. To get the full course, fill the form by clicking on "Get the Full Course." @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -2792,7 +2792,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/jqfTLSj76Fc?rel=0",
           title: "1 Intro to CL249",
-          highlights: 'This course summary is given by Akhil, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ just Rs 49',
+          highlights: 'This course summary is given by Akhil, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ just ₹199 /-',
         },
       ],
       sideContent: [
@@ -2870,7 +2870,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/CZXKAV2EqzQ?rel=0",
           title: "1 Block Diagrams",
-          highlights: 'This course summary is given by Aditya, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-',
+          highlights: 'This course summary is given by Aditya, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-',
         },
       ],
       sideContent: [
@@ -2978,7 +2978,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/umc4SaUT-0o?rel=0",
           title: "1 Number system",
-          highlights: 'This course summary is given by Nithish, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."@ Rs 49/-',
+          highlights: 'This course summary is given by Nithish, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."@ ₹199 /-',
         },
       ],
       sideContent: [
@@ -3036,7 +3036,7 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ee101-vishruth.png",
     category: "IIT Bombay",
-    price: "Free",
+    price: "₹199 /-",
     title: "EE 101 - Introduction to Electrical and Electronic Circuits",
     information: "Learn all the important concepts of this course",
     mentorName: "Vishruth",
@@ -3046,7 +3046,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/kaIEjpKvvSY?rel=0",
           title: "1 Basic principles and functions",
-          highlights: 'This course summary is given by Vishruth, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."for free',
+          highlights: 'This course summary is given by Vishruth, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."for ₹199 /-',
         },
       ],
       sideContent: [
@@ -3114,7 +3114,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/7kPKZkbH05U?rel=0",
           title: "1 Zener Diode (Analog)",
-          highlights: 'To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+          highlights: 'To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -3197,7 +3197,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/52yobO3WKXk?rel=0",
           title: "L1  Introduction, Types of Flow",
-          highlights: 'This course is by Rishabh, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+          highlights: 'This course is by Rishabh, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -3295,7 +3295,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/tzxsKxhqPKo?rel=0",
           title: "Lecture 1  Introduction",
-          highlights: 'This course is by Abhiram, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+          highlights: 'This course is by Abhiram, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -3403,7 +3403,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/wxxyN58grgo?rel=0",
           title: "0  Overview",
-          highlights: 'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+          highlights: 'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -3510,7 +3510,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/Fza8j6Z-hsA?rel=0",
           title: "1  Program Correctness",
-          highlights: 'This course is by Aditya, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+          highlights: 'This course is by Aditya, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -3598,7 +3598,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/B5W58YAhImw?rel=0",
           title: "1 Intro Adiabatic Flame Temp",
-          highlights: 'This course is by Saandeep, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 49/-.',
+          highlights: 'This course is by Saandeep, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
         },
       ],
       sideContent: [
@@ -3715,7 +3715,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/eGNrdwEqc1Y?rel=0",
           title: "1 Continuum Hypothesis, Flow Descriptions, Substantial Derivative",
-          highlights: 'This course is by Lakshyaprasad, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 25/-.',
+          highlights: 'This course is by Lakshyaprasad, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹ 199 /-.',
         },
       ],
       sideContent: [
@@ -3818,7 +3818,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/LNUhDDT6HS4?rel=0",
           title: "1 Stress and Strain Mechanical Properties of Materials",
-          highlights: 'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 25/-.',
+          highlights: 'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹ 199 /-.',
         },
       ],
       sideContent: [
@@ -3900,7 +3900,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/4MMjP8z6g-M?rel=0",
           title: "1 Ten Principles of Economics",
-          highlights: 'This course is by Lakshitha, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ Rs 25/-.',
+          highlights: 'This course is by Lakshitha, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹ 199 /-.',
         },
       ],
       sideContent: [
@@ -3987,9 +3987,9 @@ const newCourses = [
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/zhcet-ppe-hamza.png",
     category: "Z.H.C.E.T",
-    price: "Rs 199",
-    title: "Power Plant Engineering",
-    information: "To get the full course, WhatsApp us @ 9524227932.",
+    price: "₹199 /-",
+    title: "EMEE4220 - Power Plant Engineering",
+    information: "To get the full course, WhatsApp us @ 9524227932. @ ₹199 /-",
     mentorName: "Hamza",
     mentorProfilePic: "/assets/img/trainers/zhcet-hamza.JPG",
     unsubscribedContent: {
@@ -3997,7 +3997,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/nlo3jOMXBLM?rel=0",
           title: "1 Thermal Power Plant Engineering  Unit 01 Lec 01",
-          highlights: "This course is by Hamza, Z.H.C.E.T, AMU. To get the full course for Rs 199/-, WhatsApp us @ 9524227932",
+          highlights: "This course is by Hamza, Z.H.C.E.T, AMU. To get the full course for ₹199 /-, WhatsApp us @ 9524227932",
         },
       ],
       sideContent: [
@@ -4021,7 +4021,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/nlo3jOMXBLM?rel=0",
           title: "1 Thermal Power Plant Engineering  Unit 01 Lec 01",
-          highlights: "This course is by Hamza, Z.H.C.E.T, AMU. To get the full course for Rs 199/-, WhatsApp us @ 9524227932",
+          highlights: "This course is by Hamza, Z.H.C.E.T, AMU. To get the full course for ₹199 /-, WhatsApp us @ 9524227932",
         },
         {
           videoLink: "https://www.youtube.com/embed/YXWmtywUUAw?rel=0",
