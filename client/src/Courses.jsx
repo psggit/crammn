@@ -72,15 +72,11 @@ export default function Courses() {
     },
     {
       title: "Z.H.C.E.T Courses",
-      category: "Zakir Husain College Of Engineering & Technology",
-    },
-    {
-      title: "Z.H.C.E.T Courses",
       category: "Z.H.C.E.T",
       id: "zahirHusain",
     },
     {
-      title: "JEE Main & Advanced",
+      title: "JEE Mains & Advanced",
       category: "IIT JEE",
       id: "iitJeeConcepts",
     },
