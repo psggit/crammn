@@ -1101,7 +1101,7 @@ let allCourses = [
     },
   },
   {
-    detailsLink: "https://youtu.be/5Eol5o9fEEM",
+    detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/Rolling Motion.jpg",
     category: "IIT JEE",
     price: "Free",
@@ -1109,9 +1109,29 @@ let allCourses = [
     information: "Rolling Motion is a Combination of Translational and Rotational Motion.",
     mentorName: "Cyano",
     mentorProfilePic: "/assets/img/trainers/Cyano.png",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/5Eol5o9fEEM?rel=0",
+          title: "Rolling Motion",
+          highlights: "Rolling Motion is a Combination of Translational and Rotational Motion.",
+        },
+      ],
+      sideContent: [],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/5Eol5o9fEEM?rel=0",
+          title: "Rolling Motion",
+          highlights: "Rolling Motion is a Combination of Translational and Rotational Motion.",
+        },
+      ],
+      sideContent: [],
+    },
   },
   {
-    detailsLink: "https://youtu.be/VMcf87ZXrgM",
+    detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/Rolling Motion-Hindi.jpg",
     category: "IIT JEE",
     price: "Free",
