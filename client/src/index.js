@@ -1,6 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import { Router } from "@reach/router"
+import PaymentFlow from "./PaymentFlow"
 
 import Courses from "./Courses"
 import reportWebVitals from "./reportWebVitals"
@@ -20,6 +21,7 @@ const App = () => (
     <Router>
       <Home path="/" />
       <About path="/about" />
+      <PaymentFlow path="/payment" />
       <Courses path="/courses" />
       <CourseDetails path="/courses/details/:courseId" />
       <UserSignUp path="/signup" />
