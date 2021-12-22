@@ -154,6 +154,84 @@ app.get("/api/courses", (req, res) => {
     )
 })
 
+app.post("/api/courses", async (req,res) => {
+   const isCorrect  = req.body.isCorrect
+    if (isCorrect === true){
+    res.status(200).json({
+        "status":true,
+        "data":[{
+                "detailsLink": "/courses/details/0",
+                "detailThumbnail": "/assets/img/iitb-ae227-ammar.png",
+                "category": "IIT Bombay",
+                "price": "₹199 /-",
+                "title": "AE 227 - Solid Mechanics",
+                "information": "Learn all the important concepts of this course",
+                "mentorName": "Ammar",
+                "mentorProfilePic": "/assets/img/trainers/iitb-ammar.jpg",
+                "isPaid":true,
+        }, {
+                "detailsLink": "/courses/details/1",
+                "detailThumbnail": "/assets/img/iitb-cs152-jaswanth.png",
+                "category": "IIT Bombay",
+                "price": "₹199 /-",
+                "title": "CS 152 - Inorganic Chemistry",
+                "information": "Learn all the important concepts of this course",
+                "mentorName": "Jaswanth",
+                "mentorProfilePic": "/assets/img/trainers/iitb-jaswanth.jpg",
+                "isPaid":true,
+        }, {
+                "detailsLink": "/courses/details/2",
+                "detailThumbnail": "/assets/img/iitb-ch104-hanan.png",
+                "category": "IIT Bombay",
+                "price": "₹199 /-",
+                "title": "CH 104 - Inorganic Chemistry",
+                "information": "Learn all the important concepts of this course",
+                "mentorName": "Hanan",
+                "mentorProfilePic": "/assets/img/trainers/iitb-hanan.jpg",
+                "isPaid":false,
+
+        }, {
+                "detailsLink": "/courses/details/3",
+                "detailThumbnail": "/assets/img/iitb-bb101-hanan.png",
+                "category": "IIT Bombay",
+                "price": "₹199 /-",
+                "title": "BB 101 - Basic Biology for Engineers",
+                "information": "Learn all the important concepts of this course",
+                "mentorName": "Hanan",
+                "mentorProfilePic": "/assets/img/trainers/iitb-hanan.jpg",
+                "isPaid":false,
+        }, {
+                "detailsLink": "/courses/details/4",
+                "detailThumbnail": "/assets/img/iitb-hs101-keerthana.png",
+                "category": "IIT Bombay",
+                "price": "₹199 /-",
+                "title": "HS 101 - Economics",
+                "information": "Learn all the important concepts of this course",
+                "mentorName": "Keerthana",
+                "mentorProfilePic": "/assets/img/trainers/iitb-keerthana.jpg",
+                "isPaid":false,
+        }, {
+                "detailsLink": "/courses/details/5",
+                "detailThumbnail": "/assets/img/iitb-ma108-preethi.png",
+                "category": "IIT Bombay",
+                "price": "₹199 /-",
+                "title": "MA 108 - Differential Equations",
+                "information": "Learn all the important concepts of this course",
+                "mentorName": "Preethi",
+                "mentorProfilePic": "/assets/img/trainers/iitb-preethi.jpg",
+                "isPaid":true,
+        }]
+    })
+    }else{
+        res.status(400).json(
+        {
+            "status":false,
+            "message":"Something went wrong. Please try later",
+        })
+    }
+
+})
+
 app.get("/api/course/details", (req, res) => {
     const courseAtId = JSON.parse(JSON.stringify(allCourses[req.query.id]))
     if (!courseAtId) return res.render("error.html")
