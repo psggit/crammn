@@ -104,6 +104,60 @@ app.post("/payment/orders", async (req, res) => {
     }
 })
 
+app.post("/api/order", async (req, res) => {
+       const courseID = req.body.courseID
+       const isCorrect  = req.body.isCorrect
+  
+    if (isCorrect ===true){
+        res.status(200).json({
+            "status":"success",
+            "message":"Order placed. Please proceed to payment.",
+            "data":{
+                "retry": false,
+                "pgOrderID":"RZP_11",
+                "amount":"199.00"
+            }
+        })
+   } else {
+        res.status(500).json({
+            "status": "error",
+            "message":"Order placed. Please proceed to payment.",
+            "data":{
+                "retry":true,
+                "pgOrderID":"",
+                "amount":""
+            }
+        })
+}
+
+})
+
+app.post("/api/payment/verify", async (req, res) => {
+    const {
+        orderID,
+        pgPaymentID,
+        pgOrderID,
+        pgSignature
+        } = req.body.orderDetails
+    const isCorrect  = req.body.isCorrect
+
+
+    if (isCorrect ===true){
+        res.status(200).json({
+            "status":"success",
+            "message":"Payment successful"
+        })
+   } else {
+        res.status(500).json({
+            "status":"error",
+            "message":"Payment failed"
+        })
+}
+})
+
+
+
+
 app.post("/payment/success", async (req, res) => {
     try {
         // getting the details back from our font-end
@@ -154,11 +208,86 @@ app.get("/api/courses", (req, res) => {
     )
 })
 
+app.post("/api/course/details", async (req,res) => {
+    const courseID = req.body.courseID
+   const isCorrect  = req.body.isCorrect
+    if (isCorrect === true){
+    res.status(200).json({
+        "status":"success",
+        "data": {
+    detailsLink: "{id_placeholder}",
+    detailThumbnail: "/assets/img/iitb-bb101-hanan.png",
+    category: "IIT Bombay",
+    price: "₹199 /-",
+    title: "BB 101 - Basic Biology for Engineers",
+    information: "Learn all the important concepts of this course",
+    mentorName: "Hanan",
+    mentorProfilePic: "/assets/img/trainers/iitb-hanan.jpg",
+    unsubscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
+          title: "Physical Biology",
+          highlights:
+            'This course summary is given by Hanan. Orginally taught by Professors Ambarish Kunwar & Neeta Kanekar, IIT Bombay. To get the full course, fill the form by clicking on "Get the Full Course." It\'s ₹199 /-.',
+        },
+      ],
+      sideContent: [
+        "Contents of the course",
+        "Physical Biology",
+        "Bio Medical 1: Overview of the Human Nervous System",
+        "Bio Medical 2: Neuronal Language of Communication &amp; Electrical Signals of Neurons",
+        "Bio Medical 3: Neuronal Axons as Electrical Conductors",
+        "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
+        "Bio Medical 5: Neural(Neuro) Plascticity",
+      ],
+    },
+    subscribedContent: {
+      mainContent: [
+        {
+          videoLink: "https://www.youtube.com/embed/OlRzZddU1oY?rel=0",
+          title: "Physical Biology",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/NY-yCmQuX48?rel=0",
+          title: "Bio Medical 1: Overview of the Human Nervous System",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/rVee8MnPlbY?rel=0",
+          title: "Bio Medical 2: Neuronal Language of Communication & Electrical Signals of Neurons",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/h66J6a_JO_w?rel=0",
+          title: "Bio Medical 3: Neuronal Axons as Electrical Conductors",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/oNfaNnbYoZI?rel=0",
+          title: "Bio Medical 4: Neuro-Muscular Junction Synaptic Transmission and Muscle Contraction",
+        },
+        {
+          videoLink: "https://www.youtube.com/embed/RBjZsLJPdFs?rel=0",
+          title: "Bio Medical 5: Neural (Neuro) Plasticity",
+        },
+      ],
+      sideContent: [],
+    },
+  },   })
+    }else{
+        res.status(400).json(
+        {
+            "status": "error",
+            "message":"Something went wrong. Please try later",
+        })
+    }
+
+})
+
+
 app.post("/api/courses", async (req,res) => {
    const isCorrect  = req.body.isCorrect
     if (isCorrect === true){
     res.status(200).json({
-        "status":true,
+        "status":"success",
         "data":[{
                 "detailsLink": "/courses/details/0",
                 "detailThumbnail": "/assets/img/iitb-ae227-ammar.png",
@@ -225,7 +354,7 @@ app.post("/api/courses", async (req,res) => {
     }else{
         res.status(400).json(
         {
-            "status":false,
+            "status":"error",
             "message":"Something went wrong. Please try later",
         })
     }
