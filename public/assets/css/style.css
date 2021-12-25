@@ -155,7 +155,7 @@ h6 {
 * Get Startet Button 
 */
 .get-started-btn {
-  margin-left: 22px;
+  /* margin-left: 22px; */
   background: #5fcf80;
   color: #fff;
   border-radius: 50px;
@@ -853,6 +853,11 @@ section {
   margin: 0 2px;
 }
 
+.get-complete-course .price-info {
+  padding: 4px;
+}
+
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -999,6 +1004,12 @@ section {
 
 .course-details .course-info a {
   color: #657a6d;
+}
+
+.course-details .get-complete-course .price-info {
+  padding: 8px;
+  font-size: 16px;
+  color: #9E9E9E;
 }
 
 /*--------------------------------------------------------------
@@ -1399,6 +1410,30 @@ section {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/*--------------------------------------------------------------
+# paymentSuccess
+--------------------------------------------------------------*/
+
+#paymentSuccess {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 462px - 73px - 60px);
+}
+
+#paymentSuccess .title {
+  font-size: 32px;
+  color: #5FCF80;
+  margin-bottom: 40px;
+}
+
+#paymentSuccess .go-to-course {
+  font-size: 32px;
+  color: #5FCF80;
+  margin-bottom: 40px;
 }
 
 /*--------------------------------------------------------------

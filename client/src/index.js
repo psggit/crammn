@@ -13,6 +13,7 @@ import About from "./About"
 import Contact from "./Contact"
 import SignIn from "./Signin"
 import Error from "./Error"
+import PaymentSuccess from "./PaymentSuccess"
 
 const App = () => (
   <div>
@@ -20,6 +21,7 @@ const App = () => (
     <Router>
       <Home path="/" />
       <About path="/about" />
+      <PaymentSuccess path="/payment-success" />
       <Courses path="/courses" />
       <CourseDetails path="/courses/details/:courseId" />
       <UserSignUp path="/signup" />

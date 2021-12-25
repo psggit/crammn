@@ -1,5 +1,8 @@
 import React from "react"
 import { Link } from "@reach/router"
+import { saveInCache, getSavedItem } from "./Utils/helpers"
+import axios from "axios"
+import { navigate } from "@reach/router"
 
 export default function CourseDetails(props) {
   const [data, setData] = React.useState(null)
@@ -8,6 +11,15 @@ export default function CourseDetails(props) {
     fetch(`/api/course/details?id=${props.courseId}`)
       .then((res) => res.json())
       .then((data) => setData(data))
+  }, [])
+
+  React.useEffect(() => {
+    if (getSavedItem("isLoggedIn") === "true" && getSavedItem("hasInitiatedPayment") === "true") {
+      displayRazorpay()
+    }
+    return () => {
+      saveInCache("hasInitiatedPayment", false)
+    }
   }, [])
 
   const rightSidePanel = () => {
@@ -59,11 +71,13 @@ export default function CourseDetails(props) {
           </div>
         )
       })}
+      {getCompleteCourse()}
     </div>
   )
 
-  const saveSelectedCourseId = (id) => {
-    localStorage.setItem("selectedCourseId", id)
+  const handleClick = () => {
+    saveInCache("selectedCourseId", props.courseId)
+    saveInCache("hasInitiatedPayment", true)
   }
 
   const getCompleteCourse = () => {
@@ -71,15 +85,89 @@ export default function CourseDetails(props) {
       return null
     }
 
-    saveSelectedCourseId(props.courseId)
-
     return (
-      <div>
-        <a href="/signin" className="get-started-btn">
+      <div className="get-complete-course">
+        <a href="/signin" onClick={handleClick} className="get-started-btn">
           Get the Full Course
         </a>
+        <p className="price-info">₹199 for 1 month</p>
       </div>
     )
+  }
+
+  function loadScript(src) {
+    return new Promise((resolve) => {
+      const script = document.createElement("script")
+      script.src = src
+      script.onload = () => {
+        resolve(true)
+      }
+      script.onerror = () => {
+        resolve(false)
+      }
+      document.body.appendChild(script)
+    })
+  }
+
+  async function displayRazorpay() {
+    const res = await loadScript("https://checkout.razorpay.com/v1/checkout.js")
+
+    if (!res) {
+      alert("Razorpay SDK failed to load. Are you online?")
+      return
+    }
+
+    const result = await axios.post("/payment/orders")
+
+    console.log("res", result)
+
+    if (!result) {
+      alert("Server error. Are you online?")
+      return
+    }
+
+    const { amount, id: order_id, currency } = result.data
+
+    const options = {
+      key: "rzp_test_07EfSKjRh9HgqV", // Enter the Key ID generated from the Dashboard
+      amount: amount.toString(),
+      currency: currency,
+      name: "CRAMMN",
+      //description: "Test Transaction",
+      order_id: order_id,
+      image: "/payment/crammn.svg",
+      handler: async function (response) {
+        const data = {
+          orderCreationId: order_id,
+          razorpayPaymentId: response.razorpay_payment_id,
+          razorpayOrderId: response.razorpay_order_id,
+          razorpaySignature: response.razorpay_signature,
+        }
+
+        const result = await axios.post("/payment/success", data)
+
+        saveInCache("hasInitiatedPayment", false)
+        navigate("/payment-success")
+      },
+      prefill: {
+        name: "<YOUR NAME>",
+        email: "example@example.com",
+        contact: "9999999999",
+      },
+      readonly: { email: true, contact: true },
+      // notes: {
+      //   address: "Example Corporate Office",
+      // },
+      theme: {
+        color: "#5FCF80",
+      },
+    }
+
+    const paymentObject = new window.Razorpay(options)
+    paymentObject.on("payment.failed", function (response) {
+      saveInCache("hasInitiatedPayment", false)
+    })
+    paymentObject.open()
   }
 
   const trainersPanel = () => {
@@ -96,7 +184,6 @@ export default function CourseDetails(props) {
                 <h4>{data.mentorName}</h4>
                 <span>Mentor</span>
                 <p>{data.category}</p>
-                {getCompleteCourse()}
               </div>
             </div>
           </div>
