@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react"
 import { Link } from "@reach/router"
 import GoogleSignIn from "./GoogleSignIn"
+import { saveInCache } from "./Utils/helpers"
 
 const safeCheck = (fn) => {
   try {
@@ -55,6 +56,11 @@ const Header = (props) => {
     )
   }
 
+  const clearStorage = () => {
+    saveInCache("isLoggedIn", false)
+    saveInCache("hasInitiatedPayment", false)
+  }
+
   const signOut = () => {
     if (userData && userData.authorized)
       return (
@@ -64,7 +70,9 @@ const Header = (props) => {
           </a>
           <ul className={isMobileSignOutActive ? "dropdown-active" : ""}>
             <li>
-              <a href="/signout">Sign me out!!</a>
+              <a href="/signout" onClick={clearStorage}>
+                Sign me out!!
+              </a>
             </li>
           </ul>
         </li>

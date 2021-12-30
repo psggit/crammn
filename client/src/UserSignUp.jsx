@@ -1,10 +1,7 @@
 import React from "react"
 import { ErrorMessage, Field, Form, Formik } from "formik"
 import { navigate } from "@reach/router"
-
-const getSavedItem = (key) => {
-  return localStorage.getItem(key)
-}
+import { getSavedItem, saveInCache } from "./Utils/helpers"
 
 const UserSignUp = () => {
   const [formData, setFormData] = React.useState(null)
@@ -15,9 +12,11 @@ const UserSignUp = () => {
       .then((res) => res.json())
       .then((data) => {
         if (data.profileUpdated) {
+          saveInCache("isLoggedIn", true)
           if (getSavedItem("selectedCourseId")) {
             return navigate(`/courses/details/${getSavedItem("selectedCourseId")}`)
           } else {
+            saveInCache("hasInitiatedPayment", false)
             return navigate("/courses")
           }
         }

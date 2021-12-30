@@ -5,21 +5,26 @@ export default function Courses() {
   const [data, setData] = React.useState(null)
 
   React.useEffect(() => {
-    fetch("/api/courses")
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ isCorrect: true }),
+    }
+    fetch("/api/courses", requestOptions)
       .then((res) => res.json())
-      .then((data) => setData(data))
+      .then((data) => setData(data.data))
   }, [])
 
   const courseDetail = (info, index) => {
     return (
       <div id={`${info.category}_${index}`} className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-        <Link to={info.detailsLink}>
+        <Link to={info.detailsLink} state={{ paidInfo: info.isPaid }}>
           <div className="course-item">
             <img src={info.detailThumbnail} className="img-fluid" alt="..." />
             <div className="course-content">
               <div className="d-flex justify-content-between align-items-center mb-3">
                 <h4>{info.category}</h4>
-                <p className="price">{info.price}</p>
+                <p className="price">{!info.isPaid ? info.price : ""}</p>
               </div>
 
               <h3>
@@ -82,9 +87,37 @@ export default function Courses() {
     },
   ]
 
+  const purchasedCoursesSections = () => {
+    //return sectionsList.map((sectionInfo) => {
+    //console.log("section info", sectionInfo)
+    let filteredList = data.filter((value) => value.isPaid)
+    if (filteredList.length === 0) {
+      return null
+    }
+    return (
+      <div>
+        <div className="container aos-init aos-animate" data-aos="fade-up">
+          <div className="col-lg-8">
+            <br />
+            <h3>
+              <u>Purchased Courses</u>
+            </h3>
+          </div>
+        </div>
+        <section className="courses">
+          <div className="row aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+            {filteredList.map((info, index) => courseDetail(info, index))}
+          </div>
+        </section>
+      </div>
+    )
+    //})
+  }
+
   const coursesSections = () => {
     return sectionsList.map((sectionInfo) => {
-      let filteredList = data.filter((value) => value.category === sectionInfo.category)
+      //console.log("section info", sectionInfo)
+      let filteredList = data.filter((value) => value.category === sectionInfo.category && !value.isPaid)
       if (filteredList.length === 0) {
         return null
       }
@@ -134,6 +167,7 @@ export default function Courses() {
                 </div>
               ))}
             </div>
+            {!data ? <p>Loading...</p> : purchasedCoursesSections()}
             {!data ? <p>Loading...</p> : coursesSections()}
           </div>
         </div>

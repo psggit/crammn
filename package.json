@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start:server": "NODE_ENV=dev nodemon server/index.js",
-    "start:client": "cd client && REACT_APP_NODE_VAL=dev npm run start",
+    "start:client": "cd client && npm run start",
     "start:e2e": "node ./buildScript.js && npm run start:server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
