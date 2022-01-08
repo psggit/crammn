@@ -59,7 +59,7 @@ export async function upsertUserInformation(email, name, googleUserInfo) {
   try {
     const res = await pool.query(
       "INSERT INTO user_profile (email, name, google_account_info, updated_at) VALUES ($1, $2, $3, $4)" +
-        "ON CONFLICT (email)" +
+        "ON CONFLICT (id)" + // Needed As we have added user_profile_pkey should be modified once we decide and settle of primary key
         "DO UPDATE SET " +
         "name = EXCLUDED.name," +
         "google_account_info = EXCLUDED.google_account_info," +
