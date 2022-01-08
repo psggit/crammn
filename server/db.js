@@ -93,4 +93,138 @@ export async function saveProfile(userId, { college, stream, phoneNumber }) {
   }
 }
 
+export async function createOrder(criteria){
+  try {
+    //Make order table primary key auto increment
+    const res = await pool.query(
+      `INSERT INTO orders (status, user_id, total_amount, created_at, updated_at,razorpay_order_id) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *`,
+      [ `PENDING_PAYMENT`, criteria.userId, criteria.totalAmount, nowInUTC(), nowInUTC(), criteria.razorpayOrderId]
+    )
+
+    if (!lodash.isNull(lodash.get(res, "rows[0]"))) {
+      return lodash.get(res, "rows[0]")
+    }
+    else{
+      throw new Error("Error in saving order");
+    }
+  } catch (err) {
+    return err.toString();
+  }
+}
+
+export async function saveUserCourse(criteria){
+  try {
+    const res = await pool.query(
+      "INSERT INTO user_courses (user_id, course_id, expires_at, created_at, updated_at, order_id) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
+      [criteria.userId, criteria.courseId, nowInUTC(), nowInUTC(), nowInUTC(), criteria.orderId]
+    )
+    if (!lodash.isNull(lodash.get(res, "rows[0]"))) {
+      return lodash.get(res, "rows[0]")
+    }
+    else{
+      throw new Error("Error in saving user course");
+    }
+  }
+  catch (err) {
+    return err.toString();
+  }
+}
+
+export async function fetchPaidCoursesOfUser(userId){
+  try {
+    const res = await pool.query(
+      "SELECT * FROM user_courses join user_profile on user_courses.user_id=user_profile.id WHERE user_profile.user_id=$1 AND expires_at > $2",
+      [userId, nowInUTC()]
+    )
+    if (!lodash.isNull(lodash.get(res, "rows[0]"))) {
+      let courseIds = [];
+      res.rows.map(row => courseIds.push(row.course_id))
+      return courseIds;
+    }
+    else{
+      throw new Error("Error in fetching paid courses of user");
+    }
+  }
+  catch (err) {
+    return err.toString();
+  }
+}
+
+export async function updateOrderStatus(orderId, status){
+  try {
+    const res = await pool.query(
+      "UPDATE orders SET status=$2, updated_at=$3 WHERE id=$1",
+      [orderId, status, nowInUTC()]
+    )
+    if (!lodash.isNull(lodash.get(res, "rows[0]"))) {
+      return lodash.get(res, "rows[0]")
+    }
+    else{
+      throw new Error("Error in updating order status");
+    }
+  }
+  catch (err) {
+    return err.toString();
+  }
+}
+
+export async function saveTransaction(criteria){
+  try {
+    const res = await pool.query(
+      "INSERT INTO transactions ( order_id, pg_order_id, pg_payment_id, pg_signature, created_at, updated_at) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
+      [criteria.orderId, criteria.razorpay_order_id, criteria.razorpay_payment_id, criteria.razorpay_signature, nowInUTC(), nowInUTC()]
+    )
+    if (!lodash.isNull(lodash.get(res, "rows[0]"))) {
+      return lodash.get(res, "rows[0]")
+    }
+    else{
+      throw new Error("Error in saving transaction");
+    }
+  }
+  catch (err) {
+    return err.toString();
+  }
+}
+
+const nextYear = () => {
+  const date = new Date()
+  date.setFullYear(date.getFullYear() + 1)
+  return date.toISOString()
+}
+
+export async function updateUserCourses(orderId){
+  try {
+    const res = await pool.query(
+      "UPDATE user_courses SET expires_at=$2, updated_at=$3 WHERE order_id=$1",
+      [orderId, nextYear(), nowInUTC()]
+    )
+    if (!lodash.isNull(lodash.get(res, "rows[0]"))) {
+      return lodash.get(res, "rows[0]")
+    }
+    else{
+      throw new Error("Error in updating user courses");
+    }
+  }
+  catch (err) {
+    return err.toString();
+  }
+}
+
+export async function getOrderIdFromOrder(orderId){
+  try {
+    const res = await pool.query(
+      "SELECT id FROM orders WHERE razorpay_order_id=$1",
+      [orderId]
+    )
+    if (!lodash.isNull(lodash.get(res, "rows[0]"))) {
+      return lodash.get(res, "rows[0]")
+    }
+    else{
+      throw new Error("Error in fetching order");
+    }
+  }
+  catch (err) {
+    return err.toString();
+  }
+}
 

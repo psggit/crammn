@@ -1,5 +1,6 @@
 let allCourses = [
   {
+    courseId: 0,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ae227-ammar.png",
     category: "IIT Bombay",
@@ -80,6 +81,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 1,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-cs152-jaswanth.png",
     category: "IIT Bombay",
@@ -114,6 +116,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 2,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ch104-hanan.png",
     category: "IIT Bombay",
@@ -164,6 +167,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 3,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-bb101-hanan.png",
     category: "IIT Bombay",
@@ -222,6 +226,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 4,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-hs101-keerthana.png",
     category: "IIT Bombay",
@@ -300,6 +305,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 5,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ma108-preethi.png",
     category: "IIT Bombay",
@@ -378,6 +384,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 6,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ee114-mayank-jain.png",
     category: "IIT Bombay",
@@ -436,6 +443,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 7,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-cl152-om.png",
     category: "IIT Bombay",
@@ -498,6 +506,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 8,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-me119-hanan.png",
     category: "IIT Bombay",
@@ -566,6 +575,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 9,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-me119-mayank.png",
     category: "IIT Bombay",
@@ -614,6 +624,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 10,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ph108-jacob.png",
     category: "IIT Bombay",
@@ -691,6 +702,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 11,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-ee1101-harish.png",
     category: "IIT Madras",
@@ -742,6 +754,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 12,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-ee2001-harish.png",
     category: "IIT Madras",
@@ -810,6 +823,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 13,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-cs1111-viraj.png",
     category: "IIT Madras",
@@ -849,6 +863,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 14,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-cy1001-allu.png",
     category: "IIT Madras",
@@ -901,6 +916,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 15,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-me1100-tarun.png",
     category: "IIT Madras",
@@ -955,6 +971,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 16,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-cs1100-arvind.png",
     category: "IIT Madras",
@@ -1001,6 +1018,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 17,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/thumbnail.png",
     category: "IIT Madras",
@@ -1101,6 +1119,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 18,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/Rolling Motion.jpg",
     category: "IIT JEE",
@@ -1131,6 +1150,7 @@ let allCourses = [
     },
   },
   {
+    courseId: 19,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/Rolling Motion-Hindi.jpg",
     category: "IIT JEE",
@@ -1164,6 +1184,7 @@ let allCourses = [
 
 const newCourses = [
   {
+    courseId: 20,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-gg31004-as.png",
     category: "IIT Kharagpur",
@@ -1246,6 +1267,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 21,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-me11003-vinay.png",
     category: "IIT Kharagpur",
@@ -1282,6 +1304,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 22,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-cy11003-r.png",
     category: "IIT Kharagpur",
@@ -1327,6 +1350,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 23,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-cs10003-agnibha.png",
     category: "IIT Kharagpur",
@@ -1408,6 +1432,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 24,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-ma11004-gourav.png",
     category: "IIT Kharagpur",
@@ -1502,6 +1527,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 25,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-hs13003-er.png",
     category: "IIT Kharagpur",
@@ -1554,6 +1580,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 26,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-ma11004-mohit.png",
     category: "IIT Kharagpur",
@@ -1591,6 +1618,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 27,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-ma11004-er.png",
     category: "IIT Kharagpur",
@@ -1628,6 +1656,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 28,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitkgp-ma11003-er.png",
     category: "IIT Kharagpur",
@@ -1670,6 +1699,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 29,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitbbs-me1l001-harsh.png",
     category: "IIT Bhubaneswar",
@@ -1737,6 +1767,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 30,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitbbs-me1l001-mishel.png",
     category: "IIT Bhubaneswar",
@@ -1799,6 +1830,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 31,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/nitt-clpc11-nishant.png",
     category: "NIT Trichy",
@@ -1851,6 +1883,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 32,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/nitt-phir11-nishant.png",
     category: "NIT Trichy",
@@ -1903,6 +1936,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 33,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/sastra-eie301.png",
     category: "Sastra University",
@@ -1955,6 +1989,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 34,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-cy1051-salem.png",
     category: "IIT Madras",
@@ -2012,6 +2047,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 35,
     detailsLink: "{id_placeholder}",
     category: "NIT Trichy",
     detailThumbnail: "/assets/img/nitt-enir11-nishant.png",
@@ -2058,6 +2094,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 36,
     detailsLink: "{id_placeholder}",
     category: "IIT Kharagpur",
     detailThumbnail: "/assets/img/iitkgp-efm-sarwesh.png",
@@ -2170,6 +2207,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 37,
     detailsLink: "{id_placeholder}",
     category: "IIT Kharagpur",
     detailThumbnail: "/assets/img/iitkgp-ce13003-er.png",
@@ -2220,6 +2258,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 38,
     detailsLink: "{id_placeholder}",
     category: "IIT Kharagpur",
     detailThumbnail: "/assets/img/iitkgp-hs13003-nidam.png",
@@ -2260,6 +2299,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 39,
     detailsLink: "{id_placeholder}",
     category: "IIT Kharagpur",
     detailThumbnail: "/assets/img/iitkgp-ev10003-er.png",
@@ -2317,6 +2357,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 40,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-hss223-mayank.png",
     category: "IIT Bombay",
@@ -2390,6 +2431,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 41,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-es200-mayank.png",
     category: "IIT Bombay",
@@ -2428,6 +2470,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 42,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-cs224-hanan.png",
     category: "IIT Bombay",
@@ -2469,6 +2512,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 43,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-me1480-sudip.png",
     category: "IIT Madras",
@@ -2542,6 +2586,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 44,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ee204-nithish.png",
     category: "IIT Bombay",
@@ -2620,6 +2665,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 45,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ma207-nithish.png",
     category: "IIT Bombay",
@@ -2697,6 +2743,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 46,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ee325-nithish.png",
     category: "IIT Bombay",
@@ -2779,6 +2826,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 47,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-cl249-akhil.png",
     category: "IIT Bombay",
@@ -2857,6 +2905,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 48,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-me311-aditya.png",
     category: "IIT Bombay",
@@ -2965,6 +3014,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 49,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ee224-nithish.png",
     category: "IIT Bombay",
@@ -3033,6 +3083,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 50,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitb-ee101-vishruth.png",
     category: "IIT Bombay",
@@ -3101,6 +3152,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 51,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-ed2130-kamesh.png",
     category: "IIT Madras",
@@ -3184,6 +3236,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 52,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-oe2044-rishabh.png",
     category: "IIT Madras",
@@ -3282,6 +3335,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 53,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-ee2015-abhiram.png",
     category: "IIT Madras",
@@ -3390,6 +3444,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 54,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-ee2015-ayush.png",
     category: "IIT Madras",
@@ -3497,6 +3552,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 55,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-cs2700-aditya.png",
     category: "IIT Madras",
@@ -3585,6 +3641,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 56,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-as3270-saandeep.png",
     category: "IIT Madras",
@@ -3702,6 +3759,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 57,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-ch2012-lakshyaprasad.png",
     category: "IIT Madras",
@@ -3805,6 +3863,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 58,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-ce2310-ayush.png",
     category: "IIT Madras",
@@ -3887,6 +3946,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 59,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/iitm-hs3002c-lakshitha.png",
     category: "IIT Madras",
@@ -3984,6 +4044,7 @@ const newCourses = [
     },
   },
   {
+    courseId: 60,
     detailsLink: "{id_placeholder}",
     detailThumbnail: "/assets/img/zhcet-ppe-hamza.png",
     category: "Z.H.C.E.T",
@@ -4072,5 +4133,8 @@ const newCourses = [
     },
   },
 ]
+
+// Note:- Please add unique courseId for new course addition, 
+// Best would be to add the courseId one greater than courseId of last course.
 
 export default [...allCourses, ...newCourses]
