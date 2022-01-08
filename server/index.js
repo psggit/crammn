@@ -167,9 +167,8 @@ app.post("/auth/google/callback", async (req, res) => {
 
 app.use("*", function (req, res) {
   process.stdout.write(req.url)
-  res.render("index.html", {
-    NODE_ENV,
-  })
+  process.stdout.write(`NODE_ENV @ ${NODE_ENV}\n`)
+  res.render("index.html")
 })
 
 app.listen(PORT, async () => {
@@ -183,5 +182,6 @@ app.listen(PORT, async () => {
   )
   process.stdout.write("\n************************************************************\n")
   process.stdout.write(`SERVER STARTED @ ${PORT}\n`)
+  process.stdout.write(`NODE_ENV @ ${process.env.NODE_ENV}\n`)
   process.stdout.write("************************************************************\n")
 })
