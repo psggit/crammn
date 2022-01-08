@@ -1,5 +1,6 @@
 const GoogleSignIn = () => {
-  console.log("signing", window.NODE_ENV)
+    // https://create-react-app.dev/docs/adding-custom-environment-variables/
+  console.log("signing", process.env.REACT_APP_RUN_ENV)
   return (
     <div>
       <div
@@ -7,7 +8,7 @@ const GoogleSignIn = () => {
         data-client_id="86586798573-o43mavsuo9aclh25qb2jn9vkcnpo63bt.apps.googleusercontent.com"
         data-context="use"
         data-ux_mode="popup"
-        data-login_uri={`${window.NODE_ENV === "dev" ? "http://localhost:3001/auth/google/callback" : "https://crammn.com/auth/google/callback"}`}
+        data-login_uri={`${process.env.REACT_APP_RUN_ENV === "dev" ? "http://localhost:3001/auth/google/callback" : "https://crammn.com/auth/google/callback"}`}
         data-nonce=""
         data-auto_prompt="false"
       ></div>

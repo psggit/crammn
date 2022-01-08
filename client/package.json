@@ -15,8 +15,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "set REACT_APP_RUN_ENV=dev&&react-scripts start",
+    "build:e2e": "set REACT_APP_RUN_ENV=dev&&react-scripts build",
+    "build:prod": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
