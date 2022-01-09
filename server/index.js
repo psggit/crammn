@@ -95,17 +95,19 @@ app.get("/api/courses", async (req, res) => {
   )
 })
 
-app.get("/api/course/details", (req, res) => {
+app.get("/api/course/details", async (req, res) => {
   const courseAtId = JSON.parse(JSON.stringify(allCourses[req.query.id]))
   if (!courseAtId) return res.render("error.html")
 
   courseAtId.detailsLink = courseAtId.detailsLink.replace("{id_placeholder}", `/course/details/${req.query.id}`)
   courseAtId.details = courseAtId.unsubscribedContent
 
-  // add condition for paid courses of user
   if (!isUserNotInSession(req) && isUserProfileUpdated(req)) {
-    courseAtId.details = courseAtId.subscribedContent
-    courseAtId.auth = true
+    const paidCoursesId = await db.fetchPaidCoursesOfUser(req.session.user.id);
+    if(paidCoursesId.includes(req.query.id)){
+      courseAtId.details = courseAtId.subscribedContent
+      courseAtId.auth = true
+    }
   }
 
   delete courseAtId.unsubscribedContent
