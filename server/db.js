@@ -1,26 +1,24 @@
 import pg from "pg"
 import lodash from "lodash"
-
+import dotenv from "dotenv"
+dotenv.config();
 
 const { Pool } = pg
+const config = {
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_DATABASE,
+  password: process.env.DB_PASSWORD,
+  port: process.env.DB_PORT,
+};
 
-// export const pool = new Pool({
-//   user: "dbmasteruser",
-//   host: "ls-571f439c3e265a8ce517086d9e931a5fc3a9a518.c8isgvlubvrj.ap-south-1.rds.amazonaws.com",
-//   database: "postgres",
-//   password: "(E>}Fr&Ovb~kVBUsM7fIs*^s9.tV|=Ev",
-//   port: 5432,
-// })
-
-const NODE_ENV = process.env.NODE_ENV || "dev"
-
-export const pool = new Pool({
-  user: NODE_ENV === "dev" ? "postgres" : "dbmasteruser",
-  host: NODE_ENV === "dev" ? "cramm-dev.ckkkxicgnwqj.ap-south-1.rds.amazonaws.com" : "ls-571f439c3e265a8ce517086d9e931a5fc3a9a518.c8isgvlubvrj.ap-south-1.rds.amazonaws.com",
-  database: "postgres",
-  password: NODE_ENV === "dev" ? "dGZcJwssVhzEU8dygtvA" : "(E>}Fr&Ovb~kVBUsM7fIs*^s9.tV|=Ev",
-  port: 5432,
-})
+console.log("************************************")
+console.log("************************************")
+console.log(JSON.stringify(config))
+console.log("************************************")
+console.log("************************************")
+console.log("************************************")
+const pool = new Pool(config)
 
 export async function ping() {
   try {
