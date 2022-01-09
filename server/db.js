@@ -18,7 +18,7 @@ console.log(JSON.stringify(config))
 console.log("************************************")
 console.log("************************************")
 console.log("************************************")
-const pool = new Pool(config)
+export const pool = new Pool(config)
 
 export async function ping() {
   try {
@@ -57,7 +57,7 @@ export async function upsertUserInformation(email, name, googleUserInfo) {
   try {
     const res = await pool.query(
       "INSERT INTO user_profile (email, name, google_account_info, updated_at) VALUES ($1, $2, $3, $4)" +
-        "ON CONFLICT (id)" + // Needed As we have added user_profile_pkey should be modified once we decide and settle of primary key
+        "ON CONFLICT (email)" +
         "DO UPDATE SET " +
         "name = EXCLUDED.name," +
         "google_account_info = EXCLUDED.google_account_info," +
@@ -131,7 +131,7 @@ export async function saveUserCourse(criteria){
 export async function fetchPaidCoursesOfUser(userId){
   try {
     const res = await pool.query(
-      "SELECT * FROM user_courses join user_profile on user_courses.user_id=user_profile.id WHERE user_profile.user_id=$1 AND expires_at > $2",
+      "SELECT * FROM user_courses WHERE user_id=$1 AND expires_at > $2",
       [userId, nowInUTC()]
     )
     if (!lodash.isNull(lodash.get(res, "rows[0]"))) {
