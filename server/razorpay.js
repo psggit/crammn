@@ -15,7 +15,9 @@ export async function razorpayOrder(req, res)  {
 
       const courseDetails = JSON.parse(JSON.stringify(allCourses[req.body.courseId]));
       const amount = parseInt(courseDetails.price.split(' ')[0].slice(1));
-      const userDetails = await db.fetchUserById("ebd11a8b-f3c1-4472-ae9c-815b93e02d7e");
+      // console.log(req.session.user.id, "========")
+      console.log(req.session)
+      const userDetails = await db.fetchUserById(req.session.user.id);
       const { name, id  } = userDetails;
 
       if(!name){
@@ -33,14 +35,14 @@ export async function razorpayOrder(req, res)  {
               }
 
             const orderCriteria = {
-                userId: id,
+                userId: req.session.user.id,
                 totalAmount: amount,
                 razorpayOrderId:order.id
             };
             const orderIdOfOrderTable = await db.createOrder(orderCriteria);
 
             const userCourseCriteria = {
-                userId: id,
+                userId: req.session.user.id,
                 courseId: req.body.courseId,
                 orderId: parseInt(orderIdOfOrderTable.id)
             }
@@ -50,7 +52,7 @@ export async function razorpayOrder(req, res)  {
           
       })
     } catch (error) {
-    //   throw new Error("Error in razorpay order")
+      console.log(error)
       return res.status(500).send({ code: 500, message: error }).end();
     }
   }
