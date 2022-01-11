@@ -2840,7 +2840,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/jqfTLSj76Fc?rel=0",
           title: "1 Intro to CL249",
-          highlights: 'This course summary is given by Akhil, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ just ₹199 /-',
+          highlights: 'This course summary is given by Akhil, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ just ₹ 49 /-',
         },
       ],
       sideContent: [
@@ -2919,7 +2919,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/CZXKAV2EqzQ?rel=0",
           title: "1 Block Diagrams",
-          highlights: 'This course summary is given by Aditya, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-',
+          highlights: 'This course summary is given by Aditya, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course" @ ₹49 /-',
         },
       ],
       sideContent: [
@@ -3028,7 +3028,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/umc4SaUT-0o?rel=0",
           title: "1 Number system",
-          highlights: 'This course summary is given by Nithish, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."@ ₹199 /-',
+          highlights: 'This course summary is given by Nithish, IIT Bombay.To get the full course, fill the form by clicking on "Get the Full Course."@ ₹49 /-',
         },
       ],
       sideContent: [
@@ -3166,7 +3166,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/7kPKZkbH05U?rel=0",
           title: "1 Zener Diode (Analog)",
-          highlights: 'To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
+          highlights: 'To get the full course, fill the form by clicking on "Get the Full Course" @ ₹49 /-.',
         },
       ],
       sideContent: [
@@ -3250,7 +3250,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/52yobO3WKXk?rel=0",
           title: "L1  Introduction, Types of Flow",
-          highlights: 'This course is by Rishabh, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
+          highlights: 'This course is by Rishabh, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹49 /-.',
         },
       ],
       sideContent: [
@@ -3349,7 +3349,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/tzxsKxhqPKo?rel=0",
           title: "Lecture 1  Introduction",
-          highlights: 'This course is by Abhiram, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
+          highlights: 'This course is by Abhiram, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹49 /-.',
         },
       ],
       sideContent: [
@@ -3458,7 +3458,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/wxxyN58grgo?rel=0",
           title: "0  Overview",
-          highlights: 'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
+          highlights: 'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹49 /-.',
         },
       ],
       sideContent: [
@@ -3566,7 +3566,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/Fza8j6Z-hsA?rel=0",
           title: "1  Program Correctness",
-          highlights: 'This course is by Aditya, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
+          highlights: 'This course is by Aditya, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹49 /-.',
         },
       ],
       sideContent: [
@@ -3655,7 +3655,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/B5W58YAhImw?rel=0",
           title: "1 Intro Adiabatic Flame Temp",
-          highlights: 'This course is by Saandeep, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹199 /-.',
+          highlights: 'This course is by Saandeep, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹49 /-.',
         },
       ],
       sideContent: [
@@ -3773,7 +3773,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/eGNrdwEqc1Y?rel=0",
           title: "1 Continuum Hypothesis, Flow Descriptions, Substantial Derivative",
-          highlights: 'This course is by Lakshyaprasad, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹ 199 /-.',
+          highlights: 'This course is by Lakshyaprasad, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹ 25 /-.',
         },
       ],
       sideContent: [
@@ -3877,7 +3877,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/LNUhDDT6HS4?rel=0",
           title: "1 Stress and Strain Mechanical Properties of Materials",
-          highlights: 'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹ 199 /-.',
+          highlights: 'This course is by Ayush, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹ 25 /-.',
         },
       ],
       sideContent: [
@@ -3960,7 +3960,7 @@ const newCourses = [
         {
           videoLink: "https://www.youtube.com/embed/4MMjP8z6g-M?rel=0",
           title: "1 Ten Principles of Economics",
-          highlights: 'This course is by Lakshitha, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹ 199 /-.',
+          highlights: 'This course is by Lakshitha, IIT Madras. To get the full course, fill the form by clicking on "Get the Full Course" @ ₹ 25 /-.',
         },
       ],
       sideContent: [
