@@ -142,7 +142,7 @@ export default function CourseDetails(props) {
 
     const options = {
       key: "rzp_test_lpDvGOQmn11saq", // Enter the Key ID generated from the Dashboard
-      amount: 100,
+      amount: data ? parseInt(data.price.split(" ")[0].slice(1)) : 0,
       currency: "INR",
       name: "CRAMMN",
       //description: "Test Transaction",
