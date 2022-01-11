@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start:server": "nodemon --inspect server/index.js",
+    "start:server": "NODE_ENV=dev nodemon server/index.js",
     "start:client": "cd client && npm run start",
     "start:e2e": "set NODE_ENV=dev&&node ./buildScript.js && npm run start:server",
     "test": "echo \"Error: no test specified\" && exit 1",

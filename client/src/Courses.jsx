@@ -6,13 +6,12 @@ export default function Courses() {
 
   React.useEffect(() => {
     const requestOptions = {
-      method: "POST",
+      method: "GET",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ isCorrect: true }),
     }
     fetch("/api/courses", requestOptions)
       .then((res) => res.json())
-      .then((data) => setData(data.data))
+      .then((data) => setData(data))
   }, [])
 
   const courseDetail = (info, index) => {

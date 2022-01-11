@@ -66,28 +66,26 @@ app.get("/signout", (req, res) => {
   return res.redirect("/courses")
 })
 
-
 app.get("/payment/crammn.svg", (req, res) => {
   process.stdout.write(`path${__dirname}`)
   res.sendFile(path.join(__dirname, "crammn.svg"))
 })
 
-
 app.get("/api/courses", async (req, res) => {
-  let paidCoursesId = [];
-  if(!isUserNotInSession(req)){
-    paidCoursesId = await db.fetchPaidCoursesOfUser(req.session.user.id);
+  let paidCoursesId = []
+  if (!isUserNotInSession(req)) {
+    paidCoursesId = await db.fetchPaidCoursesOfUser("ebd11a8b-f3c1-4472-ae9c-815b93e02d7e")
   }
+  console.log("paid courses id", paidCoursesId)
   res.json(
     allCourses.map((courseInfo, index) => {
       const copyCourseInfo = JSON.parse(JSON.stringify(courseInfo))
       copyCourseInfo.detailsLink = copyCourseInfo.detailsLink.replace("{id_placeholder}", `/courses/details/${index}`)
-      copyCourseInfo.isPaid = false;
-      if(paidCoursesId.length){
-        if(paidCoursesId.includes(copyCourseInfo.courseId))
-          copyCourseInfo.isPaid = true;
+      copyCourseInfo.isPaid = false
+      if (paidCoursesId.length) {
+        if (paidCoursesId.includes(copyCourseInfo.courseId)) copyCourseInfo.isPaid = true
       }
-      
+
       delete copyCourseInfo.unsubscribedContent
       delete copyCourseInfo.subscribedContent
       return copyCourseInfo
@@ -99,19 +97,25 @@ app.get("/api/course/details", async (req, res) => {
   const courseAtId = JSON.parse(JSON.stringify(allCourses[req.query.id]))
   if (!courseAtId) return res.render("error.html")
 
+  console.log("course", courseAtId)
+
   courseAtId.detailsLink = courseAtId.detailsLink.replace("{id_placeholder}", `/course/details/${req.query.id}`)
   courseAtId.details = courseAtId.unsubscribedContent
+  courseAtId.isPaid = false
 
   if (!isUserNotInSession(req) && isUserProfileUpdated(req)) {
-    const paidCoursesId = await db.fetchPaidCoursesOfUser(req.session.user.id);
-    if(paidCoursesId.includes(req.query.id)){
+    const paidCoursesId = await db.fetchPaidCoursesOfUser("ebd11a8b-f3c1-4472-ae9c-815b93e02d7e")
+    if (paidCoursesId.includes(parseInt(req.query.id))) {
       courseAtId.details = courseAtId.subscribedContent
       courseAtId.auth = true
+      courseAtId.isPaid = true
     }
   }
 
   delete courseAtId.unsubscribedContent
   delete courseAtId.subscribedContent
+
+  console.log("courseId", courseAtId)
 
   res.json(courseAtId)
 })
@@ -147,8 +151,8 @@ app.post("/api/user/details", async (req, res) => {
   })
 })
 
-app.post("/api/createOrder", razorpay.razorpayOrder);
-app.post("/api/payment/verify", razorpay.verifySignature);
+app.post("/api/createOrder", razorpay.razorpayOrder)
+app.post("/api/payment/verify", razorpay.verifySignature)
 
 app.post("/auth/google/callback", async (req, res) => {
   const googleUser = await googleAuthenticate(req, res)

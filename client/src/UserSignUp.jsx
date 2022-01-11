@@ -11,6 +11,7 @@ const UserSignUp = () => {
     fetch(`/api/user/details/`)
       .then((res) => res.json())
       .then((data) => {
+        console.log("data", data)
         if (data.profileUpdated) {
           saveInCache("isLoggedIn", true)
           if (getSavedItem("selectedCourseId")) {
@@ -67,6 +68,8 @@ const UserSignUp = () => {
                 .then((res) => res.json())
                 .then((_data) => {
                   setSubmitting(false)
+                  console.log("hello")
+                  saveInCache("isLoggedIn", true)
                   window.location.href = "/courses"
                 })
             }}

@@ -6,19 +6,18 @@ import { navigate } from "@reach/router"
 export default function CourseDetails(props) {
   const [data, setData] = React.useState(null)
 
-  console.log("props", props)
   const isPaidCourse = props.location.state.paidInfo
 
   React.useEffect(() => {
     const requestOptions = {
-      method: "POST",
+      method: "GET",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ isCorrect: true, courseId: parseInt(props.courseId) }),
+      //body: JSON.stringify({ isCorrect: true, courseId: parseInt(props.courseId) }),
     }
-    fetch(`/api/course/details`, requestOptions)
+    fetch(`/api/course/details?id=${props.courseId}`, requestOptions)
       .then((res) => res.json())
       .then((data) => {
-        setData(data.data)
+        setData(data)
       })
   }, [])
 
@@ -31,14 +30,10 @@ export default function CourseDetails(props) {
     }
   }, [])
 
-  // if (getSavedItem("isLoggedIn") === "true" && getSavedItem("hasInitiatedPayment") === "true") {
-  //   displayRazorpay()
-  // }
-
   const rightSidePanel = () => {
     if (isPaidCourse) {
-      return data.subscribedContent.mainContent.map((info, index) => {
-        if (data.subscribedContent.mainContent.length === 1 && data.auth === false) {
+      return data.details.mainContent.map((info, index) => {
+        if (data.details.mainContent.length === 1 && data.auth === false) {
           return (
             <div className="col-lg-8">
               <iframe style={{ border: 0, width: "100%", height: "350px" }} title={info.subtitle} src={info.videoLink} frameBorder="0" allowFullScreen />
@@ -66,8 +61,8 @@ export default function CourseDetails(props) {
         )
       })
     } else {
-      return data.unsubscribedContent.mainContent.map((info, index) => {
-        if (data.unsubscribedContent.mainContent.length === 1 && data.auth === false) {
+      return data.details.mainContent.map((info, index) => {
+        if (data.details.mainContent.length === 1 && data.auth === false) {
           return (
             <div className="col-lg-8">
               <iframe style={{ border: 0, width: "100%", height: "350px" }} title={info.subtitle} src={info.videoLink} frameBorder="0" allowFullScreen />
@@ -100,7 +95,7 @@ export default function CourseDetails(props) {
   const leftSidePanel = () => (
     <div className="col-lg-4">
       {isPaidCourse
-        ? data.subscribedContent.sideContent.map((info, index) => {
+        ? data.details.sideContent.map((info, index) => {
             if (index === 0) {
               return (
                 <div className="course-info d-flex justify-content-between align-items-center">
@@ -116,7 +111,7 @@ export default function CourseDetails(props) {
               </div>
             )
           })
-        : data.unsubscribedContent.sideContent.map((info, index) => {
+        : data.details.sideContent.map((info, index) => {
             if (index === 0) {
               return (
                 <div className="course-info d-flex justify-content-between align-items-center">
@@ -148,7 +143,7 @@ export default function CourseDetails(props) {
 
     return (
       <div className="get-complete-course">
-        {getSavedItem("isLoggedIn") === "false" ? (
+        {!getSavedItem("isLoggedIn") || getSavedItem("isLoggedIn") === "false" ? (
           <a href="/signin" onClick={handleClick} className="get-started-btn">
             Get the Full Course
           </a>
@@ -158,7 +153,7 @@ export default function CourseDetails(props) {
           </a>
         )}
 
-        <p className="price-info">₹199 for 1 month</p>
+        <p className="price-info">{data.price} for 1 month</p>
       </div>
     )
   }
@@ -186,7 +181,7 @@ export default function CourseDetails(props) {
       return
     }
 
-    const result = await axios.post("/api/payment/order", { courseID: parseInt(props.courseId), isCorrect: true })
+    const result = await axios.post("/api/createOrder", { courseId: parseInt(props.courseId) })
 
     console.log("res", result)
 
@@ -195,25 +190,24 @@ export default function CourseDetails(props) {
       return
     }
 
-    const { amount, id: pgOrderID, currency } = result.data.data
+    //const { id: orderId } = result.data
 
     const options = {
-      key: "rzp_test_07EfSKjRh9HgqV", // Enter the Key ID generated from the Dashboard
-      amount: parseInt(amount) * 100,
+      key: "rzp_test_lpDvGOQmn11saq", // Enter the Key ID generated from the Dashboard
+      amount: 100,
       currency: "INR",
       name: "CRAMMN",
       //description: "Test Transaction",
-      order_id: pgOrderID,
+      order_id: result.data.orderId,
       image: "/payment/crammn.svg",
       handler: async function (response) {
         const data = {
-          orderCreationId: pgOrderID,
-          razorpayPaymentId: response.razorpay_payment_id,
-          razorpayOrderId: response.razorpay_order_id,
-          razorpaySignature: response.razorpay_signature,
+          razorpay_payment_id: response.razorpay_payment_id,
+          razorpay_order_id: response.razorpay_order_id,
+          razorpay_signature: response.razorpay_signature,
         }
 
-        const result = await axios.post("/payment/verify", data)
+        const result = await axios.post("/api/payment/verify", data)
 
         saveInCache("hasInitiatedPayment", false)
         navigate("/payment-success")
