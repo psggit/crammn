@@ -76,7 +76,6 @@ app.get("/api/courses", async (req, res) => {
   if (!isUserNotInSession(req)) {
     paidCoursesId = await db.fetchPaidCoursesOfUser(req.session.user.id)
   }
-  console.log("paid courses id", paidCoursesId)
   res.json(
     allCourses.map((courseInfo, index) => {
       const copyCourseInfo = JSON.parse(JSON.stringify(courseInfo))
@@ -96,8 +95,6 @@ app.get("/api/courses", async (req, res) => {
 app.get("/api/course/details", async (req, res) => {
   const courseAtId = JSON.parse(JSON.stringify(allCourses[req.query.id]))
   if (!courseAtId) return res.render("error.html")
-
-  console.log("course", courseAtId)
 
   courseAtId.detailsLink = courseAtId.detailsLink.replace("{id_placeholder}", `/course/details/${req.query.id}`)
   courseAtId.details = courseAtId.unsubscribedContent
