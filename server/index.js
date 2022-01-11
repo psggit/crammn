@@ -74,7 +74,7 @@ app.get("/payment/crammn.svg", (req, res) => {
 app.get("/api/courses", async (req, res) => {
   let paidCoursesId = []
   if (!isUserNotInSession(req)) {
-    paidCoursesId = await db.fetchPaidCoursesOfUser("ebd11a8b-f3c1-4472-ae9c-815b93e02d7e")
+    paidCoursesId = await db.fetchPaidCoursesOfUser(req.session.user.id)
   }
   console.log("paid courses id", paidCoursesId)
   res.json(
@@ -104,7 +104,7 @@ app.get("/api/course/details", async (req, res) => {
   courseAtId.isPaid = false
 
   if (!isUserNotInSession(req) && isUserProfileUpdated(req)) {
-    const paidCoursesId = await db.fetchPaidCoursesOfUser("ebd11a8b-f3c1-4472-ae9c-815b93e02d7e")
+    const paidCoursesId = await db.fetchPaidCoursesOfUser(req.session.user.id)
     if (paidCoursesId.includes(parseInt(req.query.id))) {
       courseAtId.details = courseAtId.subscribedContent
       courseAtId.auth = true
