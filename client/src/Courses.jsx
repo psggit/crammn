@@ -17,7 +17,7 @@ export default function Courses() {
   const courseDetail = (info, index) => {
     return (
       <div id={`${info.category}_${index}`} className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-        <Link to={info.detailsLink} state={{ paidInfo: info.isPaid }}>
+        <Link to={info.detailsLink}>
           <div className="course-item">
             <img src={info.detailThumbnail} className="img-fluid" alt="..." />
             <div className="course-content">

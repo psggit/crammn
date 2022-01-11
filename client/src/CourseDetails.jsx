@@ -6,8 +6,6 @@ import { navigate } from "@reach/router"
 export default function CourseDetails(props) {
   const [data, setData] = React.useState(null)
 
-  const isPaidCourse = props.location.state.paidInfo
-
   React.useEffect(() => {
     const requestOptions = {
       method: "GET",
@@ -31,27 +29,13 @@ export default function CourseDetails(props) {
   }, [])
 
   const rightSidePanel = () => {
-    if (isPaidCourse) {
-      return data.details.mainContent.map((info, index) => {
-        if (data.details.mainContent.length === 1 && data.auth === false) {
-          return (
-            <div className="col-lg-8">
-              <iframe style={{ border: 0, width: "100%", height: "350px" }} title={info.subtitle} src={info.videoLink} frameBorder="0" allowFullScreen />
-              <h3>{info.title}</h3> <br />
-              <br />
-              <h5>{info.highlights}</h5>
-              <br />
-              <br />
-              <hr />
-              <br />
-            </div>
-          )
-        }
+    return data.details.mainContent.map((info, index) => {
+      if (data.details.mainContent.length === 1 && data.auth === false) {
         return (
           <div className="col-lg-8">
+            <iframe style={{ border: 0, width: "100%", height: "350px" }} title={info.subtitle} src={info.videoLink} frameBorder="0" allowFullScreen />
             <h3>{info.title}</h3> <br />
             <br />
-            <iframe style={{ border: 0, width: "100%", height: "350px" }} title={info.subtitle} src={info.videoLink} frameBorder="0" allowFullScreen />
             <h5>{info.highlights}</h5>
             <br />
             <br />
@@ -59,75 +43,41 @@ export default function CourseDetails(props) {
             <br />
           </div>
         )
-      })
-    } else {
-      return data.details.mainContent.map((info, index) => {
-        if (data.details.mainContent.length === 1 && data.auth === false) {
-          return (
-            <div className="col-lg-8">
-              <iframe style={{ border: 0, width: "100%", height: "350px" }} title={info.subtitle} src={info.videoLink} frameBorder="0" allowFullScreen />
-              <h3>{info.title}</h3> <br />
-              <br />
-              <h5>{info.highlights}</h5>
-              <br />
-              <br />
-              <hr />
-              <br />
-            </div>
-          )
-        }
-        return (
-          <div className="col-lg-8">
-            <h3>{info.title}</h3> <br />
-            <br />
-            <iframe style={{ border: 0, width: "100%", height: "350px" }} title={info.subtitle} src={info.videoLink} frameBorder="0" allowFullScreen />
-            <h5>{info.highlights}</h5>
-            <br />
-            <br />
-            <hr />
-            <br />
-          </div>
-        )
-      })
-    }
+      }
+      return (
+        <div className="col-lg-8">
+          <h3>{info.title}</h3> <br />
+          <br />
+          <iframe style={{ border: 0, width: "100%", height: "350px" }} title={info.subtitle} src={info.videoLink} frameBorder="0" allowFullScreen />
+          <h5>{info.highlights}</h5>
+          <br />
+          <br />
+          <hr />
+          <br />
+        </div>
+      )
+    })
   }
 
   const leftSidePanel = () => (
     <div className="col-lg-4">
-      {isPaidCourse
-        ? data.details.sideContent.map((info, index) => {
-            if (index === 0) {
-              return (
-                <div className="course-info d-flex justify-content-between align-items-center">
-                  <h5>
-                    <u>{info}</u>
-                  </h5>
-                </div>
-              )
-            }
-            return (
-              <div className="course-info d-flex justify-content-between align-items-center">
-                <h5>{info}</h5>
-              </div>
-            )
-          })
-        : data.details.sideContent.map((info, index) => {
-            if (index === 0) {
-              return (
-                <div className="course-info d-flex justify-content-between align-items-center">
-                  <h5>
-                    <u>{info}</u>
-                  </h5>
-                </div>
-              )
-            }
-            return (
-              <div className="course-info d-flex justify-content-between align-items-center">
-                <h5>{info}</h5>
-              </div>
-            )
-          })}
-      {!isPaidCourse && getCompleteCourse()}
+      {data.details.sideContent.map((info, index) => {
+        if (index === 0) {
+          return (
+            <div className="course-info d-flex justify-content-between align-items-center">
+              <h5>
+                <u>{info}</u>
+              </h5>
+            </div>
+          )
+        }
+        return (
+          <div className="course-info d-flex justify-content-between align-items-center">
+            <h5>{info}</h5>
+          </div>
+        )
+      })}
+      {!data.isPaid && getCompleteCourse()}
     </div>
   )
 
@@ -182,8 +132,6 @@ export default function CourseDetails(props) {
     }
 
     const result = await axios.post("/api/createOrder", { courseId: parseInt(props.courseId) })
-
-    console.log("res", result)
 
     if (!result) {
       alert("Server error. Are you online?")
@@ -271,7 +219,7 @@ export default function CourseDetails(props) {
           <div className="row">
             {rightSidePanel()}
             {leftSidePanel()}
-            {!isPaidCourse && getCompleteCourse()}
+            {!data.isPaid && getCompleteCourse()}
           </div>
         </div>
       </section>
